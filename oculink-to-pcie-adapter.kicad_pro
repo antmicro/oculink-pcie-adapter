@@ -612,6 +612,18 @@
     [
       "44c3be85-0a18-4d93-a9a5-650ee09b6032",
       "Root"
+    ],
+    [
+      "642de475-f425-453b-bd11-9d34133bc8d0",
+      "OCuLink"
+    ],
+    [
+      "1dd577d8-5fbf-46d4-a369-3d141c3fbf7d",
+      "PCIe-connector"
+    ],
+    [
+      "38f25804-42b6-4fac-b87c-d8c0064ff23c",
+      "Power"
     ]
   ],
   "text_variables": {}
