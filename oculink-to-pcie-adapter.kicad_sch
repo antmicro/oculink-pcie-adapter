@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "44c3be85-0a18-4d93-a9a5-650ee09b6032")
+	(paper "A3")
+	(title_block
+		(title "OCuLink to PCIe adapter")
+		(date "2025-06-18")
+		(rev "1.0.0")
+		(company "Antmicro Ltd")
+		(comment 1 "www.antmicro.com")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
