@@ -6729,7 +6729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "044bd8b9-c410-4f34-a75a-2e0cd338f75f")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR07"
 			(at 135.89 213.36 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR0205")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6888,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "256ae620-efde-4e66-b02b-30f05fc1761b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -6938,7 +6938,7 @@
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7590,7 +7590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87d99776-0931-402f-a25f-ec37bf6b566b")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR010"
 			(at 271.78 217.17 0)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR0172")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8314,7 +8314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d82ea7b7-4db5-4832-90f5-b0b12f10cfe9")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 107.95 126.238 0)
 			(effects
 				(font
@@ -8448,7 +8448,7 @@
 		(instances
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8463,7 +8463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3997d56-4afd-4df2-8df1-f8201b759590")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 154.94 217.17 0)
 			(effects
 				(font
@@ -8535,7 +8535,7 @@
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8550,7 +8550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7cfaa67-77b6-42fd-bdc3-7929359db6d6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 154.94 100.33 0)
 			(effects
 				(font
@@ -8600,7 +8600,7 @@
 		(instances
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe9b46d8-82a9-4986-b9d2-521c1a3e0d1d")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR09"
 			(at 243.84 217.17 0)
 			(effects
 				(font
@@ -8752,7 +8752,7 @@
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "#PWR0171")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

@@ -295,6 +295,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 142.24) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fffc77e-dfd3-4b6d-a4d2-a844e74baecf")
+	)
+	(wire
+		(pts
 			(xy 137.16 139.7) (xy 273.05 139.7)
 		)
 		(stroke
@@ -393,6 +403,16 @@
 		)
 		(uuid "e00935d4-96ad-4ee9-bcfe-ec1885c6c847")
 	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 142.24 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09691ff-246f-49b4-b0fd-c1be830014ea")
+	)
 	(bus
 		(pts
 			(xy 137.16 127) (xy 273.05 127)
@@ -402,6 +422,16 @@
 			(type default)
 		)
 		(uuid "ec9108ca-f0ea-406e-ba01-afabfc724e34")
+	)
+	(wire
+		(pts
+			(xy 142.24 172.72) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd84718-32bc-4dbd-a106-b66469537810")
 	)
 	(bus
 		(pts
@@ -981,8 +1011,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 179.07)
-		(size 20.32 17.78)
+		(at 111.76 163.83)
+		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -997,7 +1027,7 @@
 		)
 		(uuid "38f25804-42b6-4fac-b87c-d8c0064ff23c")
 		(property "Sheetname" "Power"
-			(at 111.76 178.3584 0)
+			(at 111.76 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,12 +1036,22 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 111.76 197.4346 0)
+			(at 111.76 182.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "~{CPRSNT}" input
+			(at 137.16 172.72 0)
+			(uuid "7c8bee90-3725-4093-b2e1-65734c3ff05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
