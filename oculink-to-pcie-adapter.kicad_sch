@@ -295,7 +295,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 142.24) (xy 137.16 142.24)
+			(xy 186.69 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -312,6 +312,16 @@
 			(type default)
 		)
 		(uuid "3543f577-e7ff-47a2-bbe7-60ea446d664c")
+	)
+	(wire
+		(pts
+			(xy 137.16 170.18) (xy 158.75 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f546cb0-6121-4c67-8375-6391c5c573af")
 	)
 	(wire
 		(pts
@@ -405,7 +415,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 172.72) (xy 142.24 172.72)
+			(xy 184.15 170.18) (xy 186.69 170.18)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 172.72) (xy 142.24 142.24)
+			(xy 186.69 170.18) (xy 186.69 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1011,8 +1021,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 163.83)
-		(size 25.4 17.78)
+		(at 158.75 163.83)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1027,7 +1037,7 @@
 		)
 		(uuid "38f25804-42b6-4fac-b87c-d8c0064ff23c")
 		(property "Sheetname" "Power"
-			(at 111.76 163.1184 0)
+			(at 158.75 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1046,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 111.76 182.1946 0)
+			(at 158.75 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,13 +1055,23 @@
 			)
 		)
 		(pin "~{CPRSNT}" input
-			(at 137.16 172.72 0)
+			(at 184.15 170.18 0)
 			(uuid "7c8bee90-3725-4093-b2e1-65734c3ff05d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 158.75 170.18 180)
+			(uuid "01c879cb-218b-4a05-b522-5a0a86956434")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1160,6 +1180,58 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 163.83)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "967dc2ce-6faa-4f65-adf2-eb5d333aef74")
+		(property "Sheetname" "USB PD"
+			(at 111.76 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-pd.kicad_sch"
+			(at 111.76 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC" output
+			(at 137.16 170.18 0)
+			(uuid "42bb8785-628b-4ecb-b9db-0e4f1e8ad333")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(page "5")
 				)
 			)
 		)

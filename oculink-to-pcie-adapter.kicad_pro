@@ -604,6 +604,15 @@
       ],
       "GND": [
         "GND"
+      ],
+      "Net-(Q13-D)": [
+        "PWR"
+      ],
+      "VBUS": [
+        "PWR"
+      ],
+      "VCC": [
+        "PWR"
       ]
     },
     "netclass_patterns": []
@@ -751,6 +760,10 @@
     [
       "38f25804-42b6-4fac-b87c-d8c0064ff23c",
       "Power"
+    ],
+    [
+      "967dc2ce-6faa-4f65-adf2-eb5d333aef74",
+      "USB PD"
     ]
   ],
   "text_variables": {}
