@@ -278,6 +278,12 @@
 		(uuid "20f593d9-deac-4ef8-a903-8adc9d7379c0")
 	)
 	(junction
+		(at 179.07 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aaa90a3-2fa6-4d19-a8fd-b84d8f6fbfc9")
+	)
+	(junction
 		(at 364.49 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -295,13 +301,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 142.24) (xy 137.16 142.24)
+			(xy 213.36 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1fffc77e-dfd3-4b6d-a4d2-a844e74baecf")
+	)
+	(wire
+		(pts
+			(xy 179.07 180.34) (xy 185.42 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3dde78-9217-44cf-a646-21c46a3ab788")
 	)
 	(wire
 		(pts
@@ -315,13 +331,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 170.18) (xy 158.75 170.18)
+			(xy 179.07 190.5) (xy 179.07 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f546cb0-6121-4c67-8375-6391c5c573af")
+		(uuid "3fcefc34-0d44-4081-b997-e4f88a47b033")
 	)
 	(wire
 		(pts
@@ -342,6 +358,16 @@
 			(type default)
 		)
 		(uuid "5614a922-3d26-44c5-bcfb-e3f835058367")
+	)
+	(wire
+		(pts
+			(xy 172.72 190.5) (xy 179.07 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d2bf30-5655-4b02-b51b-74b809ec5ef8")
 	)
 	(wire
 		(pts
@@ -375,6 +401,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 190.5) (xy 147.32 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07d7e7b-8677-4e99-b0fa-2aa94719c9f8")
+	)
+	(wire
+		(pts
 			(xy 364.49 207.01) (xy 367.03 207.01)
 		)
 		(stroke
@@ -382,6 +418,26 @@
 			(type default)
 		)
 		(uuid "a4eec9cc-9fbc-4876-b148-8ab1662bb84d")
+	)
+	(wire
+		(pts
+			(xy 179.07 170.18) (xy 179.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a661858d-8cb9-4012-8a7d-06ce19c97bdb")
+	)
+	(wire
+		(pts
+			(xy 137.16 170.18) (xy 147.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addcbbfb-2704-4e33-a531-bcb06f67b378")
 	)
 	(wire
 		(pts
@@ -415,13 +471,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 170.18) (xy 186.69 170.18)
+			(xy 210.82 180.34) (xy 213.36 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e09691ff-246f-49b4-b0fd-c1be830014ea")
+	)
+	(wire
+		(pts
+			(xy 172.72 170.18) (xy 179.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e5a6be-d497-4ef6-b86b-85562a2f3de3")
 	)
 	(bus
 		(pts
@@ -435,7 +501,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 170.18) (xy 186.69 142.24)
+			(xy 213.36 180.34) (xy 213.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1021,7 +1087,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 163.83)
+		(at 185.42 173.99)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1037,7 +1103,7 @@
 		)
 		(uuid "38f25804-42b6-4fac-b87c-d8c0064ff23c")
 		(property "Sheetname" "Power"
-			(at 158.75 163.1184 0)
+			(at 185.42 173.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1112,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 158.75 177.1146 0)
+			(at 185.42 187.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1121,7 @@
 			)
 		)
 		(pin "~{CPRSNT}" input
-			(at 184.15 170.18 0)
+			(at 210.82 180.34 0)
 			(uuid "7c8bee90-3725-4093-b2e1-65734c3ff05d")
 			(effects
 				(font
@@ -1065,7 +1131,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 158.75 170.18 180)
+			(at 185.42 180.34 180)
 			(uuid "01c879cb-218b-4a05-b522-5a0a86956434")
 			(effects
 				(font
@@ -1185,6 +1251,58 @@
 		)
 	)
 	(sheet
+		(at 111.76 184.15)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d7ae389-a04d-43a2-8aca-4a7f377423ce")
+		(property "Sheetname" "Molex-connector"
+			(at 111.76 183.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "molex-connector.kicad_sch"
+			(at 111.76 197.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V" output
+			(at 137.16 190.5 0)
+			(uuid "f20cfd55-4c16-4c5f-9321-409a5f00ad64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 111.76 163.83)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
@@ -1200,7 +1318,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "967dc2ce-6faa-4f65-adf2-eb5d333aef74")
-		(property "Sheetname" "USB PD"
+		(property "Sheetname" "USB-PD"
 			(at 111.76 163.1184 0)
 			(effects
 				(font
@@ -1232,6 +1350,130 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 187.96)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a873a5d6-7a36-44dd-8353-37b193324816")
+		(property "Sheetname" "Ideal-diode-1"
+			(at 147.32 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ideal-diode.kicad_sch"
+			(at 147.32 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 147.32 190.5 180)
+			(uuid "9370b847-514a-47bc-a589-b9e647b72a79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 172.72 190.5 0)
+			(uuid "c12d0edb-8fec-43f3-a712-ec5067f39e0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 167.64)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abe40e29-8440-4917-abf7-be311a7a4dc1")
+		(property "Sheetname" "Ideal-diode-0"
+			(at 147.32 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ideal-diode.kicad_sch"
+			(at 147.32 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 147.32 170.18 180)
+			(uuid "f1f73c78-ecf0-43ca-baba-a44732186a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 172.72 170.18 0)
+			(uuid "72ec5902-a3a0-4a71-a0e9-f92b502546d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(page "7")
 				)
 			)
 		)
