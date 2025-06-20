@@ -51,7 +51,13 @@
           "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -475,6 +488,21 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.188,
+        "diff_pair_gap": 0.188,
+        "diff_pair_width": 0.171,
+        "line_style": 0,
+        "name": "85Ohm-diff_PCIe",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.171,
+        "via_diameter": 0.55,
+        "via_drill": 0.15,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "line_style": 0,
         "name": "GND",
@@ -482,30 +510,6 @@
         "priority": 0,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.3,
-        "via_diameter": 0.55,
-        "via_drill": 0.15,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "PCIe",
-        "pcb_color": "rgb(0, 132, 0)",
-        "priority": 3,
-        "schematic_color": "rgb(0, 132, 0)",
-        "via_diameter": 0.55,
-        "via_drill": 0.15,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "PCIe_{REF}",
-        "pcb_color": "rgb(0, 132, 132)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 132, 132)",
         "via_diameter": 0.55,
         "via_drill": 0.15,
         "wire_width": 6
@@ -539,64 +543,64 @@
         "PWR"
       ],
       "/OCuLink/PCIe_{REF0}.CK+": [
-        "PCIe_{REF}"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{REF0}.CK-": [
-        "PCIe_{REF}"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{REF0}{PCIe_{REF}}": [
-        "PCIe_{REF}"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX0+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX0-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX1+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX1-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX2+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX2-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX3+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.RX3-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX0+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX0-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX1+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX1-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX2+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX2-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX3+": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}.TX3-": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}{PCIe}": [
-        "PCIe"
+        "85Ohm-diff_PCIe"
       ],
       "GND": [
         "GND"

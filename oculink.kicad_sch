@@ -2284,7 +2284,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 215.9 106.68) (xy 257.81 106.68) (xy 257.81 115.57) (xy 215.9 115.57)
+				(xy 215.9 106.68) (xy 257.81 106.68) (xy 257.81 186.69) (xy 215.9 186.69)
 			)
 			(stroke
 				(width 0)
@@ -2293,61 +2293,13 @@
 			(fill
 				(type none)
 			)
-			(uuid bf403d44-280f-4738-9492-0c11417bfe4e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 215.9 120.65) (xy 257.81 120.65) (xy 257.81 186.69) (xy 215.9 186.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid c7c26d2d-6af0-411b-aec7-5a1bb6fba273)
+			(uuid bcce0447-ea0c-429e-8118-d77cf0edfce5)
 		)
 	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
 		(at 257.81 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 132 132 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e863941-b59e-4164-9199-3134eb654ca7")
-		(property "Netclass" "PCIe_{REF}"
-			(at 258.5085 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -114.3 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 257.81 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2356,17 +2308,16 @@
 			(justify left bottom)
 		)
 		(uuid "5533893a-b6a4-4652-8a22-31179732bb7a")
-		(property "Netclass" "PCIe"
-			(at 258.5085 118.11 0)
+		(property "Netclass" "85Ohm-diff_PCIe"
+			(at 257.81 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Component Class" ""
-			(at -114.3 5.08 0)
+			(at -114.3 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
