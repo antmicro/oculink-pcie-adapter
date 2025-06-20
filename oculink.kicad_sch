@@ -630,7 +630,7 @@
 							)
 						)
 					)
-					(number "A9"
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1253,6 +1253,19 @@
 	)
 	(bus_alias "PCIe_{REF}"
 		(members "CK+" "CK-")
+	)
+	(text "OCuLink connector"
+		(exclude_from_sim no)
+		(at 188.214 78.994 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c952e17b-0fcd-434a-ae44-e5a5b143cb4d")
 	)
 	(junction
 		(at 168.91 184.15)
@@ -2268,6 +2281,100 @@
 		)
 		(uuid "f1c64910-11aa-4a3d-8996-497d98274402")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 215.9 106.68) (xy 257.81 106.68) (xy 257.81 115.57) (xy 215.9 115.57)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 60baa7d8-c2f3-46e1-9950-aa6c4bc2a16e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 215.9 120.65) (xy 257.81 120.65) (xy 257.81 186.69) (xy 215.9 186.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8bc92e0a-7803-4d23-bffe-999c891454ea)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 257.81 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e863941-b59e-4164-9199-3134eb654ca7")
+		(property "Netclass" "PCIe_{REF}"
+			(at 258.5085 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -114.3 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 257.81 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5533893a-b6a4-4652-8a22-31179732bb7a")
+		(property "Netclass" "PCIe"
+			(at 258.5085 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -114.3 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 203.2 105.41 0)
@@ -2679,7 +2786,7 @@
 		(pin "A15"
 			(uuid "e2ad1992-3b4b-434a-bc0f-7712a324262e")
 		)
-		(pin "A9"
+		(pin "B9"
 			(uuid "830a5c64-8c78-4af5-a88f-f70f2b2a6d20")
 		)
 		(pin "B2"

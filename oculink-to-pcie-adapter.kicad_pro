@@ -472,13 +472,94 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "PCIe",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "PCIe_{REF}",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/OCuLink/PCIe_{REF0}.CK+": [
+        "PCIe_{REF}"
+      ],
+      "/OCuLink/PCIe_{REF0}.CK-": [
+        "PCIe_{REF}"
+      ],
+      "/OCuLink/PCIe_{REF0}{PCIe_{REF}}": [
+        "PCIe_{REF}"
+      ],
+      "/OCuLink/PCIe_{x4}.RX0+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX0-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX1+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX1-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX2+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX2-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX3+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX3-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX0+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX0-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX1+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX1-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX2+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX2-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX3+": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX3-": [
+        "PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}{PCIe}": [
+        "PCIe"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
