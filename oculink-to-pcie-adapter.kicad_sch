@@ -145,6 +145,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroWire2BoardConnectors:Molex_Mini-Fit-Jr_2x4_39-28-8080"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 26.67 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Molex_Mini-Fit-Jr_2x4_39-28-8080"
+				(at 26.67 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:MOLEX_39288080"
+				(at 26.67 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039288080_sd.pdf"
+				(at 26.67 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header, THT, Vertical, UL94V-2, Power, Wire-to-Board, 4.2 mm, 2 Rows, 8 Contacts, Mini-fit Jr, 5566 series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "39-28-8080"
+				(at 26.67 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 26.67 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 26.67 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 26.67 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VERTICAL, THT, HEADER, CONNECTOR, MALE, WIRE-BOARD, POWER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_Mini-Fit-Jr_2x4_39-28-8080_1_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 10.16 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.794 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -272,10 +550,40 @@
 		(uuid "09e59482-d4c1-4bc4-bcf9-35dcb1c2028a")
 	)
 	(junction
+		(at 133.35 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bebc983-551d-4237-80bf-e0fca8ad177c")
+	)
+	(junction
 		(at 364.49 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f593d9-deac-4ef8-a903-8adc9d7379c0")
+	)
+	(junction
+		(at 133.35 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288d2ddc-1c3e-4775-b795-61580a77067b")
+	)
+	(junction
+		(at 139.7 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39757008-884d-4876-ac9c-4f4ba01b9c3e")
+	)
+	(junction
+		(at 115.57 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eaeeb8b-11e8-46ae-a09c-5f8fd10021b5")
+	)
+	(junction
+		(at 115.57 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e9ba19e-4e1d-4ec5-867f-d3a09c30f992")
 	)
 	(junction
 		(at 179.07 180.34)
@@ -284,10 +592,62 @@
 		(uuid "8aaa90a3-2fa6-4d19-a8fd-b84d8f6fbfc9")
 	)
 	(junction
+		(at 115.57 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0fc85d-4b02-4ec0-9884-4850302e595e")
+	)
+	(junction
+		(at 133.35 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e23233-3fd8-4baf-b4ab-5c54fedd63b8")
+	)
+	(junction
 		(at 364.49 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e269dc0a-a665-4eb2-a7c3-add4d9f73752")
+	)
+	(wire
+		(pts
+			(xy 115.57 190.5) (xy 118.11 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0752f1bd-58de-4e6a-92ff-03b9a3db5c60")
+	)
+	(wire
+		(pts
+			(xy 130.81 193.04) (xy 133.35 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc7c943-0763-45a2-8f63-86bde6df1cf1")
+	)
+	(wire
+		(pts
+			(xy 115.57 198.12) (xy 118.11 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13003bba-e440-4bda-bc79-e2543d30e077")
+	)
+	(wire
+		(pts
+			(xy 130.81 190.5) (xy 133.35 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13838bd2-72c4-488f-a9c8-a6faa4166970")
 	)
 	(wire
 		(pts
@@ -308,6 +668,16 @@
 			(type default)
 		)
 		(uuid "1fffc77e-dfd3-4b6d-a4d2-a844e74baecf")
+	)
+	(wire
+		(pts
+			(xy 133.35 193.04) (xy 133.35 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27225f5d-0b8c-4c8f-a3c2-096cb242182b")
 	)
 	(wire
 		(pts
@@ -371,6 +741,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 193.04) (xy 115.57 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a8a287-4933-4fb1-960c-cd93c1778ce7")
+	)
+	(wire
+		(pts
+			(xy 115.57 193.04) (xy 118.11 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689304f6-21bb-44b7-b98e-f1ad65c4a684")
+	)
+	(wire
+		(pts
+			(xy 115.57 195.58) (xy 115.57 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0411ab-c01b-48d7-9a54-8536143f96a7")
+	)
+	(wire
+		(pts
 			(xy 137.16 137.16) (xy 273.05 137.16)
 		)
 		(stroke
@@ -401,13 +801,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 190.5) (xy 147.32 190.5)
+			(xy 139.7 190.5) (xy 147.32 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a07d7e7b-8677-4e99-b0fa-2aa94719c9f8")
+		(uuid "a11241f2-76c7-43e2-8692-4fa6622efdcd")
 	)
 	(wire
 		(pts
@@ -421,6 +821,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 190.5) (xy 115.57 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a618777e-2ca5-4ba5-89f5-9e80654ed011")
+	)
+	(wire
+		(pts
 			(xy 179.07 170.18) (xy 179.07 180.34)
 		)
 		(stroke
@@ -428,6 +838,16 @@
 			(type default)
 		)
 		(uuid "a661858d-8cb9-4012-8a7d-06ce19c97bdb")
+	)
+	(wire
+		(pts
+			(xy 133.35 190.5) (xy 139.7 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd8ebe4-9ac0-4c54-a203-a4ab73282bd5")
 	)
 	(wire
 		(pts
@@ -441,6 +861,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 195.58) (xy 133.35 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc545571-b319-424e-80e1-02021d1e7862")
+	)
+	(wire
+		(pts
+			(xy 139.7 187.96) (xy 139.7 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed34a40-0fb2-426b-b8b9-94d11dee24d3")
+	)
+	(wire
+		(pts
 			(xy 364.49 207.01) (xy 364.49 214.63)
 		)
 		(stroke
@@ -448,6 +888,26 @@
 			(type default)
 		)
 		(uuid "c0b60690-24f6-4437-9d77-93d654dd21c0")
+	)
+	(wire
+		(pts
+			(xy 115.57 195.58) (xy 118.11 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a46c98-dc20-4d06-96dd-3019b6474fef")
+	)
+	(wire
+		(pts
+			(xy 130.81 198.12) (xy 133.35 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e89652-1dd0-4f77-9195-3e3f417e802b")
 	)
 	(bus
 		(pts
@@ -489,6 +949,16 @@
 		)
 		(uuid "e0e5a6be-d497-4ef6-b86b-85562a2f3de3")
 	)
+	(wire
+		(pts
+			(xy 130.81 195.58) (xy 133.35 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a14285-03d9-42ba-8095-6c9187810cd1")
+	)
 	(bus
 		(pts
 			(xy 137.16 127) (xy 273.05 127)
@@ -509,6 +979,26 @@
 		)
 		(uuid "ecd84718-32bc-4dbd-a106-b66469537810")
 	)
+	(wire
+		(pts
+			(xy 133.35 190.5) (xy 133.35 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa81d945-bf2f-4bc4-ae9d-c03bd3acc972")
+	)
+	(wire
+		(pts
+			(xy 115.57 198.12) (xy 115.57 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfda88e-4b03-4ae1-a33f-e1787d723ad9")
+	)
 	(bus
 		(pts
 			(xy 137.16 129.54) (xy 273.05 129.54)
@@ -518,6 +1008,36 @@
 			(type default)
 		)
 		(uuid "ff9a2b9b-b73a-4db5-9d60-2c570f538c8f")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 139.7 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5487a5ef-81a2-4416-88ac-320e75e795a9")
+		(property "Netclass" "PWR"
+			(at 139.7 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -233.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
@@ -704,6 +1224,237 @@
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:Molex_Mini-Fit-Jr_2x4_39-28-8080")
+		(at 130.81 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c072b3e-8c05-4d86-a413-c6c4f04cf04b")
+		(property "Reference" "J6"
+			(at 124.46 184.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Molex_Mini-Fit-Jr_2x4_39-28-8080"
+			(at 104.14 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MOLEX_39288080"
+			(at 104.14 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039288080_sd.pdf"
+			(at 104.14 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, THT, Vertical, UL94V-2, Power, Wire-to-Board, 4.2 mm, 2 Rows, 8 Contacts, Mini-fit Jr, 5566 series"
+			(at 130.81 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "39-28-8080"
+			(at 124.46 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 104.14 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 104.14 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb7e5547-90fc-46b8-9ecd-8b83679c2774")
+		)
+		(pin "5"
+			(uuid "8af91ac9-3d39-4aba-8a5c-76b83f1d30a9")
+		)
+		(pin "7"
+			(uuid "957e1bc2-4414-4a37-84d3-55935ee5fcc3")
+		)
+		(pin "2"
+			(uuid "161657f1-401a-462d-954f-9123b137e608")
+		)
+		(pin "4"
+			(uuid "04561883-ab0c-48ed-b6b2-5d0b86755a64")
+		)
+		(pin "3"
+			(uuid "4b85a9fe-9490-4849-a6a4-ec2f0763a2c1")
+		)
+		(pin "6"
+			(uuid "48faa8e6-bd38-42e0-90c1-811f1b8608c6")
+		)
+		(pin "8"
+			(uuid "ae5626bf-2676-40ea-b698-204b9f7581dd")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 115.57 200.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7efaf59d-5fae-45e2-adf2-59612ba008e7")
+		(property "Reference" "#PWR083"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 106.68 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cc08794-58a8-48cb-b29e-c15da2548d33")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -1251,58 +2002,6 @@
 		)
 	)
 	(sheet
-		(at 111.76 184.15)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6d7ae389-a04d-43a2-8aca-4a7f377423ce")
-		(property "Sheetname" "Molex-connector"
-			(at 111.76 183.4384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "molex-connector.kicad_sch"
-			(at 111.76 197.4346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "12V" output
-			(at 137.16 190.5 0)
-			(uuid "f20cfd55-4c16-4c5f-9321-409a5f00ad64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 111.76 163.83)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
@@ -1336,7 +2035,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VCC" output
+		(pin "12V" output
 			(at 137.16 170.18 0)
 			(uuid "42bb8785-628b-4ecb-b9db-0e4f1e8ad333")
 			(effects

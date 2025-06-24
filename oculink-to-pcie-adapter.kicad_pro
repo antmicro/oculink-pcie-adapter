@@ -545,6 +545,9 @@
       "+3V3_PCIE": [
         "PWR"
       ],
+      "/Ideal-diode-0/VIN": [
+        "PWR"
+      ],
       "/Ideal-diode-1/VIN": [
         "PWR"
       ],
@@ -767,10 +770,6 @@
     [
       "967dc2ce-6faa-4f65-adf2-eb5d333aef74",
       "USB-PD"
-    ],
-    [
-      "6d7ae389-a04d-43a2-8aca-4a7f377423ce",
-      "Molex-connector"
     ],
     [
       "abe40e29-8440-4917-abf7-be311a7a4dc1",
