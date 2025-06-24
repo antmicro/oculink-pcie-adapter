@@ -3055,6 +3055,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroTVSDiodes:PESD5Z12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PESD5Z12"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOD-523"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z12.pdf"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 12 V, 35 pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PESD5Z12,115"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5Z12_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD5Z12_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroTestPoints:TP_0.75mm_SMD"
 			(pin_names
 				(hide yes)
@@ -4702,6 +4930,12 @@
 		(uuid "5b9498fa-ea0d-4ee2-9201-f9441ec5dd7d")
 	)
 	(junction
+		(at 76.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719c6a0e-2391-47ef-9bf3-5b9765bba535")
+	)
+	(junction
 		(at 304.8 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4778,6 +5012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d249de3b-cd89-4fc1-a58e-213ee2550964")
+	)
+	(junction
+		(at 224.79 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b865f3-9b5f-44cf-865d-b7828e875e00")
 	)
 	(junction
 		(at 292.1 201.93)
@@ -4989,6 +5229,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 100.33) (xy 224.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c84f5c-96e0-4fa2-88ba-decbefb2457a")
+	)
+	(wire
+		(pts
 			(xy 311.15 82.55) (xy 325.12 82.55)
 		)
 		(stroke
@@ -5036,6 +5286,16 @@
 			(type default)
 		)
 		(uuid "2f972cd0-6e07-4a73-ae22-e1f4565a14aa")
+	)
+	(wire
+		(pts
+			(xy 215.9 100.33) (xy 224.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317699fe-f48f-409f-88f7-078a015f9633")
 	)
 	(wire
 		(pts
@@ -5116,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "4629801a-1056-4ad2-8434-861fa261b931")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ada3938-83c6-402e-bd89-f1b599e95139")
 	)
 	(wire
 		(pts
@@ -5289,6 +5559,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 101.6) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f465145-204b-469a-9430-04e9a747baa1")
+	)
+	(wire
+		(pts
 			(xy 350.52 77.47) (xy 350.52 88.9)
 		)
 		(stroke
@@ -5396,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "8d37a479-0d6d-436a-b83b-8ae256b68f92")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9550b392-5946-484d-9cdf-2b66ac87ad5f")
 	)
 	(wire
 		(pts
@@ -5589,6 +5879,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 97.79) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca91aa2-ce14-4623-be01-c7b6aefd5e4e")
+	)
+	(wire
+		(pts
 			(xy 120.65 229.87) (xy 120.65 232.41)
 		)
 		(stroke
@@ -5749,7 +6049,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 80.01 91.44)
+			(xy 72.39 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5929,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 100.33) (xy 224.79 102.87)
+			(xy 224.79 97.79) (xy 224.79 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6072,6 +6372,36 @@
 		)
 		(property "Component Class" ""
 			(at -115.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 215.9 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "461790e3-fd85-4224-b07f-648882c547cf")
+		(property "Netclass" "GND"
+			(at 215.9 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,6 +9691,126 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:PESD5Z12")
+		(at 76.2 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f72040-7fca-442f-85b5-a5f841238314")
+		(property "Reference" "D16"
+			(at 78.74 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5Z12"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z12.pdf"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 12 V, 35 pF"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PESD5Z12,115"
+			(at 78.74 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 60.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c3cbd67-b623-44ca-9d54-86e584cebced")
+		)
+		(pin "1"
+			(uuid "d661d6e3-9bac-441a-8da7-3879b1bdf218")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 304.8 214.63 90)
 		(unit 1)
@@ -10467,7 +10917,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 224.79 100.33 0)
+		(at 224.79 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10475,7 +10925,7 @@
 		(dnp no)
 		(uuid "b8defd7f-e461-48a4-a972-c8cacad485f9")
 		(property "Reference" "#FLG02"
-			(at 224.79 98.425 0)
+			(at 224.79 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10934,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 224.79 96.52 0)
+			(at 224.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 100.33 0)
+			(at 224.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 100.33 0)
+			(at 224.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 100.33 0)
+			(at 224.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,6 +12221,101 @@
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 76.2 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee2d7c2-895d-4786-a2f9-1e2a8697fb62")
+		(property "Reference" "#PWR098"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab82b298-7af8-4855-a0aa-02a32b2e7176")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
