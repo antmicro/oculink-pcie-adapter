@@ -3878,6 +3878,12 @@
 		(uuid "2da6038d-d26b-42a7-ba89-276e90f4e969")
 	)
 	(junction
+		(at 189.23 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f87f9a9-0143-47d4-a270-15a47df7cbdf")
+	)
+	(junction
 		(at 292.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4086,6 +4092,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6573655-f1e9-4465-84c1-b1015a468f6d")
+	)
+	(junction
+		(at 120.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89548e9-b3ad-4694-9b0c-383eda0cc0d2")
 	)
 	(junction
 		(at 292.1 173.99)
@@ -4673,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 120.65 120.65)
+			(xy 120.65 92.71) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4903,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 95.25) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f10e3f-3e17-4cf1-847f-19601642aefc")
+	)
+	(wire
+		(pts
 			(xy 264.16 105.41) (xy 266.7 105.41)
 		)
 		(stroke
@@ -4933,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 92.71) (xy 189.23 123.19)
+			(xy 189.23 92.71) (xy 189.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4980,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "1f6b149c-7cbc-4218-9b70-5726f9fdfa33")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22161f59-0539-4520-95c0-8bfe2a561cf9")
 	)
 	(wire
 		(pts
@@ -5273,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 95.25) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c4cd6c-97fc-4792-976f-61e5a2128b90")
+	)
+	(wire
+		(pts
 			(xy 264.16 140.97) (xy 266.7 140.97)
 		)
 		(stroke
@@ -5403,6 +5445,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 102.87) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6866af-045c-4fb0-8a01-52a7be3950e0")
+	)
+	(wire
+		(pts
 			(xy 264.16 115.57) (xy 266.7 115.57)
 		)
 		(stroke
@@ -5430,6 +5482,16 @@
 			(type default)
 		)
 		(uuid "5de6db42-e952-4d0d-9c1b-1bd6d6cd6418")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df5d0b6-2eac-41a3-a022-0096e9e02b2a")
 	)
 	(bus
 		(pts
@@ -6133,6 +6195,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfebf43-6844-45a7-8c77-7fe1c12f783c")
+	)
+	(wire
+		(pts
 			(xy 147.32 166.37) (xy 147.32 173.99)
 		)
 		(stroke
@@ -6493,6 +6565,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 95.25) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b6bd1a-8f12-43e6-8d7c-4ef99dfd63cc")
+	)
+	(wire
+		(pts
 			(xy 172.72 168.91) (xy 175.26 168.91)
 		)
 		(stroke
@@ -6620,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "f41417da-b00c-439f-b3a9-28ba3b36170b")
+	)
+	(wire
+		(pts
+			(xy 195.58 97.79) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f476a8f8-3912-4e3e-a81d-74401830eea8")
 	)
 	(wire
 		(pts
@@ -7047,6 +7139,167 @@
 		(uuid "e5f60c20-1117-46b6-b64f-7b215e6db1e9")
 	)
 	(symbol
+		(lib_id "antmicroCapacitorsmisc:C_10u_0805_35V")
+		(at 127 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a6d1d7-58fd-4568-8f20-48cbab8ee71e")
+		(property "Reference" "C36"
+			(at 129.54 99.0663 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_10u_0805_35V"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM21BR6YA106KE43%23"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 0805 [2012 Metric], ± 10%, X5R, GRM Series"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR6YA106KE43L"
+			(at 109.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 106.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 129.54 101.6063 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6b82890-4ca7-4f32-b771-299267101fde")
+		)
+		(pin "2"
+			(uuid "cfc413e2-6d0c-4882-b1c0-e26cc666eb26")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 147.32 208.28 0)
 		(unit 1)
@@ -7200,6 +7453,167 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitorsmisc:C_10u_0805_35V")
+		(at 195.58 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d5a82d-b7ff-4318-ad1e-3f900769ccb3")
+		(property "Reference" "C37"
+			(at 198.12 99.0663 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_10u_0805_35V"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM21BR6YA106KE43%23"
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 35 V, 0805 [2012 Metric], ± 10%, X5R, GRM Series"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR6YA106KE43L"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 198.12 101.6063 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 167.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 162.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4dc500d-2db8-42e4-b553-587a8dceff66")
+		)
+		(pin "2"
+			(uuid "8210acd5-1231-4002-ab67-0020173546ee")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7909,6 +8323,100 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 127 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75007615-e148-4fdb-8d72-63cb536f4857")
+		(property "Reference" "#PWR087"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ce735b-23ff-4306-b700-e1ee262cb6bb")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 292.1 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7989,6 +8497,100 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 195.58 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a111132-186b-42f4-883a-7dee95610222")
+		(property "Reference" "#PWR088"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63bd87d-37e2-4b7e-9fe1-bd664a5b0123")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
