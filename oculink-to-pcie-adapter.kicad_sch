@@ -276,7 +276,7 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "5"
@@ -294,7 +294,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "6"
@@ -312,7 +312,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "7"
@@ -330,7 +330,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "8"
@@ -348,7 +348,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "1"
@@ -366,7 +366,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "2"
@@ -384,7 +384,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "3"
@@ -402,7 +402,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "4"
@@ -544,74 +544,62 @@
 		)
 	)
 	(junction
-		(at 364.49 207.01)
+		(at 271.78 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09e59482-d4c1-4bc4-bcf9-35dcb1c2028a")
 	)
 	(junction
-		(at 133.35 193.04)
+		(at 133.35 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bebc983-551d-4237-80bf-e0fca8ad177c")
 	)
 	(junction
-		(at 364.49 214.63)
+		(at 271.78 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f593d9-deac-4ef8-a903-8adc9d7379c0")
 	)
 	(junction
-		(at 133.35 190.5)
+		(at 133.35 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "288d2ddc-1c3e-4775-b795-61580a77067b")
 	)
 	(junction
-		(at 139.7 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39757008-884d-4876-ac9c-4f4ba01b9c3e")
-	)
-	(junction
-		(at 115.57 195.58)
+		(at 115.57 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eaeeb8b-11e8-46ae-a09c-5f8fd10021b5")
 	)
 	(junction
-		(at 115.57 198.12)
+		(at 115.57 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e9ba19e-4e1d-4ec5-867f-d3a09c30f992")
 	)
 	(junction
-		(at 179.07 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aaa90a3-2fa6-4d19-a8fd-b84d8f6fbfc9")
-	)
-	(junction
-		(at 115.57 193.04)
+		(at 115.57 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a0fc85d-4b02-4ec0-9884-4850302e595e")
 	)
 	(junction
-		(at 133.35 195.58)
+		(at 133.35 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5e23233-3fd8-4baf-b4ab-5c54fedd63b8")
 	)
 	(junction
-		(at 364.49 199.39)
+		(at 271.78 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e269dc0a-a665-4eb2-a7c3-add4d9f73752")
 	)
 	(wire
 		(pts
-			(xy 115.57 190.5) (xy 118.11 190.5)
+			(xy 115.57 181.61) (xy 118.11 181.61)
 		)
 		(stroke
 			(width 0)
@@ -621,7 +609,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 193.04) (xy 133.35 193.04)
+			(xy 133.35 181.61) (xy 153.67 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5990c2-126e-43bc-ab52-2df7bd2cf8f1")
+	)
+	(wire
+		(pts
+			(xy 130.81 184.15) (xy 133.35 184.15)
 		)
 		(stroke
 			(width 0)
@@ -631,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 198.12) (xy 118.11 198.12)
+			(xy 115.57 189.23) (xy 118.11 189.23)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 190.5) (xy 133.35 190.5)
+			(xy 130.81 181.61) (xy 133.35 181.61)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 199.39) (xy 367.03 199.39)
+			(xy 271.78 175.26) (xy 274.32 175.26)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 142.24) (xy 137.16 142.24)
+			(xy 186.69 133.35) (xy 137.16 133.35)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 193.04) (xy 133.35 195.58)
+			(xy 133.35 184.15) (xy 133.35 186.69)
 		)
 		(stroke
 			(width 0)
@@ -681,17 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 180.34) (xy 185.42 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e3dde78-9217-44cf-a646-21c46a3ab788")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 273.05 139.7)
+			(xy 137.16 130.81) (xy 273.05 130.81)
 		)
 		(stroke
 			(width 0)
@@ -701,17 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 190.5) (xy 179.07 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fcefc34-0d44-4081-b997-e4f88a47b033")
-	)
-	(wire
-		(pts
-			(xy 367.03 214.63) (xy 364.49 214.63)
+			(xy 274.32 190.5) (xy 271.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 191.77) (xy 364.49 199.39)
+			(xy 271.78 167.64) (xy 271.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -731,17 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 190.5) (xy 179.07 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d2bf30-5655-4b02-b51b-74b809ec5ef8")
-	)
-	(wire
-		(pts
-			(xy 115.57 193.04) (xy 115.57 195.58)
+			(xy 115.57 184.15) (xy 115.57 186.69)
 		)
 		(stroke
 			(width 0)
@@ -751,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 193.04) (xy 118.11 193.04)
+			(xy 115.57 184.15) (xy 118.11 184.15)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 195.58) (xy 115.57 198.12)
+			(xy 115.57 186.69) (xy 115.57 189.23)
 		)
 		(stroke
 			(width 0)
@@ -771,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 273.05 137.16)
+			(xy 137.16 128.27) (xy 273.05 128.27)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 191.77) (xy 364.49 191.77)
+			(xy 274.32 167.64) (xy 271.78 167.64)
 		)
 		(stroke
 			(width 0)
@@ -791,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 199.39) (xy 364.49 207.01)
+			(xy 271.78 175.26) (xy 271.78 182.88)
 		)
 		(stroke
 			(width 0)
@@ -801,17 +769,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 190.5) (xy 147.32 190.5)
+			(xy 137.16 161.29) (xy 153.67 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a11241f2-76c7-43e2-8692-4fa6622efdcd")
+		(uuid "91b89c5b-5b0e-4c04-8c78-ea48e82eacef")
 	)
 	(wire
 		(pts
-			(xy 364.49 207.01) (xy 367.03 207.01)
+			(xy 271.78 182.88) (xy 274.32 182.88)
 		)
 		(stroke
 			(width 0)
@@ -821,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 190.5) (xy 115.57 193.04)
+			(xy 115.57 181.61) (xy 115.57 184.15)
 		)
 		(stroke
 			(width 0)
@@ -831,37 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 170.18) (xy 179.07 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a661858d-8cb9-4012-8a7d-06ce19c97bdb")
-	)
-	(wire
-		(pts
-			(xy 133.35 190.5) (xy 139.7 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd8ebe4-9ac0-4c54-a203-a4ab73282bd5")
-	)
-	(wire
-		(pts
-			(xy 137.16 170.18) (xy 147.32 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "addcbbfb-2704-4e33-a531-bcb06f67b378")
-	)
-	(wire
-		(pts
-			(xy 133.35 195.58) (xy 133.35 198.12)
+			(xy 133.35 186.69) (xy 133.35 189.23)
 		)
 		(stroke
 			(width 0)
@@ -871,17 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 187.96) (xy 139.7 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed34a40-0fb2-426b-b8b9-94d11dee24d3")
-	)
-	(wire
-		(pts
-			(xy 364.49 207.01) (xy 364.49 214.63)
+			(xy 271.78 182.88) (xy 271.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -891,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 195.58) (xy 118.11 195.58)
+			(xy 115.57 186.69) (xy 118.11 186.69)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 198.12) (xy 133.35 198.12)
+			(xy 130.81 189.23) (xy 133.35 189.23)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +839,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 134.62) (xy 273.05 134.62)
+			(xy 137.16 125.73) (xy 273.05 125.73)
 		)
 		(stroke
 			(width 0)
@@ -921,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 214.63) (xy 364.49 217.17)
+			(xy 271.78 190.5) (xy 271.78 193.04)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 180.34) (xy 213.36 180.34)
+			(xy 179.07 171.45) (xy 186.69 171.45)
 		)
 		(stroke
 			(width 0)
@@ -941,17 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 170.18) (xy 179.07 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e5a6be-d497-4ef6-b86b-85562a2f3de3")
-	)
-	(wire
-		(pts
-			(xy 130.81 195.58) (xy 133.35 195.58)
+			(xy 130.81 186.69) (xy 133.35 186.69)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +879,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 127) (xy 273.05 127)
+			(xy 137.16 118.11) (xy 273.05 118.11)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 180.34) (xy 213.36 142.24)
+			(xy 186.69 171.45) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 190.5) (xy 133.35 193.04)
+			(xy 133.35 181.61) (xy 133.35 184.15)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 198.12) (xy 115.57 200.66)
+			(xy 115.57 189.23) (xy 115.57 191.77)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +919,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 129.54) (xy 273.05 129.54)
+			(xy 137.16 120.65) (xy 273.05 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1009,39 +927,9 @@
 		)
 		(uuid "ff9a2b9b-b73a-4db5-9d60-2c570f538c8f")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 139.7 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5487a5ef-81a2-4416-88ac-320e75e795a9")
-		(property "Netclass" "PWR"
-			(at 139.7 183.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" ""
-			(at -233.68 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
-		(at 367.03 199.39 0)
+		(at 274.32 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1050,7 +938,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b1cf138-7dc2-4c9b-adb3-280ddf61d626")
 		(property "Reference" "MP2"
-			(at 375.92 198.12 0)
+			(at 283.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +948,7 @@
 			)
 		)
 		(property "Value" "MP_Pad6mm_Drill3.2mm"
-			(at 375.92 200.66 0)
+			(at 283.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +958,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
-			(at 387.35 207.01 0)
+			(at 294.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.87 214.96 0)
+			(at 291.16 190.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +980,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 367.03 199.39 0)
+			(at 274.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +989,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 387.35 209.55 0)
+			(at 294.64 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1000,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 387.35 212.09 0)
+			(at 294.64 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1024,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
-		(at 367.03 191.77 0)
+		(at 274.32 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1145,7 +1033,7 @@
 		(fields_autoplaced yes)
 		(uuid "73b2ab25-085f-40be-9c53-475f372a164c")
 		(property "Reference" "MP1"
-			(at 375.92 190.5 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1043,7 @@
 			)
 		)
 		(property "Value" "MP_Pad6mm_Drill3.2mm"
-			(at 375.92 193.04 0)
+			(at 283.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1053,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
-			(at 387.35 199.39 0)
+			(at 294.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.87 207.34 0)
+			(at 291.16 183.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1075,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 367.03 191.77 0)
+			(at 274.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1084,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 387.35 201.93 0)
+			(at 294.64 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1095,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 387.35 204.47 0)
+			(at 294.64 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1119,7 @@
 	)
 	(symbol
 		(lib_id "antmicroWire2BoardConnectors:Molex_Mini-Fit-Jr_2x4_39-28-8080")
-		(at 130.81 190.5 0)
+		(at 130.81 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1240,7 +1128,7 @@
 		(dnp no)
 		(uuid "7c072b3e-8c05-4d86-a413-c6c4f04cf04b")
 		(property "Reference" "J6"
-			(at 124.46 184.658 0)
+			(at 124.46 175.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1137,7 @@
 			)
 		)
 		(property "Value" "Molex_Mini-Fit-Jr_2x4_39-28-8080"
-			(at 104.14 199.39 0)
+			(at 104.14 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1148,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MOLEX_39288080"
-			(at 104.14 201.93 0)
+			(at 104.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1159,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039288080_sd.pdf"
-			(at 104.14 204.47 0)
+			(at 104.14 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1170,7 @@
 			)
 		)
 		(property "Description" "Pin Header, THT, Vertical, UL94V-2, Power, Wire-to-Board, 4.2 mm, 2 Rows, 8 Contacts, Mini-fit Jr, 5566 series"
-			(at 130.81 190.5 0)
+			(at 130.81 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1179,7 @@
 			)
 		)
 		(property "MPN" "39-28-8080"
-			(at 124.46 187.198 0)
+			(at 124.46 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1188,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 104.14 207.01 0)
+			(at 104.14 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1199,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 104.14 209.55 0)
+			(at 104.14 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1210,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 104.14 212.09 0)
+			(at 104.14 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1255,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 115.57 200.66 0)
+		(at 115.57 191.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1376,7 +1264,7 @@
 		(dnp no)
 		(uuid "7efaf59d-5fae-45e2-adf2-59612ba008e7")
 		(property "Reference" "#PWR083"
-			(at 106.68 203.2 0)
+			(at 106.68 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1275,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 204.47 0)
+			(at 115.57 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 208.28 0)
+			(at 106.68 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 213.36 0)
+			(at 106.68 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 200.66 0)
+			(at 115.57 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1315,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 106.68 208.28 0)
+			(at 106.68 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1326,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 106.68 210.82 0)
+			(at 106.68 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1350,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 364.49 217.17 0)
+		(at 271.78 193.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1471,7 +1359,7 @@
 		(dnp no)
 		(uuid "aea27f5d-402d-455a-94f4-f914e9b1cf71")
 		(property "Reference" "#PWR01"
-			(at 355.6 219.71 0)
+			(at 262.89 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 220.98 0)
+			(at 271.78 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 224.79 0)
+			(at 262.89 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 229.87 0)
+			(at 262.89 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 217.17 0)
+			(at 271.78 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1410,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 355.6 224.79 0)
+			(at 262.89 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1421,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 355.6 227.33 0)
+			(at 262.89 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1445,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
-		(at 367.03 207.01 0)
+		(at 274.32 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1566,7 +1454,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7fa0be1-4d3a-4818-8131-153db6fa0833")
 		(property "Reference" "MP3"
-			(at 375.92 205.74 0)
+			(at 283.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1464,7 @@
 			)
 		)
 		(property "Value" "MP_Pad6mm_Drill3.2mm"
-			(at 375.92 208.28 0)
+			(at 283.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1474,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
-			(at 387.35 214.63 0)
+			(at 294.64 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.87 222.58 0)
+			(at 291.16 198.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1496,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 367.03 207.01 0)
+			(at 274.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1505,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 387.35 217.17 0)
+			(at 294.64 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1516,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 387.35 219.71 0)
+			(at 294.64 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1540,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
-		(at 367.03 214.63 0)
+		(at 274.32 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1661,7 +1549,7 @@
 		(fields_autoplaced yes)
 		(uuid "d821a3e2-e8d7-40f2-b2bb-8a5670a82659")
 		(property "Reference" "MP4"
-			(at 375.92 213.36 0)
+			(at 283.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1559,7 @@
 			)
 		)
 		(property "Value" "MP_Pad6mm_Drill3.2mm"
-			(at 375.92 215.9 0)
+			(at 283.21 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
-			(at 387.35 222.25 0)
+			(at 294.64 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.87 230.2 0)
+			(at 291.16 206.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1591,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 367.03 214.63 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1600,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 387.35 224.79 0)
+			(at 294.64 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1611,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 387.35 227.33 0)
+			(at 294.64 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1634,7 @@
 		)
 	)
 	(sheet
-		(at 273.05 124.46)
+		(at 273.05 115.57)
 		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1762,7 +1650,7 @@
 		)
 		(uuid "1dd577d8-5fbf-46d4-a369-3d141c3fbf7d")
 		(property "Sheetname" "PCIe-connector"
-			(at 273.05 123.7484 0)
+			(at 273.05 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1659,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-connector.kicad_sch"
-			(at 273.05 155.5246 0)
+			(at 273.05 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1668,7 @@
 			)
 		)
 		(pin "PCIe_{x4}{PCIe}" input
-			(at 273.05 127 180)
+			(at 273.05 118.11 180)
 			(uuid "ee6e1905-56aa-40f6-9997-5c7347e8e040")
 			(effects
 				(font
@@ -1790,7 +1678,7 @@
 			)
 		)
 		(pin "I2C0{I2C}" input
-			(at 273.05 134.62 180)
+			(at 273.05 125.73 180)
 			(uuid "2b4937df-a3b7-4f41-b7b8-dbadeb8517a8")
 			(effects
 				(font
@@ -1800,7 +1688,7 @@
 			)
 		)
 		(pin "PCIe_{REF0}{PCIe_{REF}}" input
-			(at 273.05 129.54 180)
+			(at 273.05 120.65 180)
 			(uuid "d9b56f15-0880-4dff-b5ea-c88534b0d7c5")
 			(effects
 				(font
@@ -1810,7 +1698,7 @@
 			)
 		)
 		(pin "~{WAKE}" input
-			(at 273.05 137.16 180)
+			(at 273.05 128.27 180)
 			(uuid "6c954875-1b55-47df-a06d-e041bb4f2693")
 			(effects
 				(font
@@ -1820,7 +1708,7 @@
 			)
 		)
 		(pin "~{PERST}" input
-			(at 273.05 139.7 180)
+			(at 273.05 130.81 180)
 			(uuid "1c9fdda0-13bb-4d53-8cdd-0e9111ba180d")
 			(effects
 				(font
@@ -1838,8 +1726,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 173.99)
-		(size 25.4 12.7)
+		(at 153.67 154.94)
+		(size 25.4 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1854,7 +1742,7 @@
 		)
 		(uuid "38f25804-42b6-4fac-b87c-d8c0064ff23c")
 		(property "Sheetname" "Power"
-			(at 185.42 173.2784 0)
+			(at 153.67 154.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1751,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 185.42 187.2746 0)
+			(at 153.67 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1760,7 @@
 			)
 		)
 		(pin "~{CPRSNT}" input
-			(at 210.82 180.34 0)
+			(at 179.07 171.45 0)
 			(uuid "7c8bee90-3725-4093-b2e1-65734c3ff05d")
 			(effects
 				(font
@@ -1881,9 +1769,19 @@
 				(justify right)
 			)
 		)
-		(pin "VCC" input
-			(at 185.42 180.34 180)
-			(uuid "01c879cb-218b-4a05-b522-5a0a86956434")
+		(pin "VCC_DC_CONN" input
+			(at 153.67 181.61 180)
+			(uuid "08462e7a-bcb0-4ace-8399-50ae515aa8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_PD" input
+			(at 153.67 161.29 180)
+			(uuid "965f30de-b766-4eb3-b38c-b73a6f19ea40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1798,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 124.46)
+		(at 111.76 115.57)
 		(size 25.4 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1916,7 +1814,7 @@
 		)
 		(uuid "642de475-f425-453b-bd11-9d34133bc8d0")
 		(property "Sheetname" "OCuLink"
-			(at 111.76 123.7484 0)
+			(at 111.76 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1823,7 @@
 			)
 		)
 		(property "Sheetfile" "oculink.kicad_sch"
-			(at 111.76 155.5246 0)
+			(at 111.76 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +1832,7 @@
 			)
 		)
 		(pin "PCIe_{x4}{PCIe}" input
-			(at 137.16 127 0)
+			(at 137.16 118.11 0)
 			(uuid "57b3cfc9-d8fb-4a22-a83a-0672b7297359")
 			(effects
 				(font
@@ -1944,7 +1842,7 @@
 			)
 		)
 		(pin "I2C0{I2C}" input
-			(at 137.16 134.62 0)
+			(at 137.16 125.73 0)
 			(uuid "107f81df-e059-4d7f-a410-cf14516f2244")
 			(effects
 				(font
@@ -1954,7 +1852,7 @@
 			)
 		)
 		(pin "PCIe_{REF0}{PCIe_{REF}}" input
-			(at 137.16 129.54 0)
+			(at 137.16 120.65 0)
 			(uuid "a1c0de43-a744-4ba6-be3d-c09eacef559e")
 			(effects
 				(font
@@ -1964,7 +1862,7 @@
 			)
 		)
 		(pin "~{WAKE}" input
-			(at 137.16 137.16 0)
+			(at 137.16 128.27 0)
 			(uuid "2be12001-9969-44b4-b3e2-72739069dae8")
 			(effects
 				(font
@@ -1974,7 +1872,7 @@
 			)
 		)
 		(pin "~{CPRSNT}" input
-			(at 137.16 142.24 0)
+			(at 137.16 133.35 0)
 			(uuid "be26673f-88db-4055-aabf-70456cabc509")
 			(effects
 				(font
@@ -1984,7 +1882,7 @@
 			)
 		)
 		(pin "~{PERST}" input
-			(at 137.16 139.7 0)
+			(at 137.16 130.81 0)
 			(uuid "f4a83c64-e86a-40f5-a613-d7c3cce9a932")
 			(effects
 				(font
@@ -2002,7 +1900,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 163.83)
+		(at 111.76 154.94)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2018,7 +1916,7 @@
 		)
 		(uuid "967dc2ce-6faa-4f65-adf2-eb5d333aef74")
 		(property "Sheetname" "USB-PD"
-			(at 111.76 163.1184 0)
+			(at 111.76 154.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +1925,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-pd.kicad_sch"
-			(at 111.76 177.1146 0)
+			(at 111.76 168.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,8 +1933,8 @@
 				(justify left top)
 			)
 		)
-		(pin "12V" output
-			(at 137.16 170.18 0)
+		(pin "12V_OUT" output
+			(at 137.16 161.29 0)
 			(uuid "42bb8785-628b-4ecb-b9db-0e4f1e8ad333")
 			(effects
 				(font
@@ -2049,130 +1947,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 147.32 187.96)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a873a5d6-7a36-44dd-8353-37b193324816")
-		(property "Sheetname" "Ideal-diode-1"
-			(at 147.32 187.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ideal-diode.kicad_sch"
-			(at 147.32 193.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 147.32 190.5 180)
-			(uuid "9370b847-514a-47bc-a589-b9e647b72a79")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" output
-			(at 172.72 190.5 0)
-			(uuid "c12d0edb-8fec-43f3-a712-ec5067f39e0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 147.32 167.64)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "abe40e29-8440-4917-abf7-be311a7a4dc1")
-		(property "Sheetname" "Ideal-diode-0"
-			(at 147.32 166.9284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ideal-diode.kicad_sch"
-			(at 147.32 173.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 147.32 170.18 180)
-			(uuid "f1f73c78-ecf0-43ca-baba-a44732186a05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" output
-			(at 172.72 170.18 0)
-			(uuid "72ec5902-a3a0-4a71-a0e9-f92b502546d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(page "7")
 				)
 			)
 		)

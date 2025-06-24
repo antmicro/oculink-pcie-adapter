@@ -7223,7 +7223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V_PCIE"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12V_PCIE"
 			(at 175.26 88.9 0)
 			(effects
 				(font

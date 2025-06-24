@@ -545,9 +545,6 @@
       "+3V3_PCIE": [
         "PWR"
       ],
-      "/Ideal-diode-0/VIN": [
-        "PWR"
-      ],
       "/Ideal-diode-1/VIN": [
         "PWR"
       ],
@@ -610,6 +607,12 @@
       ],
       "/OCuLink/PCIe_{x4}{PCIe}": [
         "85Ohm-diff_PCIe"
+      ],
+      "/Power/VCC_DC_CONN": [
+        "PWR"
+      ],
+      "/Power/VCC_PD": [
+        "PWR"
       ],
       "/USB-PD/VCC": [
         "PWR"
@@ -772,11 +775,11 @@
       "USB-PD"
     ],
     [
-      "abe40e29-8440-4917-abf7-be311a7a4dc1",
+      "6d13e59e-b137-42bb-8790-0fd656b28a3d",
       "Ideal-diode-0"
     ],
     [
-      "a873a5d6-7a36-44dd-8353-37b193324816",
+      "2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c",
       "Ideal-diode-1"
     ]
   ],

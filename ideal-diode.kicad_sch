@@ -12,448 +12,6 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "C_1u_25V_0603_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_1u_25V_0603"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KA8NNN.do"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0603 [1608 Metric], ± 10%, X5R, CL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CL10A105KA8NNNC"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "1u"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" ""
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1u_25V_0603_1_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1u_25V_0603_1_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LTC4412IS6_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 31.75 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LTC4412IS6"
-				(at 31.75 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOT-23-6"
-				(at 31.75 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf"
-				(at 31.75 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ideal diode controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LTC4412IS6#TRMPBF"
-				(at 31.75 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Analog Devices"
-				(at 31.75 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 31.75 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 31.75 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CONTROLLER, IC, DIODE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTC4412IS6_1_1_1"
-				(rectangle
-					(start 2.54 2.54)
-					(end 15.24 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "CTL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 0 180)
-					(length 2.54)
-					(name "SENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -5.08 180)
-					(length 2.54)
-					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -665,6 +223,448 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroCapacitors0603:C_1u_25V_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1u_25V_0603"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KA8NNN.do"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0603 [1608 Metric], ± 10%, X5R, CL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A105KA8NNNC"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1u"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1u_25V_0603_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1u_25V_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroPMICORControllersIdealDiodes:LTC4412IS6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 31.75 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTC4412IS6"
+				(at 31.75 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOT-23-6"
+				(at 31.75 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf"
+				(at 31.75 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ideal diode controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTC4412IS6#TRMPBF"
+				(at 31.75 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Analog Devices"
+				(at 31.75 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 31.75 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 31.75 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, CONTROLLER, IC, DIODE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC4412IS6_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "CTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "SENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroTransistorsFETsMOSFETsSingle:SI7613DN-T1-GE3"
 			(pin_names
 				(offset 0)
@@ -690,6 +690,7 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
@@ -715,7 +716,7 @@
 				)
 			)
 			(property "Description" "Power MOSFET, P Channel, 20 V, 35 A, 0.0072 ohm, PowerPAK 1212, Surface Mount"
-				(at 0 0 0)
+				(at 56.388 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -731,7 +732,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Vishay"
@@ -977,7 +977,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -1603,18 +1603,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7abe236-44b6-4580-8304-138d4a6d86a5")
+			(uuid "85fcc093-4693-4e55-b195-7de018f8b27e")
 		)
 		(pin "1"
-			(uuid "2524d4c4-2280-4de7-a599-ee732ff8fec2")
+			(uuid "cfa016ae-38cb-4707-8dba-ec5994f54ba6")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "C36")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "C34")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "C32")
 					(unit 1)
 				)
@@ -1622,7 +1622,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LTC4412IS6_1")
 		(lib_id "antmicroPMICORControllersIdealDiodes:LTC4412IS6")
 		(at 196.85 152.4 0)
 		(unit 1)
@@ -1631,7 +1630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "231123f1-ec12-4d99-983d-87a99d471e35")
-		(property "Reference" "U10"
+		(property "Reference" "U3"
 			(at 205.74 145.796 0)
 			(effects
 				(font
@@ -1725,31 +1724,31 @@
 			)
 		)
 		(pin "6"
-			(uuid "3f411c38-147e-4639-acab-839b65238a15")
+			(uuid "e7ebd320-f997-4d8c-8e06-993d2f8e1757")
 		)
 		(pin "5"
-			(uuid "80377c04-4e23-4ccf-a8c2-a3276b9e3383")
+			(uuid "2f621dda-6d7c-4f19-a43d-3ad11cde5d3c")
 		)
 		(pin "4"
-			(uuid "d6ae0f71-e524-4010-81a3-6031178df6f6")
+			(uuid "f02c00ce-a362-4469-a870-2b8464073326")
 		)
 		(pin "1"
-			(uuid "70aae8c0-eac8-4b45-97ae-f6ab596ef849")
+			(uuid "50173ac5-359a-4432-8729-e02a7e9eface")
 		)
 		(pin "3"
-			(uuid "e6e2baa0-674c-4621-9f42-ce54fe1cd13c")
+			(uuid "cf8bf685-6249-4664-a400-c88f8886ff38")
 		)
 		(pin "2"
-			(uuid "3e73d264-d1da-48ae-873b-5c177b255de5")
+			(uuid "85cff53e-8d0f-43c3-b137-89117a0316ee")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "U12")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "U4")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
-					(reference "U10")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1764,22 +1763,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a05844a-2992-4ce4-a207-64f76faf5bac")
+		(uuid "84a039a8-8a05-44e1-b9f2-082d64fc6759")
 		(property "Reference" "Q5"
-			(at 214.63 133.9764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI7613DN-T1-GE3"
-			(at 214.63 136.5067 90)
+			(at 214.63 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "Value" "SI7613DN-T1-GE3"
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
@@ -1804,23 +1806,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 147.32 0)
+		(property "Description" "Power MOSFET, P Channel, 20 V, 35 A, 0.0072 ohm, PowerPAK 1212, Surface Mount"
+			(at 231.394 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "SI7613DN-T1-GE3"
-			(at 222.25 132.08 0)
+			(at 214.63 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Vishay"
@@ -1856,28 +1857,28 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e569a9bb-9fa6-4c15-8d02-0c6b586731b8")
-		)
-		(pin "2"
-			(uuid "e9df01d8-3d20-4836-8362-474e31e705ae")
-		)
 		(pin "3"
-			(uuid "b431362b-a30f-4441-a9b4-7dc293b974a4")
+			(uuid "82af7102-8d93-419e-812c-7d30bd79b107")
+		)
+		(pin "1"
+			(uuid "967664c2-efde-4918-af43-dc467f399db1")
 		)
 		(pin "4"
-			(uuid "2df805fc-139d-4dc1-9ea6-5dde81b44a53")
+			(uuid "6555bf77-a933-413f-9810-473381ed78e7")
+		)
+		(pin "2"
+			(uuid "2e0c2e9e-5816-49e8-ba7e-5981bb5fca43")
 		)
 		(pin "5"
-			(uuid "3b94ab9c-570f-48a7-bbd4-2c2cac7127c2")
+			(uuid "93c40dc6-12b5-43dc-bcc6-0e35f6cf0d3e")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "Q7")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "Q6")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "Q5")
 					(unit 1)
 				)
@@ -1894,7 +1895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b154f87-4f90-4fe0-9a4f-eb5c42b125a2")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 194.31 171.45 0)
 			(effects
 				(font
@@ -1966,23 +1967,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bd50da8-f111-4d04-b6ff-e3ff49d48b1e")
+			(uuid "48aa2c96-12ba-4221-af9d-a4df88431c8a")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "#PWR086")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "#PWR082")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
-					(reference "#PWR081")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "C_1u_25V_0603_1")
 		(lib_id "antmicroCapacitors0603:C_1u_25V_0603")
 		(at 223.52 160.02 90)
 		(unit 1)
@@ -2119,18 +2119,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "78c314ba-0ab2-457d-9af5-f194c9b22c03")
+			(uuid "f91f5479-dda2-4915-a077-a4b50a140f18")
 		)
 		(pin "2"
-			(uuid "6794e3c4-17da-4d10-86a4-04ff05eab97d")
+			(uuid "950008a1-d8ab-4f73-9ded-b13dee9eae83")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "C37")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "C35")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "C33")
 					(unit 1)
 				)
@@ -2147,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b27f36-866e-4567-bd85-f04d8db9b080")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 223.52 171.45 0)
 			(effects
 				(font
@@ -2219,16 +2219,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ebd5b89-06a6-4766-b02d-f4e2dd0a8db0")
+			(uuid "75e4b91b-b166-491d-b4fe-a7749ef86dbb")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/a873a5d6-7a36-44dd-8353-37b193324816"
-					(reference "#PWR087")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "#PWR084")
 					(unit 1)
 				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/abe40e29-8440-4917-abf7-be311a7a4dc1"
-					(reference "#PWR082")
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
