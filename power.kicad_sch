@@ -223,7 +223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_1u_0402"
+		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -243,7 +243,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_1u_0402"
+			(property "Value" "C_1u_25V_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -265,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -276,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -285,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C1005X6S1A105K050BC"
+			(property "MPN" "GRM155R61E105KE11J"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -296,7 +296,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "Murata"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -339,7 +339,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -359,7 +359,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -368,7 +368,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1u_0402_0_1"
+			(symbol "C_1u_25V_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(symbol "C_1u_0402_1_1"
+			(symbol "C_1u_25V_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -434,7 +434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0603:C_22u_16V_0603"
+		(symbol "antmicroCapacitorsmisc:C_22u_25V_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -454,7 +454,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_22u_16V_0603"
+			(property "Value" "C_22u_25V_0805"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -465,7 +465,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
+			(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -476,7 +476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -487,7 +487,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor"
+			(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
 				(at 0 0 0)
 				(effects
 					(font
@@ -496,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CL10A226MO7JZNC"
+			(property "MPN" "CL21A226MAYNNNE"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -550,17 +550,16 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" "16V"
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -570,7 +569,17 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
+			(property "Public" "False"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0805, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -579,7 +588,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_22u_16V_0603_0_1"
+			(symbol "C_22u_25V_0805_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -605,7 +614,7 @@
 					)
 				)
 			)
-			(symbol "C_22u_16V_0603_1_1"
+			(symbol "C_22u_25V_0805_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -7163,157 +7172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 242.57 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3100ab9b-8bc1-49f7-b10a-8afb8f1d7bc3")
-		(property "Reference" "C4"
-			(at 245.11 86.3536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_22u_16V_0603"
-			(at 252.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 257.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 242.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A226MO7JZNC"
-			(at 260.35 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 262.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 265.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 267.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22u"
-			(at 245.11 88.8936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 270.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 273.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d97a58eb-6924-4bdf-8d10-0212717a571f")
-		)
-		(pin "2"
-			(uuid "6c35b595-02af-4d7d-8303-cfb952831747")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+12V_AON")
 		(at 292.1 195.58 0)
 		(unit 1)
@@ -9866,156 +9724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
-		(at 264.16 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f54a272-d995-4894-8eab-563cbe4f788e")
-		(property "Reference" "C7"
-			(at 266.446 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_1u_0402"
-			(at 274.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 276.86 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-			(at 264.16 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1005X6S1A105K050BC"
-			(at 281.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 284.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 287.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 289.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u"
-			(at 266.446 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 292.1 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 294.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf8a4e6-35e5-471d-98ca-30ae3e5f8c98")
-		)
-		(pin "2"
-			(uuid "dfdaa8c1-c6ca-481c-a5dd-7b7e3e1b4be6")
-		)
-		(instances
-			(project ""
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138-7-F")
 		(at 125.73 222.25 0)
 		(unit 1)
@@ -10602,6 +10310,156 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
+		(at 350.52 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1c73379-4c33-4764-88f0-327e258f2df1")
+		(property "Reference" "C5"
+			(at 352.806 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1u_25V_0402"
+			(at 360.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 363.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
+			(at 365.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 350.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61E105KE11J"
+			(at 368.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 370.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 373.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 375.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 352.806 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 378.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 381 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c19505ab-30b5-45cd-b367-509ec086a207")
+		)
+		(pin "1"
+			(uuid "e506e4c7-ae96-44c9-84e3-44988aebe5c9")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11629,6 +11487,156 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
+		(at 264.16 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6887e9d-5049-48cf-abe8-ce3df38627ca")
+		(property "Reference" "C7"
+			(at 266.446 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1u_25V_0402"
+			(at 274.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61E105KE11J"
+			(at 281.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 284.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 287.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 289.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 266.446 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 292.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 294.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cff6a0ef-b4fc-48e1-a167-3358f306a618")
+		)
+		(pin "1"
+			(uuid "afffd3a3-a97b-455d-bcbe-69482cf90a74")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
 		(at 120.65 229.87 90)
 		(unit 1)
@@ -12059,6 +12067,166 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
+		(at 242.57 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1e3e43-7a18-4945-b27f-9b1723d15e1e")
+		(property "Reference" "C4"
+			(at 245.11 85.0836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_25V_0805"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
+			(at 257.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+			(at 242.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MAYNNNE"
+			(at 260.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 245.11 87.6236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 245.11 90.1635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 275.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "579d5407-f895-4194-91a6-b752a61b318f")
+		)
+		(pin "1"
+			(uuid "3ba7bf54-304d-450e-aa6e-c0b8a8cea5ee")
+		)
+		(instances
+			(project ""
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 361.95 73.66 0)
 		(unit 1)
@@ -12277,157 +12445,6 @@
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
-		(at 350.52 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2c552bb-bcdf-411a-b47c-6f0ccad4c4eb")
-		(property "Reference" "C5"
-			(at 353.06 90.1636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_1u_0402"
-			(at 360.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 363.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 365.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-			(at 350.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1005X6S1A105K050BC"
-			(at 368.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 370.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 373.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 375.92 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u"
-			(at 353.06 92.7036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 378.46 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 381 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44c83337-97b5-468d-9e35-2eb615381405")
-		)
-		(pin "1"
-			(uuid "99443565-4d70-49a6-b9fa-cea44175ee96")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "C5")
 					(unit 1)
 				)
 			)

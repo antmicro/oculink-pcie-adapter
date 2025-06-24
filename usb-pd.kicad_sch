@@ -12,7 +12,7 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "antmicroCapacitors0402:C_100n_50V_X8L_0402"
+		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +23,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 15.24 -5.08 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,8 +32,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_100n_50V_X8L_0402"
-				(at 15.24 -22.86 0)
+			(property "Value" "C_100n_0402"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +44,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,8 +54,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-				(at 15.24 -27.94 0)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,40 +74,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GCM155L8EH104KE07D"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "100n"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X8L"
-				(at 15.24 -12.7 0)
+			(property "MPN" "GRM155R61H104KE14D"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -118,7 +86,7 @@
 				)
 			)
 			(property "Manufacturer" "Murata"
-				(at 15.24 -15.24 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -129,7 +97,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -140,7 +108,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -150,7 +118,37 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
+			(property "Val" "100n"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -159,7 +157,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_100n_50V_X8L_0402_0_1"
+			(symbol "C_100n_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -185,7 +183,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_50V_X8L_0402_1_1"
+			(symbol "C_100n_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -2626,244 +2624,6 @@
 					(at 5.08 0 180)
 					(length 0.508)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 20.32 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LG L29K-G2J1-24-Z"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "OSRAM"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Color" "Green"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_G_0603_LG_L29K-G2J1-24-Z_0_1"
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_G_0603_LG_L29K-G2J1-24-Z_1_1"
-				(polyline
-					(pts
-						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 2.54) (xy 2.159 2.032) (xy 2.159 2.54) (xy 2.667 2.54) (xy 2.159 2.54) (xy 3.048 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6299,194 +6059,6 @@
 				)
 			)
 			(symbol "R_68k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroResistors0603:R_4k7_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_4k7_0603"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0603-FX-4701ELF"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "4k7"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_4k7_0603_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_4k7_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -11554,6 +11126,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 209.55) (xy 323.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953c7e86-cfbc-4430-bf12-ac21f55ecc3f")
+	)
+	(wire
+		(pts
 			(xy 332.74 83.82) (xy 358.14 83.82)
 		)
 		(stroke
@@ -11654,7 +11236,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 200.66) (xy 323.85 212.09)
+			(xy 323.85 200.66) (xy 323.85 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11921,6 +11503,16 @@
 			(type default)
 		)
 		(uuid "bee98cc0-bbb4-4067-8edf-154aa29b7aa2")
+	)
+	(wire
+		(pts
+			(xy 323.85 217.17) (xy 323.85 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc27803-839f-48b8-b6de-fbd7b112da35")
 	)
 	(wire
 		(pts
@@ -12464,16 +12056,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 224.79) (xy 323.85 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea41c81-f62d-4088-9d43-ede612c95804")
-	)
-	(wire
-		(pts
 			(xy 175.26 194.31) (xy 177.8 194.31)
 		)
 		(stroke
@@ -12541,16 +12123,6 @@
 			(type default)
 		)
 		(uuid "f85e117d-66b1-461d-b649-542236475d05")
-	)
-	(wire
-		(pts
-			(xy 323.85 217.17) (xy 323.85 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ef7b9a-ff7a-4520-89b4-67727080fd0b")
 	)
 	(wire
 		(pts
@@ -15114,159 +14686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 190.5 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2787a690-180a-4fbd-8c46-04037e341890")
-		(property "Reference" "C31"
-			(at 193.04 214.6236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_50V_X8L_0402"
-			(at 213.36 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 215.9 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 218.44 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 190.5 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM155L8EH104KE07D"
-			(at 220.98 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 193.04 217.1636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 200.66 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X8L"
-			(at 203.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 205.74 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 208.28 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 210.82 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7543ec8-dfc4-45b2-a2ea-5e4d0c256aec")
-		)
-		(pin "2"
-			(uuid "4f919866-1c7d-465c-ac76-56020b3e186f")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_158k_0402")
 		(at 105.41 233.68 90)
 		(unit 1)
@@ -15904,6 +15323,136 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(at 349.25 217.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de2850c-6ae9-42fa-8032-0a49bdf8cb02")
+		(property "Reference" "D6"
+			(at 351.79 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G_0603_LTST-C190GKT"
+			(at 356.87 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+			(at 359.41 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
+			(at 361.95 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
+			(at 349.25 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C190GKT"
+			(at 364.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 367.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 351.79 215.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 369.57 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 372.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3864d4a8-0474-4567-9c89-3377fcff3552")
+		)
+		(pin "1"
+			(uuid "dc6a27b6-2744-40b7-a384-8d03eebcd6ff")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 97.79 237.49 0)
 		(unit 1)
@@ -16359,17 +15908,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0603:R_4k7_0603")
-		(at 177.8 76.2 0)
-		(mirror x)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 149.86 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "36fa81d7-249f-4fed-966c-fb68fce4e58d")
-		(property "Reference" "R22"
-			(at 180.34 73.914 0)
+		(uuid "3d2c62dc-6f88-4558-bc88-8c4b037ac5fe")
+		(property "Reference" "C27"
+			(at 152.4 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16377,19 +15925,8 @@
 				)
 			)
 		)
-		(property "Value" "R_4k7_0603"
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 198.12 60.96 0)
+		(property "Value" "C_100n_0402"
+			(at 170.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16399,8 +15936,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 198.12 58.42 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 170.18 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16410,17 +15947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-			(at 177.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0603-FX-4701ELF"
-			(at 198.12 55.88 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 170.18 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,8 +15958,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 198.12 53.34 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 149.86 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 170.18 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 170.18 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16442,7 +15990,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 198.12 50.8 0)
+			(at 170.18 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,7 +16001,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 198.12 48.26 0)
+			(at 170.18 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,8 +16011,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "4k7"
-			(at 180.594 78.486 0)
+		(property "Val" "100n"
+			(at 152.4 200.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,8 +16020,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 198.12 66.04 0)
+		(property "Voltage" "50V"
+			(at 170.18 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16482,16 +16030,26 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d1340706-d4b1-4927-a679-d77f94af955b")
+		(property "Dielectric" "X5R"
+			(at 170.18 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "795c5552-eab9-4bf0-b9cd-61ed034c72ff")
+			(uuid "0641ad74-aeba-414f-83df-8726577eb3b5")
+		)
+		(pin "2"
+			(uuid "60d4eb42-4f28-4b9e-b4a9-33b9572b46f1")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "R22")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -16979,6 +16537,156 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 190.5 218.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "463c51fa-7e63-41b8-9072-4f6dbd4b12d4")
+		(property "Reference" "C31"
+			(at 192.532 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 200.66 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 203.2 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 205.74 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 190.5 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 208.28 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 210.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 213.36 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 215.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 192.532 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 218.44 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 220.98 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95498d51-4be0-46cc-a390-7b9bf0f36a68")
+		)
+		(pin "2"
+			(uuid "266f04ef-2b37-4e77-b0f2-e2b6f86a2439")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 106.68 101.6 0)
 		(mirror y)
@@ -17190,17 +16898,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 92.71 201.93 90)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 370.84 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "503dfa16-5e64-409f-988b-280b3004f2b5")
-		(property "Reference" "C26"
-			(at 95.25 198.1136 90)
+		(uuid "50de8dd4-17c7-4c2f-b30f-1497eafe38db")
+		(property "Reference" "C11"
+			(at 373.38 100.3236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,8 +16917,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
-			(at 115.57 186.69 0)
+		(property "Value" "C_100n_0402"
+			(at 381 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17221,7 +16929,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 118.11 186.69 0)
+			(at 383.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17231,8 +16939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 120.65 186.69 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 386.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17242,8 +16950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 92.71 201.93 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 370.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17251,40 +16959,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
-			(at 123.19 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 95.25 200.6536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 102.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X8L"
-			(at 105.41 186.69 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 388.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +16971,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 107.95 186.69 0)
+			(at 391.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,7 +16982,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 110.49 186.69 0)
+			(at 393.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +16993,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 113.03 186.69 0)
+			(at 396.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17327,16 +17003,46 @@
 				(hide yes)
 			)
 		)
+		(property "Val" "100n"
+			(at 373.38 102.8636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 398.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 401.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e12f5a3b-790f-4086-9a60-277af43ba9af")
+			(uuid "2d7ccf30-f15c-4406-8774-fee50f4583bf")
 		)
 		(pin "2"
-			(uuid "14b76beb-5589-4cfb-99e4-0b209043e616")
+			(uuid "780b18e4-09b0-40a5-9c61-a20b97f4391d")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C26")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -17568,6 +17274,287 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(at 368.3 217.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e99aef-dd70-44b0-807a-8ae63101828f")
+		(property "Reference" "D7"
+			(at 370.84 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G_0603_LTST-C190GKT"
+			(at 375.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+			(at 378.46 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
+			(at 381 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
+			(at 368.3 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C190GKT"
+			(at 383.54 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 386.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 370.84 215.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 388.62 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 391.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c80794e-67f8-4785-aee6-cd2915659f54")
+		)
+		(pin "1"
+			(uuid "ca51b4a2-3fcd-4b13-a910-b04928f259d9")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 92.71 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c6638d-4f33-4a59-83cc-b097b2385f96")
+		(property "Reference" "C26"
+			(at 95.25 198.1136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 105.41 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 107.95 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 92.71 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 110.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 113.03 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 118.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 95.25 200.6536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 120.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 123.19 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef52897f-b6cf-4ada-ad0a-62a7d32054fa")
+		)
+		(pin "2"
+			(uuid "92742995-25a9-4a3d-9d44-ef50559fde8b")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -18516,158 +18503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 274.32 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61d75ec5-51e9-4a59-8153-2dbdc2ea1268")
-		(property "Reference" "C15"
-			(at 276.352 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_50V_X8L_0402"
-			(at 297.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 299.72 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 302.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 274.32 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM155L8EH104KE07D"
-			(at 304.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 276.352 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 284.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X8L"
-			(at 287.02 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 289.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 292.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 294.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aaecb60-51e8-406c-a007-2c246bad0792")
-		)
-		(pin "2"
-			(uuid "a4155f98-77b7-4351-8035-5f44828c4929")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_4u7_25V_0402")
 		(at 57.15 233.68 90)
 		(unit 1)
@@ -19411,135 +19246,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 368.3 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78b93976-7117-4c7f-b418-1f8cb2a87643")
-		(property "Reference" "D7"
-			(at 369.824 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 375.92 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 378.46 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
-			(at 381 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
-			(at 368.3 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 383.54 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OSRAM"
-			(at 386.08 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Color" "Green"
-			(at 369.824 215.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 388.62 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 391.16 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ce47227-e3b3-4f30-9b4a-e7382d22d314")
-		)
-		(pin "1"
-			(uuid "30cf3c12-9944-4e3e-9c31-c66b408c33ea")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -20599,158 +20305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 370.84 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "888d74b7-a7be-4563-b1b0-224bd0a9bb8d")
-		(property "Reference" "C11"
-			(at 372.872 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_50V_X8L_0402"
-			(at 393.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 396.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 398.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 370.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM155L8EH104KE07D"
-			(at 401.32 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 372.872 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 381 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X8L"
-			(at 383.54 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 386.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 388.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 391.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0375f846-6955-4ae5-91d4-2d3a3111f16d")
-		)
-		(pin "2"
-			(uuid "1575f77f-3678-4cba-823a-5a5e9d9288ae")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 83.82 203.2 0)
 		(unit 1)
@@ -21185,6 +20739,144 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 177.8 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f31e5e3-0e70-4d10-9283-5a9fb4bfec6d")
+		(property "Reference" "R22"
+			(at 180.34 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_4k7_0402"
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4k7"
+			(at 180.34 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fcc1e4-3785-4652-8a56-b69e0441b543")
+		)
+		(pin "2"
+			(uuid "837c8936-d2ee-4b14-8bb4-54103306fe2d")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21829,156 +21521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 154.94 198.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a02a607c-0d7f-41ef-9a81-167ccaf85a0d")
-		(property "Reference" "C27"
-			(at 152.654 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_100n_50V_X8L_0402"
-			(at 139.7 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 139.7 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 154.94 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM155L8EH104KE07D"
-			(at 139.7 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 152.654 201.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 139.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X8L"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 139.7 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 139.7 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 139.7 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64fd1d69-e38b-41d4-9e38-f5bfd88e15e7")
-		)
-		(pin "2"
-			(uuid "9520bfe5-96bd-45fd-aa58-d347695d7605")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 74.93 203.2 0)
 		(unit 1)
@@ -22258,7 +21800,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 323.85 224.79 90)
+		(at 323.85 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22266,7 +21808,7 @@
 		(dnp no)
 		(uuid "a486c86b-5bae-4d78-9657-88770694fd3d")
 		(property "Reference" "R29"
-			(at 325.12 221.234 90)
+			(at 325.12 205.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22276,7 +21818,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 336.55 204.47 0)
+			(at 336.55 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22287,7 +21829,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 339.09 204.47 0)
+			(at 339.09 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22298,7 +21840,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 341.63 204.47 0)
+			(at 341.63 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +21851,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 323.85 224.79 0)
+			(at 323.85 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22318,7 +21860,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 344.17 204.47 0)
+			(at 344.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22329,7 +21871,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 346.71 204.47 0)
+			(at 346.71 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22340,7 +21882,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 349.25 204.47 0)
+			(at 349.25 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22351,7 +21893,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 351.79 204.47 0)
+			(at 351.79 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22362,7 +21904,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 325.12 223.774 90)
+			(at 325.12 208.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22372,7 +21914,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 334.01 204.47 0)
+			(at 334.01 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25094,7 +24636,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 323.85 227.33 0)
+		(at 323.85 220.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25103,7 +24645,7 @@
 		(dnp no)
 		(uuid "d46b5e6a-ff35-4792-a068-cc9583da0897")
 		(property "Reference" "#PWR067"
-			(at 314.96 229.87 0)
+			(at 314.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25114,7 +24656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 231.14 0)
+			(at 323.85 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25123,7 +24665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 234.95 0)
+			(at 314.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25134,7 +24676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 240.03 0)
+			(at 314.96 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25145,7 +24687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 227.33 0)
+			(at 323.85 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25154,7 +24696,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 314.96 234.95 0)
+			(at 314.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25165,7 +24707,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 314.96 237.49 0)
+			(at 314.96 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26568,6 +26110,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 274.32 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9dcb348-0a66-426a-b435-a5989e084db6")
+		(property "Reference" "C15"
+			(at 276.86 54.6036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 284.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 287.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 289.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 292.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 294.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 297.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 299.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 276.86 57.1436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 302.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 304.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b348decb-e633-4d0c-8c4e-1d7c121993f9")
+		)
+		(pin "2"
+			(uuid "653d5878-8f8c-4ae2-80ef-83cedd23292c")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
 		(at 236.22 219.71 90)
 		(unit 1)
@@ -27340,135 +27033,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
-		(at 349.25 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe401269-2161-4801-b6ba-95416bbe3e9f")
-		(property "Reference" "D6"
-			(at 351.028 213.3601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
-			(at 356.87 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 359.41 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
-			(at 361.95 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
-			(at 364.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OSRAM"
-			(at 367.03 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Color" "Green"
-			(at 351.028 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 369.57 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 372.11 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78acf588-0d60-4c0f-8a4d-a61d3afb17cd")
-		)
-		(pin "1"
-			(uuid "6eae4e84-5c3c-429f-91ea-1267c085589f")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "D6")
 					(unit 1)
 				)
 			)

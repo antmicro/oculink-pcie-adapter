@@ -223,7 +223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0603:C_1u_25V_0603"
+		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -243,7 +243,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_1u_25V_0603"
+			(property "Value" "C_1u_25V_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -265,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KA8NNN.do"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -276,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0603 [1608 Metric], ± 10%, X5R, CL"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -285,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CL10A105KA8NNNC"
+			(property "MPN" "GRM155R61E105KE11J"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -296,7 +296,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "Murata"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -359,7 +359,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -368,7 +368,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1u_25V_0603_0_1"
+			(symbol "C_1u_25V_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(symbol "C_1u_25V_0603_1_1"
+			(symbol "C_1u_25V_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -1983,17 +1983,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_1u_25V_0603")
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 223.52 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec47f537-88b0-4f9c-b9d3-9bb2b2efa204")
+		(uuid "c4c79e0b-ca73-42a5-b73a-df80b708424a")
 		(property "Reference" "C33"
-			(at 226.06 156.2036 90)
+			(at 225.806 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2001,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_1u_25V_0603"
+		(property "Value" "C_1u_25V_0402"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -2013,7 +2012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 236.22 139.7 0)
 			(effects
 				(font
@@ -2024,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KA8NNN.do"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 			(at 238.76 139.7 0)
 			(effects
 				(font
@@ -2035,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0603 [1608 Metric], ± 10%, X5R, CL"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 223.52 160.02 0)
 			(effects
 				(font
@@ -2044,7 +2043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A105KA8NNNC"
+		(property "MPN" "GRM155R61E105KE11J"
 			(at 241.3 139.7 0)
 			(effects
 				(font
@@ -2055,7 +2054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -2089,7 +2088,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 226.06 158.7436 90)
+			(at 225.806 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -2118,11 +2117,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f91f5479-dda2-4915-a077-a4b50a140f18")
-		)
 		(pin "2"
-			(uuid "950008a1-d8ab-4f73-9ded-b13dee9eae83")
+			(uuid "8900b8ee-1408-48f2-821e-8f1d3b6d38ad")
+		)
+		(pin "1"
+			(uuid "b6ca894c-8d8c-4c88-aed0-14a730ffbec3")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
