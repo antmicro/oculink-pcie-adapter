@@ -3797,15 +3797,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:DMPH4029LFGQ"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3"
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 13.97 0 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3814,19 +3814,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DMPH4029LFGQ"
-				(at 13.97 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:PowerDI3333-8"
-				(at 13.97 -5.08 0)
+			(property "Value" "SQS401EN-T1_BE3"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3836,8 +3825,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH4029LFGQ.pdf"
-				(at 13.97 -7.62 0)
+			(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3847,8 +3836,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power MOSFET, P Channel, 40 V, 22 A, 0.018 ohm, PowerDI 3333, Surface Mount"
-				(at 53.848 -19.304 0)
+			(property "Datasheet" "https://www.vishay.com/docs/65529/sqs401en.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
+				(at 53.34 -24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3856,8 +3856,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "DMPH4029LFGQ-7"
-				(at 13.97 -2.54 0)
+			(property "MPN" "SQS401EN-T1_BE3"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3866,8 +3866,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Diodes Incorporated"
-				(at 13.97 -12.7 0)
+			(property "Manufacturer" "Vishay"
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3878,7 +3878,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 13.97 -15.24 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 13.97 -17.78 0)
+				(at 15.24 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3908,10 +3908,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DMPH4029LFGQ_1_1"
+			(symbol "SQS401EN-T1_BE3_1_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
+						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
 					)
 					(stroke
 						(width 0.254)
@@ -3923,7 +3923,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.445) (xy 5.08 3.429)
+						(xy 3.81 4.445) (xy 3.81 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -3935,7 +3935,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 3.048)
+						(xy 3.81 2.54) (xy 3.81 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -3947,7 +3947,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 2.032)
+						(xy 3.81 2.54) (xy 3.81 2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -3959,7 +3959,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 1.651)
+						(xy 3.81 1.143) (xy 3.81 1.651)
 					)
 					(stroke
 						(width 0.254)
@@ -3971,7 +3971,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 0.635)
+						(xy 3.81 1.143) (xy 3.81 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -3982,7 +3982,7 @@
 					)
 				)
 				(circle
-					(center 6.35 2.54)
+					(center 5.08 2.54)
 					(radius 3.302)
 					(stroke
 						(width 0.254)
@@ -3994,7 +3994,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.239 2.54) (xy 6.477 3.048) (xy 6.477 2.032) (xy 7.239 2.54)
+						(xy 6.096 2.54) (xy 5.334 2.032) (xy 5.334 3.048) (xy 6.096 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -4006,76 +4006,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.493 0.635) (xy 8.636 0.635) (xy 8.636 3.937) (xy 8.636 4.445) (xy 7.493 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 6.35) (xy 7.62 3.937) (xy 5.08 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 4.445)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.143) (xy 5.08 1.143)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 1.143)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 0.635)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 2.54) (xy 5.08 2.54)
+						(xy 6.223 0.635) (xy 7.366 0.635) (xy 7.366 3.937) (xy 7.366 4.445) (xy 6.223 4.445)
 					)
 					(stroke
 						(width 0.254)
@@ -4087,7 +4018,76 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 2.286) (xy 9.144 3.048) (xy 8.128 3.048) (xy 8.636 2.286)
+						(xy 6.35 6.35) (xy 6.35 3.937) (xy 3.81 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 4.445)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.143) (xy 3.81 1.143)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 6.35 1.143)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 6.35 0.635)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 6.35 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 2.286) (xy 7.874 3.048) (xy 6.858 3.048) (xy 7.366 2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -4099,7 +4099,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.144 2.3368) (xy 8.128 2.3368)
+						(xy 7.874 2.286) (xy 6.858 2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -4128,7 +4128,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 8.89 270)
+					(at 6.35 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -4146,7 +4146,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -4164,7 +4164,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(hide yes)
 					(name "S"
@@ -4183,7 +4183,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(hide yes)
 					(name "S"
@@ -5399,16 +5399,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 203.2) (xy 99.06 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee06c82-dba3-428a-aa2d-17a2626c044b")
-	)
-	(wire
-		(pts
 			(xy 317.5 207.01) (xy 322.58 207.01)
 		)
 		(stroke
@@ -5909,6 +5899,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 201.93) (xy 99.06 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01448ed-6fe9-46e2-b703-d6c2b0a4ccec")
+	)
+	(wire
+		(pts
 			(xy 350.52 77.47) (xy 361.95 77.47)
 		)
 		(stroke
@@ -5926,16 +5926,6 @@
 			(type default)
 		)
 		(uuid "c369aeea-fa8a-4dd9-ad88-d126d4fdc2a3")
-	)
-	(wire
-		(pts
-			(xy 107.95 195.58) (xy 118.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c432864c-02a3-4bc0-b559-188af9e49766")
 	)
 	(wire
 		(pts
@@ -5969,6 +5959,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 195.58) (xy 118.11 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd78f9e4-a054-4811-bb24-efab28ddc685")
+	)
+	(wire
+		(pts
 			(xy 361.95 102.87) (xy 361.95 93.98)
 		)
 		(stroke
@@ -5989,7 +5989,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 195.58) (xy 95.25 195.58)
+			(xy 82.55 195.58) (xy 96.52 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10981,6 +10981,134 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3")
+		(at 99.06 201.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a373d1-1985-47cd-846a-51114c97b1d9")
+		(property "Reference" "Q7"
+			(at 101.6 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SQS401EN-T1_BE3"
+			(at 88.9 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
+			(at 86.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/65529/sqs401en.pdf"
+			(at 83.82 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
+			(at 99.06 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SQS401EN-T1_BE3"
+			(at 101.6 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 81.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "14f77648-9b06-46ac-b66d-5c1495dc221b")
+		)
+		(pin "1"
+			(uuid "b67edefa-9ce2-4595-8870-2a6b8e1e310a")
+		)
+		(pin "3"
+			(uuid "30afaf71-657e-4e65-85b9-72e1aa8d19e1")
+		)
+		(pin "5"
+			(uuid "f355316a-e40b-46c1-8ef7-9d0e807dc09d")
+		)
+		(pin "2"
+			(uuid "ba551b3d-d9f1-4c35-af28-c915271cf82a")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
 		(at 322.58 204.47 0)
 		(unit 1)
@@ -11804,133 +11932,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMPH4029LFGQ")
-		(at 99.06 203.2 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d36458e2-4da7-4850-b723-0511193cdb89")
-		(property "Reference" "Q1"
-			(at 101.6 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "DMPH4029LFGQ"
-			(at 88.9 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:PowerDI3333-8"
-			(at 93.98 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH4029LFGQ.pdf"
-			(at 91.44 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power MOSFET, P Channel, 40 V, 22 A, 0.018 ohm, PowerDI 3333, Surface Mount"
-			(at 79.756 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMPH4029LFGQ-7"
-			(at 101.6 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 86.36 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 83.82 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 81.28 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aab60e03-2290-48c0-b9c8-ff24f340a473")
-		)
-		(pin "4"
-			(uuid "02aced0e-629f-48ac-a14a-6cd4bda6362e")
-		)
-		(pin "5"
-			(uuid "dd6032cd-d260-4021-9a73-0cd704678318")
-		)
-		(pin "3"
-			(uuid "f1e468a3-b42a-4079-ac9b-72c745b19e8c")
-		)
-		(pin "1"
-			(uuid "4fa6db70-8c01-4177-bf77-5161a0792177")
-		)
-		(instances
-			(project ""
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

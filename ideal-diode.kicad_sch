@@ -665,66 +665,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:SI7613DN-T1-GE3"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3"
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SI7613DN-T1-GE3"
-				(at 15.24 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
-				(at 15.24 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/64809/si7613dn.pdf"
-				(at 15.24 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power MOSFET, P Channel, 20 V, 35 A, 0.0072 ohm, PowerPAK 1212, Surface Mount"
-				(at 56.388 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SI7613DN-T1-GE3"
 				(at 15.24 -5.08 0)
 				(effects
 					(font
@@ -734,18 +682,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Vishay"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
+			(property "Value" "SQS401EN-T1_BE3"
 				(at 15.24 -10.16 0)
 				(effects
 					(font
@@ -756,8 +693,71 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
+			(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
 				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/65529/sqs401en.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
+				(at 53.34 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SQS401EN-T1_BE3"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -776,10 +776,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SI7613DN-T1-GE3_1_1"
+			(symbol "SQS401EN-T1_BE3_1_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
+						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
 					)
 					(stroke
 						(width 0.254)
@@ -791,7 +791,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.445) (xy 5.08 3.429)
+						(xy 3.81 4.445) (xy 3.81 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -803,7 +803,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 3.048)
+						(xy 3.81 2.54) (xy 3.81 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -815,7 +815,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 2.032)
+						(xy 3.81 2.54) (xy 3.81 2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -827,7 +827,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 1.651)
+						(xy 3.81 1.143) (xy 3.81 1.651)
 					)
 					(stroke
 						(width 0.254)
@@ -839,7 +839,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 0.635)
+						(xy 3.81 1.143) (xy 3.81 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -850,7 +850,7 @@
 					)
 				)
 				(circle
-					(center 6.35 2.54)
+					(center 5.08 2.54)
 					(radius 3.302)
 					(stroke
 						(width 0.254)
@@ -862,7 +862,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.239 2.54) (xy 6.477 3.048) (xy 6.477 2.032) (xy 7.239 2.54)
+						(xy 6.096 2.54) (xy 5.334 2.032) (xy 5.334 3.048) (xy 6.096 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -874,76 +874,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.493 0.635) (xy 8.636 0.635) (xy 8.636 3.937) (xy 8.636 4.445) (xy 7.493 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 6.35) (xy 7.62 3.937) (xy 5.08 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 4.445)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.143) (xy 5.08 1.143)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 1.143)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 0.635)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 2.54) (xy 5.08 2.54)
+						(xy 6.223 0.635) (xy 7.366 0.635) (xy 7.366 3.937) (xy 7.366 4.445) (xy 6.223 4.445)
 					)
 					(stroke
 						(width 0.254)
@@ -955,7 +886,76 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 2.286) (xy 8.128 3.048) (xy 9.144 3.048) (xy 8.636 2.286)
+						(xy 6.35 6.35) (xy 6.35 3.937) (xy 3.81 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 4.445)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.143) (xy 3.81 1.143)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 6.35 1.143)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 6.35 0.635)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 6.35 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 2.286) (xy 7.874 3.048) (xy 6.858 3.048) (xy 7.366 2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -967,7 +967,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.144 2.2352) (xy 8.128 2.2352)
+						(xy 7.874 2.286) (xy 6.858 2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -996,7 +996,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 8.89 270)
+					(at 6.35 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -1014,7 +1014,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -1032,7 +1032,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(hide yes)
 					(name "S"
@@ -1051,7 +1051,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
+					(at 6.35 -2.54 90)
 					(length 2.54)
 					(hide yes)
 					(name "S"
@@ -1287,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 154.94) (xy 217.17 147.32)
+			(xy 217.17 146.05) (xy 217.17 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1334,6 +1334,16 @@
 			(type default)
 		)
 		(uuid "547e0499-82d2-4965-8a9b-9f545ec235af")
+	)
+	(wire
+		(pts
+			(xy 219.71 139.7) (xy 223.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76488e69-817b-489d-8c08-79f6e4fba173")
 	)
 	(wire
 		(pts
@@ -1387,16 +1397,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 223.52 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf64ef9a-430f-4c2c-9327-a2bc877a2e3f")
-	)
-	(wire
-		(pts
 			(xy 214.63 152.4) (xy 223.52 152.4)
 		)
 		(stroke
@@ -1437,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.7) (xy 208.28 139.7)
+			(xy 185.42 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1755,137 +1755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:SI7613DN-T1-GE3")
-		(at 217.17 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a039a8-8a05-44e1-b9f2-082d64fc6759")
-		(property "Reference" "Q5"
-			(at 214.63 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SI7613DN-T1-GE3"
-			(at 214.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
-			(at 215.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/64809/si7613dn.pdf"
-			(at 218.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power MOSFET, P Channel, 20 V, 35 A, 0.0072 ohm, PowerPAK 1212, Surface Mount"
-			(at 231.394 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SI7613DN-T1-GE3"
-			(at 214.63 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 224.79 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 227.33 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 229.87 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "82af7102-8d93-419e-812c-7d30bd79b107")
-		)
-		(pin "1"
-			(uuid "967664c2-efde-4918-af43-dc467f399db1")
-		)
-		(pin "4"
-			(uuid "6555bf77-a933-413f-9810-473381ed78e7")
-		)
-		(pin "2"
-			(uuid "2e0c2e9e-5816-49e8-ba7e-5981bb5fca43")
-		)
-		(pin "5"
-			(uuid "93c40dc6-12b5-43dc-bcc6-0e35f6cf0d3e")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 194.31 165.1 0)
 		(unit 1)
@@ -2131,6 +2000,136 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3")
+		(at 217.17 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f30d75ef-f5eb-4286-829f-2882627f8ea6")
+		(property "Reference" "Q5"
+			(at 214.63 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SQS401EN-T1_BE3"
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/65529/sqs401en.pdf"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SQS401EN-T1_BE3"
+			(at 214.63 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 237.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "213dd903-ea3f-47c5-a653-752605b23641")
+		)
+		(pin "1"
+			(uuid "73b5abb3-688f-4ad4-844c-2625dc8dbdc8")
+		)
+		(pin "3"
+			(uuid "59f48493-7acf-45c6-86c3-f93702157e51")
+		)
+		(pin "5"
+			(uuid "30df6cd9-230b-4051-9c5b-2fe0476e701c")
+		)
+		(pin "2"
+			(uuid "80572dcd-0c5b-433f-9d1b-1809ab99286e")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
