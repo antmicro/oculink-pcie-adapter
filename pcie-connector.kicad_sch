@@ -7158,7 +7158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_PCIE"
+		(property "Value" "+3V3"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -9460,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_PCIE"
+		(property "Value" "+3V3"
 			(at 189.23 90.17 0)
 			(effects
 				(font
