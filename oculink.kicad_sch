@@ -3410,7 +3410,7 @@
 		(uuid "0d4313a4-906c-4213-98fc-50a04140f4b1")
 	)
 	(hierarchical_label "PCIe_{REF0}{PCIe_{REF}}"
-		(shape input)
+		(shape output)
 		(at 236.22 105.41 0)
 		(effects
 			(font
@@ -3432,7 +3432,7 @@
 		(uuid "7e2d05f0-2c06-4573-bdfc-6142b2c80a45")
 	)
 	(hierarchical_label "~{PERST}"
-		(shape input)
+		(shape output)
 		(at 207.01 118.11 0)
 		(effects
 			(font
@@ -3443,7 +3443,7 @@
 		(uuid "bde7cd9b-2cdf-4641-aebf-ab94beeaa283")
 	)
 	(hierarchical_label "PCIe_{x4}{PCIe}"
-		(shape input)
+		(shape bidirectional)
 		(at 240.03 123.19 0)
 		(effects
 			(font
@@ -3454,7 +3454,7 @@
 		(uuid "e786a984-8b9d-4066-8e4b-1d2d7e08430c")
 	)
 	(hierarchical_label "I2C0{I2C}"
-		(shape input)
+		(shape bidirectional)
 		(at 236.22 97.79 0)
 		(effects
 			(font
@@ -3476,7 +3476,7 @@
 			(fill
 				(type none)
 			)
-			(uuid afd923c8-85a6-4b95-8e5c-84e490d94098)
+			(uuid dc9372ba-27e2-4a36-9212-b20f91c1aa1f)
 		)
 	)
 	(netclass_flag ""

@@ -7348,7 +7348,7 @@
 		(uuid "fec8d8fc-d137-4518-8489-27a47bb4d1b3")
 	)
 	(hierarchical_label "PCIe_{x4}{PCIe}"
-		(shape input)
+		(shape bidirectional)
 		(at 105.41 74.93 180)
 		(effects
 			(font
@@ -7381,7 +7381,7 @@
 		(uuid "bc2b22a5-0635-4cb1-8713-40d363e3da1d")
 	)
 	(hierarchical_label "~{WAKE}"
-		(shape input)
+		(shape output)
 		(at 142.24 128.27 180)
 		(effects
 			(font
@@ -7392,7 +7392,7 @@
 		(uuid "ce30e01f-fff4-403d-af79-b8fb05c726e6")
 	)
 	(hierarchical_label "I2C0{I2C}"
-		(shape input)
+		(shape bidirectional)
 		(at 87.63 107.95 180)
 		(effects
 			(font

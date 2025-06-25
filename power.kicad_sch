@@ -6340,7 +6340,7 @@
 		(uuid "17268925-7d6a-472b-a062-dbfd6b168621")
 	)
 	(hierarchical_label "~{CPRSNT}"
-		(shape input)
+		(shape output)
 		(at 135.89 210.82 0)
 		(effects
 			(font
