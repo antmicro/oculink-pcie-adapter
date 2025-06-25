@@ -5489,7 +5489,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 73.66) (xy 86.36 73.66)
+			(xy 68.58 73.66) (xy 86.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5779,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 118.11 73.66)
+			(xy 118.11 71.12) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6330,7 @@
 	)
 	(hierarchical_label "VCC_PD"
 		(shape input)
-		(at 67.31 73.66 180)
+		(at 68.58 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7084,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+12V_AON")
-		(at 118.11 69.85 0)
+		(at 118.11 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7092,7 +7092,7 @@
 		(dnp no)
 		(uuid "17171e3b-9c97-4987-99bd-bd48ff93de93")
 		(property "Reference" "#PWR085"
-			(at 118.11 73.66 0)
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7101,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 118.11 66.04 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 69.85 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 69.85 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 69.85 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
