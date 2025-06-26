@@ -679,13 +679,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 273.05 130.81)
+			(xy 137.16 130.81) (xy 189.23 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3543f577-e7ff-47a2-bbe7-60ea446d664c")
+	)
+	(wire
+		(pts
+			(xy 179.07 162.56) (xy 191.77 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4429247e-d17f-498b-85ea-0786e858456f")
 	)
 	(wire
 		(pts
@@ -739,6 +749,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 162.56) (xy 191.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b110b17-0e9d-4174-9010-f7f3bf7df9bf")
+	)
+	(wire
+		(pts
 			(xy 137.16 128.27) (xy 273.05 128.27)
 		)
 		(stroke
@@ -779,6 +799,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 160.02) (xy 179.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93754cce-5a2c-438c-bc42-2fcf950fd4ab")
+	)
+	(wire
+		(pts
+			(xy 191.77 130.81) (xy 273.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc3e541-86c6-4be6-b54b-382ade577951")
+	)
+	(wire
+		(pts
 			(xy 271.78 182.88) (xy 274.32 182.88)
 		)
 		(stroke
@@ -796,6 +836,26 @@
 			(type default)
 		)
 		(uuid "a618777e-2ca5-4ba5-89f5-9e80654ed011")
+	)
+	(wire
+		(pts
+			(xy 189.23 130.81) (xy 189.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad21917f-e50a-40e9-a6ff-c3ae2ae0e293")
+	)
+	(wire
+		(pts
+			(xy 133.35 180.34) (xy 133.35 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcdd428-5b3f-41a2-a660-06e0deaeb885")
 	)
 	(wire
 		(pts
@@ -859,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 171.45) (xy 186.69 171.45)
+			(xy 179.07 157.48) (xy 186.69 157.48)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 171.45) (xy 186.69 133.35)
+			(xy 186.69 157.48) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -926,6 +986,36 @@
 			(type default)
 		)
 		(uuid "ff9a2b9b-b73a-4db5-9d60-2c570f538c8f")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 133.35 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f846369-abcd-4512-b211-674535835ad6")
+		(property "Netclass" "PWR"
+			(at 133.35 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -240.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
@@ -1760,7 +1850,7 @@
 			)
 		)
 		(pin "~{CPRSNT}" output
-			(at 179.07 171.45 0)
+			(at 179.07 157.48 0)
 			(uuid "7c8bee90-3725-4093-b2e1-65734c3ff05d")
 			(effects
 				(font
@@ -1787,6 +1877,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{PERST_CONN}" input
+			(at 179.07 160.02 0)
+			(uuid "da5b3133-7ac8-4303-9438-67ea8b205bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PERST}" output
+			(at 179.07 162.56 0)
+			(uuid "66946168-1b34-489b-b559-d5cf8851e027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

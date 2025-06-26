@@ -619,6 +619,9 @@
       "/OCuLink/PCIe_{x4}{PCIe}": [
         "85Ohm-diff_PCIe"
       ],
+      "/Power/Ideal-diode-1/VIN": [
+        "PWR"
+      ],
       "/Power/VCC_DC_CONN": [
         "PWR"
       ],
