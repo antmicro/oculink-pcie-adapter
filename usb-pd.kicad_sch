@@ -10498,6 +10498,46 @@
 		(uuid "fdd26eb9-b6a6-47b3-bb83-eea96347d9c8")
 	)
 	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 69.85)
+		(row_heights 3.81)
+		(cells
+			(table_cell "CONFIGURATION"
+				(exclude_from_sim no)
+				(at 330.2 26.67 0)
+				(size 69.85 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "59503722-4216-457d-9fc7-68036defc602")
+			)
+		)
+	)
+	(table
 		(column_count 2)
 		(border
 			(external yes)
@@ -10653,46 +10693,6 @@
 					(justify left top)
 				)
 				(uuid "1f000e78-2d3a-4944-a032-e313c26e2be3")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 69.85)
-		(row_heights 3.81)
-		(cells
-			(table_cell "CONFIGURATION"
-				(exclude_from_sim no)
-				(at 330.2 26.67 0)
-				(size 69.85 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "59503722-4216-457d-9fc7-68036defc602")
 			)
 		)
 	)
