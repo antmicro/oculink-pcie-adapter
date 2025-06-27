@@ -3168,16 +3168,6 @@
 		)
 		(uuid "55bdbb5f-15c1-40d9-81cc-c11c282a39e8")
 	)
-	(label "PCIe_{REF0}.CK+"
-		(at 231.14 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55d17424-1bb2-4a00-8abb-e39963d6f4c0")
-	)
 	(label "PCIe_{REF0}_R.CK+"
 		(at 190.5 110.49 180)
 		(effects
@@ -3218,16 +3208,6 @@
 		)
 		(uuid "7cb6a29c-1760-47fe-b56d-5e0e15abd475")
 	)
-	(label "PCIe_{REF0}.CK-"
-		(at 231.14 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d1e20f1-f151-4060-b9fc-5d8af7bb4c77")
-	)
 	(label "PCIe_{x4}.TX2-"
 		(at 186.69 236.22 0)
 		(effects
@@ -3247,6 +3227,16 @@
 			(justify right bottom)
 		)
 		(uuid "8fbf9e58-e413-422a-b5ff-d8dec48eade5")
+	)
+	(label "PCIe_{REF0}_R.CK+"
+		(at 231.14 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "932d5ca7-aae0-439b-9bc0-102cf755433e")
 	)
 	(label "PCIe_{x4}.TX0-"
 		(at 186.69 213.36 0)
@@ -3377,6 +3367,16 @@
 			(justify left bottom)
 		)
 		(uuid "db144ec1-2e27-42ab-94aa-4c5bc191c38b")
+	)
+	(label "PCIe_{REF0}_R.CK-"
+		(at 231.14 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc15ecd5-b643-4894-ac0d-086722c99c77")
 	)
 	(label "PCIe_{x4}.RX3-"
 		(at 140.97 241.3 0)
@@ -3516,7 +3516,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 7578ab39-4c37-48b9-a363-6993da5a2b18)
+			(uuid 2b8c86d6-779e-4a29-be75-f8515c3a640a)
 		)
 	)
 	(netclass_flag ""
