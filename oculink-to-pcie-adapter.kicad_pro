@@ -634,7 +634,16 @@
       "/Power/Ideal-diode-1/VIN": [
         "PWR"
       ],
+      "/Power/Ideal-diode-2/VIN": [
+        "PWR"
+      ],
       "/Power/VCC_DC_CONN": [
+        "PWR"
+      ],
+      "/Power/VCC_DC_CONN_1": [
+        "PWR"
+      ],
+      "/Power/VCC_DC_CONN_2": [
         "PWR"
       ],
       "/Power/VCC_PD": [
@@ -811,6 +820,10 @@
     [
       "b7947bcf-a564-48da-8831-e20f4b104978",
       "PCIe-clock-generator"
+    ],
+    [
+      "e9753379-2878-42d4-a5a2-bdb5729c6c82",
+      "Ideal-diode-2"
     ]
   ],
   "text_variables": {}

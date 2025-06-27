@@ -4348,7 +4348,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:SMF4L15A"
+		(symbol "antmicroTVSDiodes:SZSMF4L14AT3G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4359,7 +4359,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 26.67 -5.08 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4368,8 +4368,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SMF4L15A"
-				(at 26.67 -15.24 0)
+			(property "Value" "SZSMF4L14AT3G"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4380,7 +4380,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:SOD-123FL"
-				(at 26.67 -10.16 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4390,8 +4390,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d2ba8fab-1de3-4176-8530-f36ecb0b8799&filename=smf4l"
-				(at 26.67 -12.7 0)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+				(at 15.24 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4401,7 +4401,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unidirectional TVS, 30 kV,  SOD-123FL, 15 V, 600 pF"
+			(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4410,29 +4410,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SMF4L15A"
-				(at 26.67 -7.62 0)
+			(property "MPN" "SZSMF4L12AT3G"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Littelfuse"
-				(at 26.67 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 26.67 -20.32 0)
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4443,7 +4432,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 26.67 -22.86 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4453,7 +4442,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+			(property "Manufacturer" "Littelfuse"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, ESD, TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4462,7 +4462,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMF4L15A_0_1"
+			(symbol "SZSMF4L14AT3G_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -4488,7 +4488,7 @@
 					)
 				)
 			)
-			(symbol "SMF4L15A_1_1"
+			(symbol "SZSMF4L14AT3G_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.397 1.016)
@@ -5944,7 +5944,7 @@
 	)
 	(text "Power supply ORing"
 		(exclude_from_sim no)
-		(at 83.566 57.15 0)
+		(at 90.17 52.07 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5979,7 +5979,7 @@
 	)
 	(text "+3V3 DC/DC converter"
 		(exclude_from_sim no)
-		(at 285.496 55.88 0)
+		(at 292.1 50.8 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6033,10 +6033,10 @@
 		(uuid "000044d2-7c67-4a5a-9a7b-f9f8173d1d4e")
 	)
 	(junction
-		(at 72.39 91.44)
+		(at 81.28 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09f2bc4a-ed0f-4afe-9a96-d62d1aece714")
+		(uuid "09b2f10f-7c60-482f-bfb4-5f98718015d3")
 	)
 	(junction
 		(at 350.52 77.47)
@@ -6051,13 +6051,19 @@
 		(uuid "0e1381c3-ce9f-4912-9d7f-2e51db4fb041")
 	)
 	(junction
+		(at 81.28 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5b73cf-4fd1-48e6-9022-75af40e23d69")
+	)
+	(junction
 		(at 242.57 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "214b023c-b006-4813-bf00-7848604c1af4")
 	)
 	(junction
-		(at 80.01 91.44)
+		(at 88.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "289daf97-e2a3-48bd-81de-bd5f1d607b3d")
@@ -6085,6 +6091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d9b2c8-f949-4cc6-8949-5e93b8c3efdf")
+	)
+	(junction
+		(at 88.9 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c9f5ed-8616-433c-9057-9f24d40922dd")
 	)
 	(junction
 		(at 335.28 77.47)
@@ -6117,10 +6129,10 @@
 		(uuid "5b9498fa-ea0d-4ee2-9201-f9441ec5dd7d")
 	)
 	(junction
-		(at 76.2 91.44)
+		(at 85.09 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "719c6a0e-2391-47ef-9bf3-5b9765bba535")
+		(uuid "6846ce52-8524-4b6c-a0db-cb405697dcf5")
 	)
 	(junction
 		(at 303.53 212.09)
@@ -6135,7 +6147,7 @@
 		(uuid "798b96f9-f57e-4f9f-b78b-a80ef5ad12cf")
 	)
 	(junction
-		(at 118.11 73.66)
+		(at 127 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a686c02-54ca-4e6f-9ab3-ded61e858b2a")
@@ -6175,6 +6187,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57ece4f-35c3-4b0f-a2bf-be5599b4a907")
+	)
+	(junction
+		(at 85.09 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa67ffbc-1c31-4802-b43c-44ef71abf5e9")
+	)
+	(junction
+		(at 127 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0064dea-53ab-473e-ba24-b10ce72e9054")
 	)
 	(junction
 		(at 232.41 72.39)
@@ -6404,16 +6428,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 73.66) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21481bc2-9f64-47b0-8288-662754360ef8")
-	)
-	(wire
-		(pts
 			(xy 292.1 88.9) (xy 292.1 90.17)
 		)
 		(stroke
@@ -6434,6 +6448,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2419a56b-2f97-4d0c-8219-4badca4d0da1")
+	)
+	(wire
+		(pts
 			(xy 262.89 242.57) (xy 274.32 242.57)
 		)
 		(stroke
@@ -6441,6 +6465,16 @@
 			(type default)
 		)
 		(uuid "24a5b0a1-2e0a-4d7e-a658-2ac6c2916db4")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ee3cb-8b2c-4541-a81b-92c62638d144")
 	)
 	(wire
 		(pts
@@ -6534,6 +6568,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 115.57) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d5fe63-e88d-4395-bd09-df7f3fdf2958")
+	)
+	(wire
+		(pts
 			(xy 325.12 72.39) (xy 325.12 77.47)
 		)
 		(stroke
@@ -6574,7 +6618,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 88.9)
+			(xy 85.09 125.73) (xy 85.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b36ee8-3400-470d-8a5e-fa204249a81a")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6591,16 +6645,6 @@
 			(type default)
 		)
 		(uuid "4629801a-1056-4ad2-8434-861fa261b931")
-	)
-	(wire
-		(pts
-			(xy 76.2 91.44) (xy 80.01 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ada3938-83c6-402e-bd89-f1b599e95139")
 	)
 	(wire
 		(pts
@@ -6644,6 +6688,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 118.11) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5083b858-b76d-41d4-8431-7ef2f42231ed")
+	)
+	(wire
+		(pts
 			(xy 256.54 97.79) (xy 256.54 102.87)
 		)
 		(stroke
@@ -6654,7 +6708,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 118.11 73.66)
+			(xy 120.65 67.31) (xy 127 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6684,7 +6738,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 60.96 91.44)
+			(xy 127 92.71) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5895b08b-1e2d-46c4-9a56-193667610e39")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6694,7 +6758,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 86.36 73.66)
+			(xy 64.77 67.31) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6724,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 72.39 91.44)
+			(xy 74.93 92.71) (xy 81.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6744,13 +6808,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 91.44) (xy 86.36 91.44)
+			(xy 88.9 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68e9ce38-f94c-4f1f-a4e5-d12599ec2072")
+	)
+	(wire
+		(pts
+			(xy 85.09 92.71) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcab167-37d3-497b-a544-9cba25a476fa")
 	)
 	(wire
 		(pts
@@ -6764,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 76.2 104.14)
+			(xy 85.09 100.33) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6894,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 80.01 91.44)
+			(xy 88.9 90.17) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6924,7 +6998,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 76.2 96.52)
+			(xy 85.09 92.71) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6964,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 118.11 91.44)
+			(xy 120.65 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7074,13 +7148,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 118.11 73.66)
+			(xy 127 64.77) (xy 127 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a267a0e5-3a8d-4594-a604-31fbbc269482")
+	)
+	(wire
+		(pts
+			(xy 85.09 118.11) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b8be86-972f-499e-ba7b-75f6d4523f47")
+	)
+	(wire
+		(pts
+			(xy 120.65 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e73ea6-851c-4309-9cc1-8af7ab78d5d9")
 	)
 	(wire
 		(pts
@@ -7154,6 +7248,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 118.11) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7935b95-4874-422d-87cd-4e978533a029")
+	)
+	(wire
+		(pts
 			(xy 292.1 195.58) (xy 292.1 207.01)
 		)
 		(stroke
@@ -7224,6 +7328,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 118.11) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eb6ed1-dfaa-41c0-8fe7-ede6c4f40023")
+	)
+	(wire
+		(pts
 			(xy 232.41 72.39) (xy 242.57 72.39)
 		)
 		(stroke
@@ -7284,6 +7398,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 67.31) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e0784d-e7ae-486f-b53c-b14f1feb83e0")
+	)
+	(wire
+		(pts
 			(xy 347.98 77.47) (xy 347.98 73.66)
 		)
 		(stroke
@@ -7314,16 +7438,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 76.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7acd573-7b0e-4d9d-a18c-b001293a277b")
-	)
-	(wire
-		(pts
 			(xy 232.41 90.17) (xy 232.41 102.87)
 		)
 		(stroke
@@ -7341,6 +7455,16 @@
 			(type default)
 		)
 		(uuid "dc61b872-ce0f-4a08-8a65-b2ab59c96cfe")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd75ea6c-d4fc-4133-8a16-4f1135441a63")
 	)
 	(wire
 		(pts
@@ -7451,6 +7575,16 @@
 			(type dash)
 		)
 		(uuid "f4578c54-4f3c-47c4-a90d-7d70d10d9c36")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.11) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f816343b-8728-4d23-87e2-9ddb010e394b")
 	)
 	(wire
 		(pts
@@ -7612,9 +7746,9 @@
 		)
 		(uuid "f9aae7bc-5e02-4dad-92ea-ce8d1f99f1db")
 	)
-	(hierarchical_label "VCC_DC_CONN"
+	(hierarchical_label "VCC_DC_CONN_1"
 		(shape input)
-		(at 55.88 91.44 180)
+		(at 64.77 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7625,7 +7759,7 @@
 	)
 	(hierarchical_label "VCC_PD"
 		(shape input)
-		(at 55.88 73.66 180)
+		(at 64.77 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7666,6 +7800,17 @@
 			(justify right)
 		)
 		(uuid "98b97cb1-5c8a-44a7-8460-bb0274bdd6ee")
+	)
+	(hierarchical_label "VCC_DC_CONN_2"
+		(shape input)
+		(at 64.77 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f06621aa-a9ee-4384-889b-66db07074b37")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -7730,7 +7875,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 72.39 88.9 0)
+		(at 81.28 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,7 +7885,7 @@
 		)
 		(uuid "70d3e90c-e253-40b2-97ec-f180eca09d51")
 		(property "Netclass" "PWR"
-			(at 72.39 84.836 0)
+			(at 81.28 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +7893,37 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -300.99 44.45 0)
+			(at -292.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 81.28 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbc58bb9-1458-4b8e-abc8-723f4b373de8")
+		(property "Netclass" "PWR"
+			(at 81.28 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -292.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8725,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+12V_AON")
-		(at 118.11 71.12 0)
+		(at 127 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8558,7 +8733,7 @@
 		(dnp no)
 		(uuid "17171e3b-9c97-4987-99bd-bd48ff93de93")
 		(property "Reference" "#PWR085"
-			(at 118.11 74.93 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8742,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 118.11 67.31 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +8750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 71.12 0)
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 71.12 0)
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8768,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 71.12 0)
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,6 +9407,124 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFuses:F_7A_1206")
+		(at 69.85 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2890481b-5ec5-4dad-a052-2dd0abd6ce7e")
+		(property "Reference" "F2"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "F_7A_1206"
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:F_1206_3216Metric"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://us.schurter.com/pdf/english/typ_UST_1206.pdf"
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "7 A 32 V AC 63 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 1206 (3216 Metric)"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Schurter"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3413.0326.11"
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb8ad520-6df0-4a22-acc0-b8bf935f9543")
+		)
+		(pin "2"
+			(uuid "9dcd2b25-2497-4f88-96be-b4ffefa145a9")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -10597,6 +10890,71 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
+		(at 88.9 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c1a7c2-cdf7-4506-aab8-331c180b3ea0")
+		(property "Reference" "#FLG03"
+			(at 88.9 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da8e8329-fa15-4522-a89a-492776e55d87")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
 		(at 248.92 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11097,7 +11455,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 80.01 88.9 0)
+		(at 88.9 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11105,7 +11463,7 @@
 		(dnp no)
 		(uuid "6cdc4e37-785b-4b36-b22f-8504987f9abe")
 		(property "Reference" "#FLG06"
-			(at 80.01 86.995 0)
+			(at 88.9 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11472,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 80.01 85.09 0)
+			(at 88.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 88.9 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 88.9 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 88.9 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,6 +12547,244 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:SZSMF4L14AT3G")
+		(at 85.09 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893bae51-39fe-4fa0-8615-e52f25595b39")
+		(property "Reference" "D8"
+			(at 83.566 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SZSMF4L14AT3G"
+			(at 74.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-123FL"
+			(at 72.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+			(at 85.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SZSMF4L12AT3G"
+			(at 83.566 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 62.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76f6aad-6fc4-4b07-a9e6-50e56d374fd9")
+		)
+		(pin "2"
+			(uuid "7ea9cdfd-c4f6-448c-badf-e4b23dd708c4")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:SZSMF4L14AT3G")
+		(at 85.09 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d1edb32-8c60-4939-9d66-6cca856581d8")
+		(property "Reference" "D7"
+			(at 83.566 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SZSMF4L14AT3G"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-123FL"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SZSMF4L12AT3G"
+			(at 83.566 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc457296-2b14-4244-947e-a8ac3542187b")
+		)
+		(pin "2"
+			(uuid "7f2fe3f3-926c-4753-8e0a-7f3def330163")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 232.41 102.87 0)
 		(mirror y)
@@ -12856,7 +13452,7 @@
 	)
 	(symbol
 		(lib_id "antmicroFuses:F_7A_1206")
-		(at 60.96 91.44 0)
+		(at 69.85 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12865,7 +13461,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3e4b255-af76-4b80-9b58-b70cdf7bbf2a")
 		(property "Reference" "F1"
-			(at 63.5 86.36 0)
+			(at 72.39 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +13470,7 @@
 			)
 		)
 		(property "Value" "F_7A_1206"
-			(at 82.55 99.06 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12885,7 +13481,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:F_1206_3216Metric"
-			(at 82.55 101.6 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +13492,7 @@
 			)
 		)
 		(property "Datasheet" "https://us.schurter.com/pdf/english/typ_UST_1206.pdf"
-			(at 82.55 104.14 0)
+			(at 91.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,7 +13503,7 @@
 			)
 		)
 		(property "Description" "7 A 32 V AC 63 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 1206 (3216 Metric)"
-			(at 60.96 91.44 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +13512,7 @@
 			)
 		)
 		(property "Manufacturer" "Schurter"
-			(at 82.55 106.68 0)
+			(at 91.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +13523,7 @@
 			)
 		)
 		(property "MPN" "3413.0326.11"
-			(at 63.5 88.9 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12936,7 +13532,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 82.55 111.76 0)
+			(at 91.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +13543,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 82.55 114.3 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,126 +14213,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:SMF4L15A")
-		(at 76.2 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beff2a97-5d92-47e6-a218-5d8c36bb822a")
-		(property "Reference" "D7"
-			(at 78.74 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF4L15A"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-123FL"
-			(at 66.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=d2ba8fab-1de3-4176-8530-f36ecb0b8799&filename=smf4l"
-			(at 63.5 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unidirectional TVS, 30 kV,  SOD-123FL, 15 V, 600 pF"
-			(at 76.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMF4L15A"
-			(at 78.74 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 55.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "29a22454-566e-4738-ae8b-126236b48b6a")
-		)
-		(pin "1"
-			(uuid "d3fdd2b0-9632-41c5-9825-d65b14c9f794")
-		)
-		(instances
-			(project ""
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14678,16 +15154,16 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 76.2 104.14 0)
+		(at 85.09 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dee2d7c2-895d-4786-a2f9-1e2a8697fb62")
-		(property "Reference" "#PWR098"
-			(at 67.31 106.68 0)
+		(uuid "daef006b-4c5c-45b4-9170-4a3ad5d14e0c")
+		(property "Reference" "#PWR060"
+			(at 76.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14698,7 +15174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 107.95 0)
+			(at 85.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,7 +15183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 111.76 0)
+			(at 76.2 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14718,7 +15194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 116.84 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14729,7 +15205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 104.14 0)
+			(at 85.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,7 +15214,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 67.31 111.76 0)
+			(at 76.2 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +15225,102 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 67.31 114.3 0)
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a895820c-6980-4d48-b528-a573ce25cb73")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 85.09 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee2d7c2-895d-4786-a2f9-1e2a8697fb62")
+		(property "Reference" "#PWR098"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 76.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15401,7 +15972,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 87.63)
+		(at 95.25 88.9)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15417,7 +15988,7 @@
 		)
 		(uuid "2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c")
 		(property "Sheetname" "Ideal-diode-1"
-			(at 86.36 86.9184 0)
+			(at 95.25 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +15997,7 @@
 			)
 		)
 		(property "Sheetfile" "ideal-diode.kicad_sch"
-			(at 86.36 95.8346 0)
+			(at 95.25 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +16006,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 86.36 91.44 180)
+			(at 95.25 92.71 180)
 			(uuid "d430a172-5ce7-4172-8928-ce83eb709d26")
 			(effects
 				(font
@@ -15445,7 +16016,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 111.76 91.44 0)
+			(at 120.65 92.71 0)
 			(uuid "d41924c5-dcb6-41ea-b956-a093bacb7dbe")
 			(effects
 				(font
@@ -15463,7 +16034,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 69.85)
+		(at 95.25 63.5)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15479,7 +16050,7 @@
 		)
 		(uuid "6d13e59e-b137-42bb-8790-0fd656b28a3d")
 		(property "Sheetname" "Ideal-diode-0"
-			(at 86.36 69.1384 0)
+			(at 95.25 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15488,7 +16059,7 @@
 			)
 		)
 		(property "Sheetfile" "ideal-diode.kicad_sch"
-			(at 86.36 78.0546 0)
+			(at 95.25 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15497,7 +16068,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 86.36 73.66 180)
+			(at 95.25 67.31 180)
 			(uuid "9bd4b658-ffd4-4e6f-9739-e631b7305f2c")
 			(effects
 				(font
@@ -15507,7 +16078,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 111.76 73.66 0)
+			(at 120.65 67.31 0)
 			(uuid "eb4ab641-f098-433a-a459-45df13f9c8ff")
 			(effects
 				(font
@@ -15520,6 +16091,68 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 114.3)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9753379-2878-42d4-a5a2-bdb5729c6c82")
+		(property "Sheetname" "Ideal-diode-2"
+			(at 95.25 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ideal-diode.kicad_sch"
+			(at 95.25 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 95.25 118.11 180)
+			(uuid "40ed25f8-f51b-401f-a0ee-028467024982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 120.65 118.11 0)
+			(uuid "261ecdd1-00d3-4904-a9b2-165353fa9b99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(page "9")
 				)
 			)
 		)

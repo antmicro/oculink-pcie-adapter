@@ -1603,10 +1603,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "85fcc093-4693-4e55-b195-7de018f8b27e")
+			(uuid "d5d86939-3c18-4df0-9760-8b12d8e32ba6")
 		)
 		(pin "1"
-			(uuid "cfa016ae-38cb-4707-8dba-ec5994f54ba6")
+			(uuid "a066ca5f-d38a-4c73-8873-25dd57948118")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -1616,6 +1616,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "C32")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1724,22 +1728,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "e7ebd320-f997-4d8c-8e06-993d2f8e1757")
+			(uuid "31428c1d-fbaf-41b2-870f-2df137191f62")
 		)
 		(pin "5"
-			(uuid "2f621dda-6d7c-4f19-a43d-3ad11cde5d3c")
+			(uuid "19e1e1db-ab78-4bff-a58f-450205ce0206")
 		)
 		(pin "4"
-			(uuid "f02c00ce-a362-4469-a870-2b8464073326")
+			(uuid "1281d9b8-217f-4e4f-8d3f-8541d6ab8142")
 		)
 		(pin "1"
-			(uuid "50173ac5-359a-4432-8729-e02a7e9eface")
+			(uuid "2e2c5806-12de-495c-9617-638c7e4701e5")
 		)
 		(pin "3"
-			(uuid "cf8bf685-6249-4664-a400-c88f8886ff38")
+			(uuid "5154593d-de11-416f-833f-717dabcb0228")
 		)
 		(pin "2"
-			(uuid "85cff53e-8d0f-43c3-b137-89117a0316ee")
+			(uuid "23764763-31c5-4c73-8f89-843d701b7c11")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -1749,6 +1753,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "U3")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1836,7 +1844,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "48aa2c96-12ba-4221-af9d-a4df88431c8a")
+			(uuid "ed12c6da-5a4c-4edc-bf13-54ca0cc4358f")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -1846,6 +1854,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1987,10 +1999,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8900b8ee-1408-48f2-821e-8f1d3b6d38ad")
+			(uuid "32f98894-9a2a-4b0d-9353-16d39ce6065f")
 		)
 		(pin "1"
-			(uuid "b6ca894c-8d8c-4c88-aed0-14a730ffbec3")
+			(uuid "7f3ce18e-d4d0-4868-9ff7-d2e1978519dd")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -2000,6 +2012,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "C33")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2108,19 +2124,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "213dd903-ea3f-47c5-a653-752605b23641")
+			(uuid "282cf48d-8c08-4ae6-bd87-986ef942b651")
 		)
 		(pin "1"
-			(uuid "73b5abb3-688f-4ad4-844c-2625dc8dbdc8")
+			(uuid "9bd0321c-7524-4d99-ad56-d6121db3cc10")
 		)
 		(pin "3"
-			(uuid "59f48493-7acf-45c6-86c3-f93702157e51")
+			(uuid "eb8dc56f-f7f5-4b0d-a583-471e3f65c34e")
 		)
 		(pin "5"
-			(uuid "30df6cd9-230b-4051-9c5b-2fe0476e701c")
+			(uuid "aec3fbb1-9111-4341-81ae-ae8758cb0bc1")
 		)
 		(pin "2"
-			(uuid "80572dcd-0c5b-433f-9d1b-1809ab99286e")
+			(uuid "8d32da93-c856-418b-8cb6-2635c3ce53be")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -2130,6 +2146,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "Q5")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2237,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "75e4b91b-b166-491d-b4fe-a7749ef86dbb")
+			(uuid "fcb327b6-b4bf-4553-8799-e5a8668edcf5")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
@@ -2227,6 +2247,10 @@
 				)
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/6d13e59e-b137-42bb-8790-0fd656b28a3d"
 					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c/e9753379-2878-42d4-a5a2-bdb5729c6c82"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
