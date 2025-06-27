@@ -565,6 +565,12 @@
       "/OCuLink/PCIe_{REF0}.CK-": [
         "85Ohm-diff_PCIe"
       ],
+      "/OCuLink/PCIe_{REF0}_R.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{REF0}_R.CK-": [
+        "85Ohm-diff_PCIe"
+      ],
       "/OCuLink/PCIe_{REF0}{PCIe_{REF}}": [
         "85Ohm-diff_PCIe"
       ],
@@ -617,6 +623,12 @@
         "85Ohm-diff_PCIe"
       ],
       "/OCuLink/PCIe_{x4}{PCIe}": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/PCIe-clock-generator/PCIe_{REF1}_R.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/PCIe-clock-generator/PCIe_{REF1}_R.CK-": [
         "85Ohm-diff_PCIe"
       ],
       "/Power/Ideal-diode-1/VIN": [
@@ -795,6 +807,10 @@
     [
       "2c9dd899-fea0-4553-a2ec-dc9a1ce7e79c",
       "Ideal-diode-1"
+    ],
+    [
+      "b7947bcf-a564-48da-8831-e20f4b104978",
+      "PCIe-clock-generator"
     ]
   ],
   "text_variables": {}

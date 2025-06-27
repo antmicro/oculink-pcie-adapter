@@ -934,6 +934,12 @@
 		(uuid "e269dc0a-a665-4eb2-a7c3-add4d9f73752")
 	)
 	(junction
+		(at 254 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef3f062d-bfb6-4644-9fbe-2dacd44663d3")
+	)
+	(junction
 		(at 118.11 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1026,6 +1032,16 @@
 			(type default)
 		)
 		(uuid "1fffc77e-dfd3-4b6d-a4d2-a844e74baecf")
+	)
+	(bus
+		(pts
+			(xy 254 120.65) (xy 273.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3489a9f2-082a-4e8c-88ea-9cd0a8485cd1")
 	)
 	(wire
 		(pts
@@ -1186,6 +1202,16 @@
 			(type default)
 		)
 		(uuid "80be64eb-c59b-4fd4-a64b-c500c99e2544")
+	)
+	(bus
+		(pts
+			(xy 254 158.75) (xy 254 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876bb1ea-ebe4-418c-910c-383c06d0cacd")
 	)
 	(wire
 		(pts
@@ -1457,6 +1483,16 @@
 		)
 		(uuid "f0e79667-18e8-49f1-b413-8b069b7366e3")
 	)
+	(bus
+		(pts
+			(xy 251.46 158.75) (xy 254 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f909a9b5-b97d-4605-add1-a571fb1bd612")
+	)
 	(wire
 		(pts
 			(xy 118.11 185.42) (xy 118.11 187.96)
@@ -1479,7 +1515,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 120.65) (xy 273.05 120.65)
+			(xy 137.16 120.65) (xy 254 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2886,6 +2922,58 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 154.94)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7947bcf-a564-48da-8831-e20f4b104978")
+		(property "Sheetname" "PCIe-clock-generator"
+			(at 215.9 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-clock-generator.kicad_sch"
+			(at 215.9 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIe_{REF1}{PCIe_{REF}}" output
+			(at 251.46 158.75 0)
+			(uuid "521a955d-0a61-4cb3-a2ba-ecfe735f6f96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(page "8")
 				)
 			)
 		)
