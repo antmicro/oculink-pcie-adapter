@@ -1071,16 +1071,10 @@
 		(uuid "450827d7-24ec-4293-8cb7-437cb1d83578")
 	)
 	(junction
-		(at 118.11 217.17)
+		(at 119.38 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eaeeb8b-11e8-46ae-a09c-5f8fd10021b5")
-	)
-	(junction
-		(at 118.11 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7029a287-d75b-4d71-8dc6-1735e5a53d4d")
 	)
 	(junction
 		(at 147.32 212.09)
@@ -1089,7 +1083,13 @@
 		(uuid "729dcd02-3022-47e3-8ce2-02ca8e0cc9a2")
 	)
 	(junction
-		(at 118.11 219.71)
+		(at 118.11 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "736fe427-8f05-4003-843c-cea2204d51f0")
+	)
+	(junction
+		(at 119.38 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e9ba19e-4e1d-4ec5-867f-d3a09c30f992")
@@ -1107,7 +1107,7 @@
 		(uuid "822ba96b-58b9-4425-ab2f-317943b692a5")
 	)
 	(junction
-		(at 118.11 214.63)
+		(at 119.38 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a0fc85d-4b02-4ec0-9884-4850302e595e")
@@ -1123,6 +1123,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caec3eb9-6d5d-42d6-9cc3-5875ac7f86ad")
+	)
+	(junction
+		(at 118.11 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e246fd8e-5095-4c74-a633-78193bf348ef")
 	)
 	(junction
 		(at 271.78 175.26)
@@ -1155,16 +1161,16 @@
 		(uuid "faf0444c-11af-4107-a50a-19e616ce52f0")
 	)
 	(no_connect
-		(at 130.81 195.58)
+		(at 132.08 195.58)
 		(uuid "5fad8ae3-fddd-47bd-8e6c-1c241be5ca4d")
 	)
 	(no_connect
-		(at 120.65 193.04)
-		(uuid "a80f6613-25be-49d2-8dea-5846b8e80dc6")
+		(at 120.65 190.5)
+		(uuid "73b72fe9-695d-42e9-a721-8021cdd2a7be")
 	)
 	(wire
 		(pts
-			(xy 118.11 212.09) (xy 120.65 212.09)
+			(xy 119.38 212.09) (xy 121.92 212.09)
 		)
 		(stroke
 			(width 0)
@@ -1174,13 +1180,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 190.5) (xy 118.11 190.5)
+			(xy 118.11 193.04) (xy 118.11 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0810a79e-ec14-4e84-89e1-469c3c58e2e5")
+	)
+	(wire
+		(pts
+			(xy 120.65 193.04) (xy 118.11 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b4b064f-8605-4d28-acbd-c4b608e4b650")
+	)
+	(wire
+		(pts
+			(xy 118.11 198.12) (xy 120.65 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e47a8d4-b42f-438d-9658-a7482d8bffac")
 	)
 	(wire
 		(pts
@@ -1194,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 219.71) (xy 120.65 219.71)
+			(xy 119.38 219.71) (xy 121.92 219.71)
 		)
 		(stroke
 			(width 0)
@@ -1211,6 +1237,16 @@
 			(type default)
 		)
 		(uuid "13838bd2-72c4-488f-a9c8-a6faa4166970")
+	)
+	(wire
+		(pts
+			(xy 118.11 199.39) (xy 118.11 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fe69ff-c9b9-4cbe-b380-5dc8e4b3927e")
 	)
 	(wire
 		(pts
@@ -1324,16 +1360,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 190.5) (xy 133.35 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec6d04e-81bc-4da3-ad92-b82438a3cf2a")
-	)
-	(wire
-		(pts
 			(xy 274.32 190.5) (xy 271.78 190.5)
 		)
 		(stroke
@@ -1374,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 214.63) (xy 118.11 217.17)
+			(xy 119.38 214.63) (xy 119.38 217.17)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 214.63) (xy 120.65 214.63)
+			(xy 119.38 214.63) (xy 121.92 214.63)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 217.17) (xy 118.11 219.71)
+			(xy 119.38 217.17) (xy 119.38 219.71)
 		)
 		(stroke
 			(width 0)
@@ -1454,13 +1480,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 187.96) (xy 133.35 187.96)
+			(xy 132.08 193.04) (xy 133.35 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da3433f-7449-42a4-880f-449bcad99b05")
+		(uuid "9003b823-11f9-46b3-b43a-3991230961f4")
 	)
 	(wire
 		(pts
@@ -1524,16 +1550,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 193.04) (xy 133.35 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1158bba-703b-4474-aa25-a7ec03881af1")
-	)
-	(wire
-		(pts
 			(xy 147.32 201.93) (xy 147.32 212.09)
 		)
 		(stroke
@@ -1564,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 212.09) (xy 118.11 214.63)
+			(xy 119.38 212.09) (xy 119.38 214.63)
 		)
 		(stroke
 			(width 0)
@@ -1581,26 +1597,6 @@
 			(type default)
 		)
 		(uuid "ad21917f-e50a-40e9-a6ff-c3ae2ae0e293")
-	)
-	(wire
-		(pts
-			(xy 132.08 222.25) (xy 134.62 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b511e6aa-2170-49dd-a2b6-8c79275eaa78")
-	)
-	(wire
-		(pts
-			(xy 118.11 190.5) (xy 118.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bede39be-4dbf-4059-8d49-0de5bf8c5a31")
 	)
 	(wire
 		(pts
@@ -1624,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 217.17) (xy 120.65 217.17)
+			(xy 119.38 217.17) (xy 121.92 217.17)
 		)
 		(stroke
 			(width 0)
@@ -1651,6 +1647,16 @@
 			(type default)
 		)
 		(uuid "d9e89652-1dd0-4f77-9195-3e3f417e802b")
+	)
+	(wire
+		(pts
+			(xy 132.08 190.5) (xy 133.35 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da968d13-3a12-4229-935a-fdb247cc97a3")
 	)
 	(bus
 		(pts
@@ -1712,16 +1718,6 @@
 		)
 		(uuid "e48a1e61-bc48-4fb8-8313-0d0bf2061462")
 	)
-	(wire
-		(pts
-			(xy 134.62 222.25) (xy 134.62 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84ed8f7-6d93-4f1c-80c0-cbda59453460")
-	)
 	(bus
 		(pts
 			(xy 137.16 118.11) (xy 273.05 118.11)
@@ -1741,6 +1737,16 @@
 			(type default)
 		)
 		(uuid "ecd84718-32bc-4dbd-a106-b66469537810")
+	)
+	(wire
+		(pts
+			(xy 132.08 187.96) (xy 133.35 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed11088c-9b95-4965-8b45-5f89b87f8154")
 	)
 	(wire
 		(pts
@@ -1764,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 187.96) (xy 118.11 190.5)
+			(xy 118.11 187.96) (xy 118.11 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 219.71) (xy 118.11 224.79)
+			(xy 119.38 219.71) (xy 119.38 224.79)
 		)
 		(stroke
 			(width 0)
@@ -2005,102 +2011,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 134.62 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ca0c82a-b6bb-4e0f-a805-d73c8be5c86d")
-		(property "Reference" "#PWR056"
-			(at 125.73 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 125.73 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 125.73 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66a1eed7-9b53-489d-bfec-d2b5409d370b")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 118.11 198.12 0)
+		(at 118.11 199.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2109,7 +2020,7 @@
 		(dnp no)
 		(uuid "463a4f85-40b9-4953-938e-4faee3e4cc7a")
 		(property "Reference" "#PWR057"
-			(at 109.22 200.66 0)
+			(at 109.22 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 201.93 0)
+			(at 118.11 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 205.74 0)
+			(at 109.22 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 210.82 0)
+			(at 109.22 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 198.12 0)
+			(at 118.11 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2071,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 109.22 205.74 0)
+			(at 109.22 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2082,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 109.22 208.28 0)
+			(at 109.22 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2296,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 118.11 224.79 0)
+		(at 119.38 224.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2394,7 +2305,7 @@
 		(dnp no)
 		(uuid "7efaf59d-5fae-45e2-adf2-59612ba008e7")
 		(property "Reference" "#PWR083"
-			(at 109.22 227.33 0)
+			(at 110.49 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 228.6 0)
+			(at 119.38 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 232.41 0)
+			(at 110.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 237.49 0)
+			(at 110.49 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 224.79 0)
+			(at 119.38 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2356,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 109.22 232.41 0)
+			(at 110.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2367,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 109.22 234.95 0)
+			(at 110.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,16 +2391,16 @@
 	)
 	(symbol
 		(lib_id "antmicroWire2BoardConnectors:Molex_Mini-Fit-Jr_2x4_0455860005")
-		(at 120.65 212.09 0)
+		(at 132.08 187.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9117337a-38ad-4cf5-9966-3ec1ef3c4bac")
 		(property "Reference" "J4"
-			(at 126.365 204.47 0)
+			(at 126.365 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2409,7 @@
 			)
 		)
 		(property "Value" "Molex_Mini-Fit-Jr_2x4_0455860005"
-			(at 147.32 220.98 0)
+			(at 105.41 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2420,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Molex_Mini-Fit-Jr_2x4_0455860005"
-			(at 147.32 223.52 0)
+			(at 105.41 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2431,7 @@
 			)
 		)
 		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/455860005_sd.pdf"
-			(at 147.32 226.06 0)
+			(at 105.41 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2442,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 8 position 0.165\" (4.20mm)"
-			(at 120.65 212.09 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2451,7 @@
 			)
 		)
 		(property "MPN" "0455860005"
-			(at 126.365 207.01 0)
+			(at 126.365 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2460,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 147.32 228.6 0)
+			(at 105.41 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2471,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 147.32 231.14 0)
+			(at 105.41 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2482,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 147.32 233.68 0)
+			(at 105.41 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,8 +2530,7 @@
 	)
 	(symbol
 		(lib_id "antmicroWire2BoardConnectors:Molex_Mini-Fit_2x4_172448-0008_Horizontal")
-		(at 130.81 187.96 0)
-		(mirror y)
+		(at 121.92 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2628,7 +2538,7 @@
 		(dnp no)
 		(uuid "9f46ff70-7493-47f7-b5db-3b9a421b520a")
 		(property "Reference" "J5"
-			(at 125.73 180.34 0)
+			(at 127 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2547,7 @@
 			)
 		)
 		(property "Value" "Molex_Mini-Fit_2x4_172448-0008_Horizontal"
-			(at 105.41 195.58 0)
+			(at 147.32 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2558,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Molex_Mini-Fit_2x4_172448-0008_Horizontal"
-			(at 105.41 198.12 0)
+			(at 147.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2569,7 @@
 			)
 		)
 		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/1724480008_sd.pdf"
-			(at 105.41 200.66 0)
+			(at 147.32 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2580,7 @@
 			)
 		)
 		(property "Description" "Pin Header, Power, 4.2 mm, 2 Rows, 8 Contacts, Through Hole Right Angle, Mini-Fit Jr. 172448"
-			(at 130.81 187.96 0)
+			(at 121.92 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2589,7 @@
 			)
 		)
 		(property "MPN" "172448-0008"
-			(at 125.73 182.88 0)
+			(at 127 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2598,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 105.41 203.2 0)
+			(at 147.32 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2609,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 105.41 205.74 0)
+			(at 147.32 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2620,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 105.41 208.28 0)
+			(at 147.32 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
