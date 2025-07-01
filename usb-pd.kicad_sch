@@ -5294,6 +5294,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistors0603:R_0R_22.4A_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_0R_22.4A_0603"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PMR03EZPJ000"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semiconductor"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0R"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Max. Curr." "22.4A"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "template_tolerance"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0R_22.4A_0603_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_22.4A_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroTVSDiodes:ESDA25P35-1U1M"
 			(pin_numbers
 				(hide yes)
@@ -7872,10 +8069,10 @@
 		(uuid "2a8863c2-0bf4-4ceb-b198-e27d8ddc1848")
 	)
 	(junction
-		(at 326.39 194.31)
+		(at 323.85 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e9868f5-8385-4e92-9366-8c1ba33749fe")
+		(uuid "2af177cd-07e8-4100-97aa-5b1b50726227")
 	)
 	(junction
 		(at 274.32 194.31)
@@ -7996,12 +8193,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a73a03f6-11b2-44c9-959a-3e96b7815949")
-	)
-	(junction
-		(at 314.96 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a748cdb4-089d-48d3-a1c6-3fe3d291ab74")
 	)
 	(junction
 		(at 269.24 194.31)
@@ -8303,6 +8494,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 194.31) (xy 323.85 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066fc31e-0b5a-404c-800c-a70ef12577f4")
+	)
+	(wire
+		(pts
 			(xy 227.33 63.5) (xy 227.33 60.96)
 		)
 		(stroke
@@ -8480,16 +8681,6 @@
 			(type default)
 		)
 		(uuid "1ec80bd5-4141-4744-9fac-ed1479c17ec0")
-	)
-	(wire
-		(pts
-			(xy 314.96 219.71) (xy 314.96 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2019a91d-60df-4d77-9da2-d25e70e48522")
 	)
 	(wire
 		(pts
@@ -8833,7 +9024,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 194.31) (xy 304.8 194.31)
+			(xy 304.8 194.31) (xy 314.96 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8943,16 +9134,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 219.71) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55eaaeec-9b10-445c-8bca-ac4a664e698a")
-	)
-	(wire
-		(pts
 			(xy 224.79 200.66) (xy 223.52 200.66)
 		)
 		(stroke
@@ -8960,6 +9141,16 @@
 			(type default)
 		)
 		(uuid "5706ea9f-0821-49dd-9ce2-eb3b39f55df7")
+	)
+	(wire
+		(pts
+			(xy 320.04 194.31) (xy 323.85 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57300da7-3995-40ef-84dc-b98db7712f62")
 	)
 	(wire
 		(pts
@@ -9320,6 +9511,16 @@
 			(type default)
 		)
 		(uuid "82412716-51b3-49c2-b2f9-c43edd342db4")
+	)
+	(wire
+		(pts
+			(xy 323.85 194.31) (xy 328.93 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a8193b-1d3e-4059-b22f-b05f656935e7")
 	)
 	(wire
 		(pts
@@ -9753,16 +9954,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 194.31) (xy 314.96 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad97db18-9557-4e99-9326-92791ef748d4")
-	)
-	(wire
-		(pts
 			(xy 97.79 63.5) (xy 102.87 63.5)
 		)
 		(stroke
@@ -10070,16 +10261,6 @@
 			(type default)
 		)
 		(uuid "c9bbaa58-efd8-4c9c-8cae-86b7fd25a4be")
-	)
-	(wire
-		(pts
-			(xy 326.39 194.31) (xy 326.39 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca0ebdbd-547f-43ae-a2a1-77ed030b47a6")
 	)
 	(wire
 		(pts
@@ -10530,26 +10711,6 @@
 			(type default)
 		)
 		(uuid "f72d907e-b1d9-4807-af42-547a1ee80e48")
-	)
-	(wire
-		(pts
-			(xy 326.39 194.31) (xy 314.96 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85e117d-66b1-461d-b649-542236475d05")
-	)
-	(wire
-		(pts
-			(xy 328.93 194.31) (xy 326.39 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92a0f84-5285-4224-8738-f3105e93c4e3")
 	)
 	(wire
 		(pts
@@ -11030,6 +11191,16 @@
 		)
 		(uuid "691960e3-d497-4f0d-b06c-3b567b57162a")
 	)
+	(label "12V_CONV"
+		(at 298.45 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d270399-f5ac-471e-9d2a-ac7eb7d1e38d")
+	)
 	(label "VBUS_MIN"
 		(at 358.14 60.96 180)
 		(effects
@@ -11363,6 +11534,38 @@
 		)
 		(property "Component Class" ""
 			(at -285.75 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 323.85 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8537896-6edc-41b7-b1f0-e67ce777030d")
+		(property "Netclass" "PWR"
+			(at 324.5485 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,157 +13697,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitorspol:C_Pol_150u_30V_Vishay-T59-EE")
-		(at 314.96 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33b037f0-eb45-44f3-afa4-4a7afbe1a0ef")
-		(property "Reference" "C29"
-			(at 317.5 215.3666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Pol_150u_30V_Vishay-T59-EE"
-			(at 304.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_Pol_Vishay-T59-EE"
-			(at 302.26 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/40191/t59.pdf"
-			(at 299.72 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tantalum Capacitors - Polymer 150uF 30volts 20% 75mohms maxESR"
-			(at 314.96 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "T59EE157M030C0075"
-			(at 302.26 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 297.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "30V"
-			(at 294.64 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "150u"
-			(at 317.5 217.9066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 292.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 289.56 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "template_dielectric"
-			(at 289.56 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "adb647d3-7b70-4c96-bcad-db698950edc7")
-		)
-		(pin "1"
-			(uuid "ffa2e2a0-db81-4e0b-aa15-e2fde1bf2ba9")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15872,6 +15924,154 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
+		(at 320.04 194.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "57da29a7-a0b8-45d0-9da6-f9cceeb256b4")
+		(property "Reference" "R26"
+			(at 317.5 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_22.4A_0603"
+			(at 316.23 196.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(at 304.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 320.04 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR03EZPJ000"
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 304.8 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 313.69 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Max. Curr." "22.4A"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 304.8 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "template_tolerance"
+			(at 299.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da3a5d97-1063-4802-b16c-d1c5e61296cf")
+		)
+		(pin "2"
+			(uuid "69ff194b-7a8e-4bb3-a716-c85ba6799288")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 115.57 203.2 0)
 		(unit 1)
@@ -17296,98 +17496,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 314.96 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86c8f715-934e-4b6a-bb45-b515e238666d")
-		(property "Reference" "#PWR076"
-			(at 314.96 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 323.85 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 323.85 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91677844-4d02-45a1-a0ff-4fddf4f22eb9")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -21548,98 +21656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 326.39 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b87cb171-20a9-4c37-b7db-a6a3c84ca748")
-		(property "Reference" "#PWR079"
-			(at 326.39 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 326.39 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 335.28 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 335.28 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e9a6f1-1ba3-4399-bf5e-2646571e9f91")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 302.26 130.81 90)
 		(unit 1)
@@ -22800,157 +22816,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitorspol:C_Pol_150u_30V_Vishay-T59-EE")
-		(at 326.39 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d67ea6cb-2251-4262-a302-20e934297eb7")
-		(property "Reference" "C30"
-			(at 328.93 215.3666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Pol_150u_30V_Vishay-T59-EE"
-			(at 316.23 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_Pol_Vishay-T59-EE"
-			(at 313.69 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/40191/t59.pdf"
-			(at 311.15 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tantalum Capacitors - Polymer 150uF 30volts 20% 75mohms maxESR"
-			(at 326.39 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "T59EE157M030C0075"
-			(at 313.69 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 308.61 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "30V"
-			(at 306.07 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "150u"
-			(at 328.93 217.9066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 303.53 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 300.99 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "template_dielectric"
-			(at 300.99 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2785d550-d3f4-4c3a-95da-153145f31705")
-		)
-		(pin "1"
-			(uuid "6c213c89-8638-42ed-8767-1f339237f2c4")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/967dc2ce-6faa-4f65-adf2-eb5d333aef74"
-					(reference "C30")
 					(unit 1)
 				)
 			)

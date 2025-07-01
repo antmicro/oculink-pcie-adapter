@@ -1851,10 +1851,6 @@
 		(uuid "8bfb184d-440e-4679-a0fe-59a6c07de0c9")
 	)
 	(no_connect
-		(at 246.38 215.9)
-		(uuid "a4209082-b2b0-4b8d-9a4d-f457d75f92cf")
-	)
-	(no_connect
 		(at 167.64 92.71)
 		(uuid "bcc481cc-7a2d-4676-a660-1a9362fdcab0")
 	)
@@ -2370,6 +2366,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 213.36) (xy 246.38 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c703168-e177-44f3-ac26-55f24c91a315")
+	)
+	(wire
+		(pts
 			(xy 231.14 241.3) (xy 246.38 241.3)
 		)
 		(stroke
@@ -2620,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 210.82) (xy 246.38 210.82)
+			(xy 231.14 215.9) (xy 246.38 215.9)
 		)
 		(stroke
 			(width 0)
@@ -2687,16 +2693,6 @@
 			(type default)
 		)
 		(uuid "af2937fc-de8b-4357-a7e6-a9621ba9e49a")
-	)
-	(wire
-		(pts
-			(xy 231.14 218.44) (xy 246.38 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c39cb7-ff0f-493d-9a2a-f0ebcb0739e7")
 	)
 	(wire
 		(pts
@@ -2790,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 213.36) (xy 246.38 213.36)
+			(xy 231.14 218.44) (xy 246.38 218.44)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3085,7 @@
 		(uuid "3283c26b-12ac-49c9-90de-5cb1aa6e6618")
 	)
 	(label "~{CPRSNTC}"
-		(at 231.14 218.44 0)
+		(at 231.14 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3168,16 +3164,6 @@
 		)
 		(uuid "4e30de3f-42ba-4451-9129-2c9f2975873a")
 	)
-	(label "I2C0.SCL"
-		(at 231.14 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55bdbb5f-15c1-40d9-81cc-c11c282a39e8")
-	)
 	(label "PCIe_{REF0}_R.CK+"
 		(at 190.5 110.49 180)
 		(effects
@@ -3238,6 +3224,16 @@
 		)
 		(uuid "8f5b5160-e039-4bae-9150-4490c1986915")
 	)
+	(label "I2C0C_SDA"
+		(at 231.14 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f7a74da-7d3a-4afe-9808-7026619fa5ec")
+	)
 	(label "PCIe_{x4}.RX1-"
 		(at 229.87 138.43 180)
 		(effects
@@ -3248,18 +3244,8 @@
 		)
 		(uuid "8fbf9e58-e413-422a-b5ff-d8dec48eade5")
 	)
-	(label "~{WAKEC}"
-		(at 231.14 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93156abe-2c69-4c2d-8ad6-e18260ee4bb5")
-	)
 	(label "PCIe_{REF0}_R.CK+"
-		(at 231.14 210.82 0)
+		(at 231.14 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3309,7 +3295,7 @@
 		(uuid "a908e45c-d048-4a04-91c7-c9bdafd9f7f6")
 	)
 	(label "~{PERSTC}"
-		(at 231.14 238.76 0)
+		(at 231.14 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,15 +3334,15 @@
 		)
 		(uuid "bbe690f9-a430-4f18-a4ef-528183576c8c")
 	)
-	(label "I2C0.SDA"
-		(at 231.14 236.22 0)
+	(label "I2C0C_SCL"
+		(at 177.8 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "be2fc576-0d98-409d-bc11-e141654c6f25")
+		(uuid "bf396a6c-d760-432f-a4cc-29b420e69bbd")
 	)
 	(label "PCIe_{x4}.TX1+"
 		(at 186.69 215.9 0)
@@ -3398,8 +3384,18 @@
 		)
 		(uuid "d6eb2864-e3c6-402f-be5a-3113863be0f3")
 	)
+	(label "I2C0C_SDA"
+		(at 177.8 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1af6ee-1464-491d-9118-b5aefa120be4")
+	)
 	(label "PCIe_{REF0}_R.CK-"
-		(at 231.14 213.36 0)
+		(at 231.14 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3448,6 +3444,16 @@
 		)
 		(uuid "e4a93021-e80d-4813-a5f7-d3106e246e10")
 	)
+	(label "I2C0C_SCL"
+		(at 231.14 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec233b78-0f28-4268-9e4e-f8543e43d883")
+	)
 	(label "PCIe_{x4}.TX1-"
 		(at 186.69 218.44 0)
 		(effects
@@ -3457,6 +3463,16 @@
 			(justify left bottom)
 		)
 		(uuid "f2188187-6f72-42d6-abec-984c088f1899")
+	)
+	(label "~{WAKEC}"
+		(at 231.14 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c42b18-7958-4b1e-b977-4ff933976165")
 	)
 	(label "PCIe_{x4}.RX3+"
 		(at 140.97 238.76 0)
@@ -3546,7 +3562,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a23bd831-f2ac-478f-afe9-9126f67961c4)
+			(uuid bcafec90-e27e-49aa-9089-6dd76245f98c)
 		)
 	)
 	(netclass_flag ""

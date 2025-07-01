@@ -3553,7 +3553,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:PESD5Z12"
+		(symbol "antmicroTVSDiodes:SZSMF4L14AT3G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3564,27 +3564,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 15.24 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PESD5Z12"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-523"
 				(at 15.24 -5.08 0)
 				(effects
 					(font
@@ -3592,30 +3571,9 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z12.pdf"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 12 V, 35 pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Nexperia"
+			(property "Value" "SZSMF4L14AT3G"
 				(at 15.24 -10.16 0)
 				(effects
 					(font
@@ -3626,17 +3584,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "PESD5Z12,115"
-				(at 15.24 -2.54 0)
+			(property "Footprint" "antmicro-footprints:SOD-123FL"
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Author" "Antmicro"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
 				(at 15.24 -15.24 0)
 				(effects
 					(font
@@ -3647,7 +3606,26 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
+			(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SZSMF4L12AT3G"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
 				(at 15.24 -17.78 0)
 				(effects
 					(font
@@ -3658,7 +3636,29 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+			(property "License" "Apache-2.0"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, ESD, TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3667,7 +3667,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PESD5Z12_0_1"
+			(symbol "SZSMF4L14AT3G_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -3693,7 +3693,7 @@
 					)
 				)
 			)
-			(symbol "PESD5Z12_1_1"
+			(symbol "SZSMF4L14AT3G_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.397 1.016)
@@ -8092,6 +8092,126 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:SZSMF4L14AT3G")
+		(at 187.96 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "413ffc9e-a8ea-4676-a367-103833ca054a")
+		(property "Reference" "D9"
+			(at 189.484 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SZSMF4L14AT3G"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-123FL"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SZSMF4L12AT3G"
+			(at 189.484 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 210.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310c90eb-6300-4943-bf79-8ec0998220fd")
+		)
+		(pin "2"
+			(uuid "1805d373-b5b7-402f-b4f8-34929017c0d1")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroPciConnectors:PCIe_x16_10146070-113Y0LF-vertical")
 		(at 266.7 102.87 0)
 		(unit 2)
@@ -9953,125 +10073,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:PESD5Z12")
-		(at 187.96 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1d136e3-d2e1-4635-b373-5015d400ba7a")
-		(property "Reference" "D17"
-			(at 190.5 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5Z12"
-			(at 175.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 182.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z12.pdf"
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 12 V, 35 pF"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 177.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PESD5Z12,115"
-			(at 190.5 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b72f81cd-b86f-47c3-94f8-6c60dec041f4")
-		)
-		(pin "1"
-			(uuid "5d950ad0-da81-41a5-8373-8a598bc2abfe")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/1dd577d8-5fbf-46d4-a369-3d141c3fbf7d"
-					(reference "D17")
 					(unit 1)
 				)
 			)
