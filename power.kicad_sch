@@ -5678,16 +5678,22 @@
 		(uuid "09b2f10f-7c60-482f-bfb4-5f98718015d3")
 	)
 	(junction
+		(at 361.95 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba69a17-a5e3-4f83-8da1-28314277fb9a")
+	)
+	(junction
 		(at 350.52 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bd8bab0-18ee-4c5f-9ddb-8717d0b619f9")
 	)
 	(junction
-		(at 248.92 72.39)
+		(at 127 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e1381c3-ce9f-4912-9d7f-2e51db4fb041")
+		(uuid "163bb273-21a3-4501-9242-b9bc422a4e61")
 	)
 	(junction
 		(at 233.68 72.39)
@@ -5958,16 +5964,6 @@
 			(type default)
 		)
 		(uuid "01ea10d8-076a-45b8-848f-d4488a4e0e0a")
-	)
-	(wire
-		(pts
-			(xy 248.92 72.39) (xy 246.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "020be869-1d9c-4a7c-981e-f7059a26b72e")
 	)
 	(wire
 		(pts
@@ -6351,6 +6347,26 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 81.28) (xy 379.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480bfb24-bc40-4b12-a22e-e8c3694b0c5e")
+	)
+	(wire
+		(pts
+			(xy 361.95 82.55) (xy 361.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d4263f-884e-4ed7-a472-9d21f3f8fd29")
+	)
+	(wire
+		(pts
 			(xy 325.12 82.55) (xy 325.12 87.63)
 		)
 		(stroke
@@ -6368,6 +6384,16 @@
 			(type default)
 		)
 		(uuid "4d114e90-4d35-4665-9bab-ccb48d3ac358")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7b27e7-b3ba-4a2a-90c3-64e2e5234522")
 	)
 	(wire
 		(pts
@@ -6461,17 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 69.85) (xy 248.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f40ccc-033f-4552-b6f6-715ce52f4a5d")
-	)
-	(wire
-		(pts
-			(xy 127 92.71) (xy 127 118.11)
+			(xy 127 92.71) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 77.47) (xy 361.95 88.9)
+			(xy 361.95 77.47) (xy 361.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6708,6 +6724,16 @@
 			(type default)
 		)
 		(uuid "89ec1a06-5b92-4575-8f72-a5c9dcbb8cc2")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd1bf2d-184a-4d6f-a1c8-5b0bcfbda6ef")
 	)
 	(wire
 		(pts
@@ -6821,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 72.39) (xy 248.92 72.39)
+			(xy 246.38 72.39) (xy 257.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7221,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 82.55) (xy 363.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db14a11c-360a-45bd-b069-f1ff652a8661")
+	)
+	(wire
+		(pts
 			(xy 264.16 82.55) (xy 264.16 92.71)
 		)
 		(stroke
@@ -7298,6 +7334,16 @@
 			(type default)
 		)
 		(uuid "e644fe64-70ab-4171-844b-5212c97c5e2d")
+	)
+	(wire
+		(pts
+			(xy 379.73 81.28) (xy 379.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f89f3b-521f-4a7d-9d51-ca7c90935d2b")
 	)
 	(wire
 		(pts
@@ -8694,6 +8740,73 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 382.27 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ddf26c-ddfa-4cec-82fd-c2aa89bfa900")
+		(property "Reference" "#FLG08"
+			(at 384.175 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 386.08 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a57935-c868-4838-b0b7-9fd6db3cf05c")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -10886,71 +10999,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 248.92 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64f59fa0-7e25-402a-ac17-1a54915713c4")
-		(property "Reference" "#FLG04"
-			(at 248.92 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 249.174 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdf12eda-929b-41c1-9f47-a86eb8215f95")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -14160,6 +14208,124 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 363.22 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace2349d-0961-4928-99a0-c0d81fdd265f")
+		(property "Reference" "TP7"
+			(at 368.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 373.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 363.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 374.015 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 374.015 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 373.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "795cbb3c-7514-4ce9-a1d9-7713de7f745e")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 350.52 102.87 0)
 		(unit 1)
@@ -15983,6 +16149,73 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 128.27 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc389df7-2849-4282-9ca2-589808526515")
+		(property "Reference" "#FLG09"
+			(at 130.175 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7d7a10a-8c65-405e-873f-e681d8e65d7a")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/38f25804-42b6-4fac-b87c-d8c0064ff23c"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)

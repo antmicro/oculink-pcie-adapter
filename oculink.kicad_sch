@@ -1843,6 +1843,10 @@
 		(uuid "0de709c7-f331-424a-af4f-ffcc7bd2370c")
 	)
 	(no_connect
+		(at 246.38 210.82)
+		(uuid "17d5cc02-1af1-48ff-acb2-07f15d98afd0")
+	)
+	(no_connect
 		(at 167.64 95.25)
 		(uuid "87360654-5205-4509-bef5-32e42a501b6f")
 	)
@@ -3562,7 +3566,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 6bf523dc-a4ca-4b28-8345-46b45d039e4b)
+			(uuid 3827c22a-0044-43cd-82c5-a8352e4abc1e)
 		)
 	)
 	(netclass_flag ""
