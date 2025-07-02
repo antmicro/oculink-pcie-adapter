@@ -3562,7 +3562,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bcafec90-e27e-49aa-9089-6dd76245f98c)
+			(uuid 6bf523dc-a4ca-4b28-8345-46b45d039e4b)
 		)
 	)
 	(netclass_flag ""
@@ -3602,10 +3602,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "19c30806-0d38-4b18-aa3a-b0cbe82e8e2d")
 		(property "Reference" "R2"
-			(at 204.724 106.934 0)
+			(at 204.47 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3700,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 211.836 106.68 0)
+			(at 212.725 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,10 +5292,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa374c49-dfaa-4127-9bf4-2074c0f387dd")
 		(property "Reference" "R1"
-			(at 204.724 101.6 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5390,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 211.836 101.6 0)
+			(at 212.725 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
