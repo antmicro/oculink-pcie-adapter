@@ -68,8 +68,8 @@
           "Will be fixed by EC"
         ],
         [
-          "copper_edge_clearance|156800000|166000000|6518a78e-6013-4d6c-88c2-44c59411c5a6|80dfbbc2-337a-4355-9d58-b53f50027b78",
-          "Will be fixed by EC"
+          "copper_edge_clearance|156400000|166000000|6518a78e-6013-4d6c-88c2-44c59411c5a6|80dfbbc2-337a-4355-9d58-b53f50027b78",
+          "EC will fix it"
         ],
         [
           "courtyards_overlap|107818387|33006000|c9682ff7-9396-4a8d-8453-ddbe8ab7e544|fc07fa4d-3daa-4985-943d-f346575b39b2",
@@ -89,6 +89,18 @@
         ],
         [
           "silk_edge_clearance|153008000|166045000|6518a78e-6013-4d6c-88c2-44c59411c5a6|f3659d6e-af9f-41ec-b5f6-65bf449cd27d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159600000|125700000|8d7e7255-2bb8-4ba6-a753-36a51d503528|1603e858-98ce-4dfd-930b-0e3677828b95",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159600000|125700000|8d7e7255-2bb8-4ba6-a753-36a51d503528|e43ca908-aae3-4049-81af-b3dfead6d014",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159600000|144500000|8d7e7255-2bb8-4ba6-a753-36a51d503528|f1fdd724-8f4e-41bb-904c-f6f3400f33d7",
           ""
         ],
         [
