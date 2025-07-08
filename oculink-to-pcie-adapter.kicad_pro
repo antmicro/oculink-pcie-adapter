@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|101600000|162800000|583f068b-99e1-48ca-a9b5-7aa749d5d0c4|c8c91b5e-3a38-414a-8377-822fdc1ed3e3",
+          "Will be fixed by EC"
+        ],
+        [
+          "copper_edge_clearance|104800000|31000000|06c0a457-cbf0-40b1-afc4-074ac06f36a3|7b526673-7029-4132-bb5e-9354fc335d32",
+          "Will be fixed by EC"
+        ],
+        [
+          "copper_edge_clearance|156800000|166000000|6518a78e-6013-4d6c-88c2-44c59411c5a6|80dfbbc2-337a-4355-9d58-b53f50027b78",
+          "Will be fixed by EC"
+        ],
+        [
+          "courtyards_overlap|107818387|33006000|c9682ff7-9396-4a8d-8453-ddbe8ab7e544|fc07fa4d-3daa-4985-943d-f346575b39b2",
+          "Mechanically OK"
+        ],
+        [
+          "hole_clearance|111174000|36302000|a510e700-0fc2-480f-bf0d-e913bef091d9|2cad01bc-74bf-4510-98a2-6f7f93c62b3b",
+          ""
+        ],
+        [
+          "missing_courtyard|151500000|159710000|e8238459-9dde-4f30-b9d9-c0d34cf8099f|00000000-0000-0000-0000-000000000000",
+          "Verified that there are no collisions"
+        ],
+        [
+          "pth_inside_courtyard|104800000|34200000|7b526673-7029-4132-bb5e-9354fc335d32|fc07fa4d-3daa-4985-943d-f346575b39b2",
+          "Mechanically OK"
+        ],
+        [
+          "silk_edge_clearance|153008000|166045000|6518a78e-6013-4d6c-88c2-44c59411c5a6|f3659d6e-af9f-41ec-b5f6-65bf449cd27d",
+          ""
+        ],
+        [
+          "silk_over_copper|107472000|35565829|9329673d-01dc-41c9-8213-2a51e0e68922|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|107690627|34952000|2e307cb1-f0d8-4f1d-ad40-95ae43cc1ccb|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

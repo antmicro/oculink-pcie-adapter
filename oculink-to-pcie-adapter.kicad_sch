@@ -620,6 +620,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroWire2BoardConnectors:Molex_Nano-Fit_1x2_SMD_1054301202"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Molex_Nano-Fit_1x2_SMD_1054301202"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_1x2_SMD_1054301202"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.farnell.com/cad/3578051.pdf"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header, Pitch 2.5 mm, 1 Row, 2 Contacts, Nano-Fit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "105430-1202"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, HEADER, HORIZONTAL, SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_Nano-Fit_1x2_SMD_1054301202_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -0.254)
+					(end 4.1402 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.794)
+					(end 4.1402 -2.159)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -5.334)
+					(end 4.1402 -4.699)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -750,16 +960,6 @@
 		)
 		(uuid "0f17a611-dcda-4d56-9a63-42234c69adb8")
 	)
-	(text "TODO:\nstub, replace with PCIe key"
-		(exclude_from_sim no)
-		(at 97.155 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14ce5f6a-87ad-44aa-9fb2-b466e7b2db80")
-	)
 	(text "EPS-12V power connector\n(CPU 4+4)"
 		(exclude_from_sim no)
 		(at 88.138 217.17 0)
@@ -771,7 +971,7 @@
 		)
 		(uuid "5e963e17-a67f-4513-9669-8627c0ce9dcd")
 	)
-	(text "PCIe power connector"
+	(text "Nano-fit power connector"
 		(exclude_from_sim no)
 		(at 110.49 192.405 0)
 		(effects
@@ -793,18 +993,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f593d9-deac-4ef8-a903-8adc9d7379c0")
-	)
-	(junction
-		(at 133.35 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2432a214-53b5-4678-a57b-37cde86a5935")
-	)
-	(junction
-		(at 133.35 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "450827d7-24ec-4293-8cb7-437cb1d83578")
 	)
 	(junction
 		(at 116.84 217.17)
@@ -843,6 +1031,18 @@
 		(uuid "9a0fc85d-4b02-4ec0-9884-4850302e595e")
 	)
 	(junction
+		(at 271.78 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af796f2c-5ef8-400a-a1d2-408916204916")
+	)
+	(junction
+		(at 124.46 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1911bdf-f248-4b89-9477-b72325e9bbd5")
+	)
+	(junction
 		(at 134.62 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -853,12 +1053,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caec3eb9-6d5d-42d6-9cc3-5875ac7f86ad")
-	)
-	(junction
-		(at 116.84 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e246fd8e-5095-4c74-a633-78193bf348ef")
 	)
 	(junction
 		(at 271.78 175.26)
@@ -879,24 +1073,10 @@
 		(uuid "ef7ceb3f-29b4-44ca-a5c8-5eb6d2566713")
 	)
 	(junction
-		(at 116.84 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f488d9e7-1d2d-4f11-976f-9e322ddc7de0")
-	)
-	(junction
 		(at 137.16 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faf0444c-11af-4107-a50a-19e616ce52f0")
-	)
-	(no_connect
-		(at 132.08 195.58)
-		(uuid "5fad8ae3-fddd-47bd-8e6c-1c241be5ca4d")
-	)
-	(no_connect
-		(at 119.38 190.5)
-		(uuid "73b72fe9-695d-42e9-a721-8021cdd2a7be")
 	)
 	(wire
 		(pts
@@ -907,26 +1087,6 @@
 			(type default)
 		)
 		(uuid "0752f1bd-58de-4e6a-92ff-03b9a3db5c60")
-	)
-	(wire
-		(pts
-			(xy 116.84 193.04) (xy 116.84 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0810a79e-ec14-4e84-89e1-469c3c58e2e5")
-	)
-	(wire
-		(pts
-			(xy 119.38 193.04) (xy 116.84 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4b064f-8605-4d28-acbd-c4b608e4b650")
 	)
 	(wire
 		(pts
@@ -957,16 +1117,6 @@
 			(type default)
 		)
 		(uuid "13838bd2-72c4-488f-a9c8-a6faa4166970")
-	)
-	(wire
-		(pts
-			(xy 116.84 195.58) (xy 116.84 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19fe69ff-c9b9-4cbe-b380-5dc8e4b3927e")
 	)
 	(wire
 		(pts
@@ -1040,13 +1190,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 187.96) (xy 133.35 190.5)
+			(xy 271.78 198.12) (xy 271.78 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ca5fb36-bdec-4200-bb4e-e81cff0e6fd7")
+		(uuid "3a06d77a-e0de-4acc-9b96-2e35db2f29a3")
 	)
 	(wire
 		(pts
@@ -1070,6 +1220,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 198.12) (xy 274.32 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e4227b-1b00-4ef9-981c-5456649ed7f6")
+	)
+	(wire
+		(pts
+			(xy 123.19 193.04) (xy 124.46 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cc6c68-35aa-4ac5-b252-c6a32934812d")
+	)
+	(wire
+		(pts
 			(xy 134.62 217.17) (xy 134.62 219.71)
 		)
 		(stroke
@@ -1077,6 +1247,16 @@
 			(type default)
 		)
 		(uuid "4947bb0f-7235-4796-8551-2da0e0df11f4")
+	)
+	(wire
+		(pts
+			(xy 124.46 193.04) (xy 124.46 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5cbb5b-6f95-4c5d-968f-7ff4f4c161e6")
 	)
 	(wire
 		(pts
@@ -1107,16 +1287,6 @@
 			(type default)
 		)
 		(uuid "5b212796-2e83-4685-a9a2-8aabf6e08119")
-	)
-	(wire
-		(pts
-			(xy 133.35 190.5) (xy 133.35 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62eba1e4-8a0e-4a6d-ac48-7dc044d09215")
 	)
 	(wire
 		(pts
@@ -1200,16 +1370,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 193.04) (xy 133.35 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9003b823-11f9-46b3-b43a-3991230961f4")
-	)
-	(wire
-		(pts
 			(xy 271.78 175.26) (xy 271.78 182.88)
 		)
 		(stroke
@@ -1240,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 187.96) (xy 137.16 187.96)
+			(xy 123.19 187.96) (xy 137.16 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1368,16 +1528,6 @@
 		)
 		(uuid "d9e89652-1dd0-4f77-9195-3e3f417e802b")
 	)
-	(wire
-		(pts
-			(xy 132.08 190.5) (xy 133.35 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da968d13-3a12-4229-935a-fdb247cc97a3")
-	)
 	(bus
 		(pts
 			(xy 137.16 125.73) (xy 273.05 125.73)
@@ -1390,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 190.5) (xy 271.78 193.04)
+			(xy 271.78 190.5) (xy 271.78 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1410,16 +1560,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 187.96) (xy 116.84 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12db37c-9a75-4eb7-9108-d2a4a8d8522b")
-	)
-	(wire
-		(pts
 			(xy 132.08 217.17) (xy 134.62 217.17)
 		)
 		(stroke
@@ -1427,6 +1567,16 @@
 			(type default)
 		)
 		(uuid "e2a14285-03d9-42ba-8095-6c9187810cd1")
+	)
+	(wire
+		(pts
+			(xy 124.46 190.5) (xy 124.46 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb816fac-d0aa-4ada-a0fb-ccb58f0964b5")
 	)
 	(bus
 		(pts
@@ -1450,23 +1600,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 187.96) (xy 133.35 187.96)
+			(xy 123.19 190.5) (xy 124.46 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed11088c-9b95-4965-8b45-5f89b87f8154")
-	)
-	(wire
-		(pts
-			(xy 116.84 195.58) (xy 119.38 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e79667-18e8-49f1-b413-8b069b7366e3")
+		(uuid "f2d00c4a-28ee-4c4d-bf78-25ab34e48209")
 	)
 	(bus
 		(pts
@@ -1477,16 +1617,6 @@
 			(type default)
 		)
 		(uuid "f909a9b5-b97d-4605-add1-a571fb1bd612")
-	)
-	(wire
-		(pts
-			(xy 116.84 187.96) (xy 116.84 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f32e8f-8135-44a5-a53c-98c54debe77c")
 	)
 	(wire
 		(pts
@@ -1564,6 +1694,128 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:Molex_Nano-Fit_1x2_SMD_1054301202")
+		(at 123.19 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e360d0b-95bf-43af-8a04-4e05940ca563")
+		(property "Reference" "J4"
+			(at 118.745 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Molex_Nano-Fit_1x2_SMD_1054301202"
+			(at 96.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_1x2_SMD_1054301202"
+			(at 96.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/cad/3578051.pdf"
+			(at 96.52 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Pitch 2.5 mm, 1 Row, 2 Contacts, Nano-Fit"
+			(at 123.19 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "105430-1202"
+			(at 118.745 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 96.52 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 96.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "914091af-8960-4ced-917f-c664cc7b0a46")
+		)
+		(pin "1"
+			(uuid "02e8ae4b-1b18-4b23-b4e6-f4a280031936")
+		)
+		(pin "2"
+			(uuid "4a39211c-eb95-47cc-a4f6-eee1cb8395ad")
+		)
+		(instances
+			(project ""
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(reference "J4")
+					(unit 1)
 				)
 			)
 		)
@@ -1714,101 +1966,6 @@
 			(project ""
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 116.84 198.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "463a4f85-40b9-4953-938e-4faee3e4cc7a")
-		(property "Reference" "#PWR057"
-			(at 107.95 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 107.95 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 107.95 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3462a660-5e9f-4eb5-bac0-33a80b530dc9")
-		)
-		(instances
-			(project "oculink-to-pcie-adapter"
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2100,47 +2257,37 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:Molex_Mini-Fit-Jr_2x4_39-28-8080")
-		(at 119.38 187.96 0)
+		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
+		(at 274.32 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "80027d7d-93ce-43c6-a34f-f1fdc29a9a60")
-		(property "Reference" "J4"
-			(at 125.73 181.61 0)
+		(fields_autoplaced yes)
+		(uuid "9783638c-65f9-40d0-b65a-35e36dc842fd")
+		(property "Reference" "MP5"
+			(at 283.21 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Molex_Mini-Fit-Jr_2x4_39-28-8080"
-			(at 146.05 196.85 0)
+		(property "Value" "MP_Pad6mm_Drill3.2mm"
+			(at 283.21 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:MOLEX_39288080"
-			(at 146.05 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039288080_sd.pdf"
-			(at 146.05 201.93 0)
+		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+			(at 294.64 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,37 +2297,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pin Header, THT, Vertical, UL94V-2, Power, Wire-to-Board, 4.2 mm, 2 Rows, 8 Contacts, Mini-fit Jr, 5566 series"
-			(at 119.38 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "39-28-8080"
-			(at 125.73 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 146.05 204.47 0)
+		(property "Datasheet" ""
+			(at 291.16 213.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 274.32 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 146.05 207.01 0)
+			(at 294.64 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2329,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 146.05 209.55 0)
+			(at 294.64 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,34 +2339,13 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "c9f88290-ddd8-4b37-bda4-6f7d718e9166")
-		)
-		(pin "5"
-			(uuid "502f17d2-e5c7-41fa-8a4c-d178b16badbe")
-		)
-		(pin "8"
-			(uuid "4a61e048-db18-4fbf-967f-17d8ded8393e")
-		)
-		(pin "3"
-			(uuid "882424de-1ae2-4611-8f8f-a65f1b1a70e3")
-		)
-		(pin "2"
-			(uuid "d1e85e33-a57d-46ee-90a4-ab7725151656")
-		)
 		(pin "1"
-			(uuid "ed1b5241-d5ec-4d64-9288-734d3d3939c3")
-		)
-		(pin "4"
-			(uuid "93b997cc-a0c2-475b-bf78-94336d223f5a")
-		)
-		(pin "7"
-			(uuid "6d2fe52d-562d-457c-9c16-80310406a7bd")
+			(uuid "27cf7411-a680-4d2a-94f8-f03573bf70c4")
 		)
 		(instances
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
-					(reference "J4")
+					(reference "MP5")
 					(unit 1)
 				)
 			)
@@ -2373,16 +2490,16 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 271.78 193.04 0)
+		(at 124.46 194.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aea27f5d-402d-455a-94f4-f914e9b1cf71")
-		(property "Reference" "#PWR01"
-			(at 262.89 195.58 0)
+		(uuid "a18ceab0-329c-41bc-a222-ea7f4f232ec5")
+		(property "Reference" "#PWR057"
+			(at 115.57 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 196.85 0)
+			(at 124.46 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 200.66 0)
+			(at 115.57 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 205.74 0)
+			(at 115.57 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.78 193.04 0)
+			(at 124.46 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2550,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 262.89 200.66 0)
+			(at 115.57 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2561,102 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 262.89 203.2 0)
+			(at 115.57 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c26a741-5661-4a55-bdbb-1fd8822b0a96")
+		)
+		(instances
+			(project "oculink-to-pcie-adapter"
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 271.78 199.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aea27f5d-402d-455a-94f4-f914e9b1cf71")
+		(property "Reference" "#PWR01"
+			(at 262.89 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 262.89 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 262.89 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
