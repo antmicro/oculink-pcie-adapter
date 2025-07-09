@@ -6008,7 +6008,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTestPoints:TP_0.75mm_SMD"
+		(symbol "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm"
 			(pin_names
 				(hide yes)
 			)
@@ -6025,7 +6025,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TP_0.75mm_SMD"
+			(property "Value" "TP_Pad0.75mm_Drill0.2mm"
 				(at 10.16 -3.81 0)
 				(effects
 					(font
@@ -6036,7 +6036,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
 				(at 10.16 -6.35 0)
 				(effects
 					(font
@@ -6120,7 +6120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TP_0.75mm_SMD_1_1"
+			(symbol "TP_Pad0.75mm_Drill0.2mm_1_1"
 				(circle
 					(center 3.175 0)
 					(radius 0.635)
@@ -10829,46 +10829,6 @@
 		(uuid "ff06a298-6a1b-4471-8d75-37f9cd6abfc3")
 	)
 	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 69.85)
-		(row_heights 3.81)
-		(cells
-			(table_cell "CONFIGURATION"
-				(exclude_from_sim no)
-				(at 330.2 26.67 0)
-				(size 69.85 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "59503722-4216-457d-9fc7-68036defc602")
-			)
-		)
-	)
-	(table
 		(column_count 2)
 		(border
 			(external yes)
@@ -11024,6 +10984,46 @@
 					(justify left top)
 				)
 				(uuid "1f000e78-2d3a-4944-a032-e313c26e2be3")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 69.85)
+		(row_heights 3.81)
+		(cells
+			(table_cell "CONFIGURATION"
+				(exclude_from_sim no)
+				(at 330.2 26.67 0)
+				(size 69.85 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "59503722-4216-457d-9fc7-68036defc602")
 			)
 		)
 	)
@@ -12282,16 +12282,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(lib_id "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm")
 		(at 218.44 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0e6c5e05-dedc-4cbe-81d7-e33bc5afc629")
 		(property "Reference" "TP6"
-			(at 222.758 96.52 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,8 +12301,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 229.235 100.33 0)
+		(property "Value" "TP_Pad0.75mm_Drill0.2mm"
+			(at 228.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,8 +12312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 229.235 102.87 0)
+		(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +12366,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 229.235 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12377,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 229.235 107.95 0)
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,7 +12699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(lib_id "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm")
 		(at 262.89 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12707,16 +12708,17 @@
 		(dnp no)
 		(uuid "1d71f855-dc8f-46e7-9e88-1f593989cb75")
 		(property "Reference" "TP13"
-			(at 262.89 187.96 90)
+			(at 264.16 189.865 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 266.7 182.245 0)
+		(property "Value" "TP_Pad0.75mm_Drill0.2mm"
+			(at 266.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,8 +12728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 269.24 182.245 0)
+		(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
+			(at 269.24 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,7 +12782,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 271.78 182.245 0)
+			(at 271.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12793,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 274.32 182.245 0)
+			(at 274.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21399,25 +21401,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(lib_id "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm")
 		(at 269.24 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b676ca7c-efd2-4f6c-994b-be170be4a3d9")
 		(property "Reference" "TP14"
-			(at 269.24 46.736 90)
+			(at 271.78 48.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 273.05 41.275 0)
+		(property "Value" "TP_Pad0.75mm_Drill0.2mm"
+			(at 273.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21427,8 +21431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 275.59 41.275 0)
+		(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
+			(at 275.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21481,7 +21485,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 278.13 41.275 0)
+			(at 278.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +21496,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 280.67 41.275 0)
+			(at 280.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22141,16 +22145,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(lib_id "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm")
 		(at 218.44 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c51abde1-b9fb-45ab-ae99-01489311600d")
 		(property "Reference" "TP5"
-			(at 222.758 91.44 0)
+			(at 223.52 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,8 +22164,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 229.235 95.25 0)
+		(property "Value" "TP_Pad0.75mm_Drill0.2mm"
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22170,8 +22175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 229.235 97.79 0)
+		(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
+			(at 228.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22224,7 +22229,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 229.235 100.33 0)
+			(at 228.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22235,7 +22240,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 229.235 102.87 0)
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24095,7 +24100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(lib_id "antmicroTestPoints:TP_Pad0.75mm_Drill0.2mm")
 		(at 106.68 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24104,16 +24109,17 @@
 		(dnp no)
 		(uuid "ef1a72cf-700f-4223-ac41-0ace71345814")
 		(property "Reference" "TP4"
-			(at 106.68 57.15 90)
+			(at 107.95 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 110.49 51.435 0)
+		(property "Value" "TP_Pad0.75mm_Drill0.2mm"
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24123,8 +24129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 113.03 51.435 0)
+		(property "Footprint" "antmicro-footprints:TP_Pad0.75mm_Drill0.2mm"
+			(at 113.03 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24177,7 +24183,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 115.57 51.435 0)
+			(at 115.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24188,7 +24194,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 118.11 51.435 0)
+			(at 118.11 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
