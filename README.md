@@ -13,7 +13,7 @@ This board is a OCuLink to PCIe x16 card adapter allowing the connection of PCIe
 - Provides auxilliary PCIe signals 
 - Generates power for PCIe slot (75 W capable)
 - Supports dual slot PCIe cards
-- Can be powered via USB PD, EPS-12V or PCIe 8pin cable
+- Can be powered via USB PD, EPS-12V or Molex Nano-Fit connector
 - Has an optional PCIe clock generator for SRSI and SRNS Clocking
 
 ## Project structure
