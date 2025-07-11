@@ -12,7 +12,7 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_device_side"
+		(symbol "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26,7 +26,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR"
+			(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
 				(at 39.37 -12.7 0)
 				(effects
 					(font
@@ -120,7 +120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OCuLink_x4_Amphenol_G14A421211112HR_device_side_1_1"
+			(symbol "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side_1_1"
 				(rectangle
 					(start 3.81 2.54)
 					(end 21.59 -93.98)
@@ -135,7 +135,6 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 3.81)
-					(hide yes)
 					(name "5V"
 						(effects
 							(font
@@ -143,7 +142,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,6 +153,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 3.81)
+					(hide yes)
 					(name "5V"
 						(effects
 							(font
@@ -161,7 +161,7 @@
 							)
 						)
 					)
-					(number "B21"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -179,7 +179,7 @@
 							)
 						)
 					)
-					(number "B1"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -197,7 +197,7 @@
 							)
 						)
 					)
-					(number "A21"
+					(number "B21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -331,10 +331,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -35.56 0)
 					(length 3.81)
-					(name "PER0+"
+					(name "PET0+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -349,10 +349,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -38.1 0)
 					(length 3.81)
-					(name "PER0-"
+					(name "PET0-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -367,10 +367,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -43.18 0)
 					(length 3.81)
-					(name "PER1+"
+					(name "PET1+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -385,10 +385,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -45.72 0)
 					(length 3.81)
-					(name "PER1-"
+					(name "PET1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -403,10 +403,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -50.8 0)
 					(length 3.81)
-					(name "PER2+"
+					(name "PET2+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -421,10 +421,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -53.34 0)
 					(length 3.81)
-					(name "PER2-"
+					(name "PET2-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,10 +439,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -58.42 0)
 					(length 3.81)
-					(name "PER3+"
+					(name "PET3+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -457,10 +457,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -60.96 0)
 					(length 3.81)
-					(name "PER3-"
+					(name "PET3-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -475,10 +475,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -66.04 0)
 					(length 3.81)
-					(name "PET0+"
+					(name "PER0+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,10 +493,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -68.58 0)
 					(length 3.81)
-					(name "PET0-"
+					(name "PER0-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,10 +511,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -73.66 0)
 					(length 3.81)
-					(name "PET1+"
+					(name "PER1+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,10 +529,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -76.2 0)
 					(length 3.81)
-					(name "PET1-"
+					(name "PER1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,10 +547,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -81.28 0)
 					(length 3.81)
-					(name "PET2+"
+					(name "PER2+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -565,10 +565,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -83.82 0)
 					(length 3.81)
-					(name "PET2-"
+					(name "PER2-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -583,10 +583,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -88.9 0)
 					(length 3.81)
-					(name "PET3+"
+					(name "PER3+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -601,10 +601,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -91.44 0)
 					(length 3.81)
-					(name "PET3-"
+					(name "PER3-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1822,6 +1822,17 @@
 	)
 	(bus_alias "PCIe_{REF}"
 		(members "CK+" "CK-")
+	)
+	(text "TX/RX swapped because we need host-like \nnaming to connect to host side of PCIe x16 connector"
+		(exclude_from_sim no)
+		(at 174.625 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47c38056-551c-43ee-8035-e4d91a46f048")
 	)
 	(text "OCuLink connector"
 		(exclude_from_sim no)
@@ -3566,7 +3577,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 93f19fbc-6401-4b42-9e83-8e2c7ec53862)
+			(uuid de802ad9-1cc8-453d-9da2-0739796f6e31)
 		)
 	)
 	(netclass_flag ""
@@ -4713,6 +4724,248 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side")
+		(at 167.64 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731b6ca2-f61b-4edf-9507-a72d9eb48eed")
+		(property "Reference" "J1"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR_CUSTOM_device_side"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "G14A421211112HR"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "B7"
+			(uuid "26aaad59-b265-4604-88ec-97a1b2ca10bd")
+		)
+		(pin "B9"
+			(uuid "8fcaf40c-980e-4ed2-8c95-54942f270d0a")
+		)
+		(pin "B5"
+			(uuid "c4f558e4-6c30-4e64-b4f0-a397ecaebc9b")
+		)
+		(pin "A13"
+			(uuid "2eaf75a3-42fd-40d7-870b-532e0d977569")
+		)
+		(pin "B4"
+			(uuid "96f76e3d-2a3b-4aa4-94a1-c36a60623500")
+		)
+		(pin "A16"
+			(uuid "dd5a6c97-d1b9-4a09-816e-0be3dd653f83")
+		)
+		(pin "A10"
+			(uuid "3bd4c66f-550f-479d-8023-374326589891")
+		)
+		(pin "B12"
+			(uuid "e65e23d6-0335-4bc1-ae61-3d0335ad4b01")
+		)
+		(pin "A6"
+			(uuid "b9d4a40e-9693-4d70-acb4-7f35cb6200b8")
+		)
+		(pin "A2"
+			(uuid "fca1b546-9977-4f2a-8a72-bc5cbbecdbec")
+		)
+		(pin "A9"
+			(uuid "2b55053d-443a-4559-8dad-41dd4af93c11")
+		)
+		(pin "A7"
+			(uuid "32aa00d5-26e7-4202-b084-69dcff350d1d")
+		)
+		(pin "B13"
+			(uuid "ddd0d06b-a1e4-49a8-9ebb-e4cc95d5dd75")
+		)
+		(pin "A1"
+			(uuid "44681349-cfa5-4d09-874c-e3e6d8feed08")
+		)
+		(pin "A17"
+			(uuid "fd78f543-ac69-4ee3-ac2c-cbe99bd16c76")
+		)
+		(pin "A4"
+			(uuid "babdcf5f-9175-4d61-8e7d-ac611aa4d250")
+		)
+		(pin "SH"
+			(uuid "ff6ddffb-87e4-4a5a-9951-8107793b1599")
+		)
+		(pin "B11"
+			(uuid "77cd4dfe-92a5-4088-95e0-c42eda4da871")
+		)
+		(pin "B21"
+			(uuid "c26a06c4-02b8-4f79-abd5-2c29bb04de6e")
+		)
+		(pin "B2"
+			(uuid "0e46fde1-fd30-4a63-b98f-0eee859357fb")
+		)
+		(pin "A3"
+			(uuid "a3a0f5b6-0c19-454f-98f9-6600afe60f1a")
+		)
+		(pin "A15"
+			(uuid "8e6f4292-dc51-4e34-a80a-eb79bc395f27")
+		)
+		(pin "A14"
+			(uuid "2fac9a1f-97e5-4c7d-9be2-d44ecd1d0b98")
+		)
+		(pin "B14"
+			(uuid "5c309392-cea4-4671-8400-d2a5b4d8f448")
+		)
+		(pin "A21"
+			(uuid "3fc43ff9-91c3-4fa9-a716-d9b7458fd70d")
+		)
+		(pin "B1"
+			(uuid "45e3fe3e-537f-4b32-b8b9-bf5af1236a87")
+		)
+		(pin "B18"
+			(uuid "bf9bccd5-fda9-4bbd-aaeb-b1f7d8d03151")
+		)
+		(pin "A11"
+			(uuid "3986649c-3ea4-4a95-9e23-9d3441931252")
+		)
+		(pin "A5"
+			(uuid "eedf5688-3919-4617-8564-8b3221bd2fbc")
+		)
+		(pin "B3"
+			(uuid "c6872338-015f-440e-af1e-b64422715062")
+		)
+		(pin "B8"
+			(uuid "3bd649d5-d3fe-48a1-9356-c13b3798b203")
+		)
+		(pin "A20"
+			(uuid "83851e8d-a5f5-40cd-9898-0bf3d34e4c9b")
+		)
+		(pin "B19"
+			(uuid "ffb36471-6699-4d12-9e92-5138d4642916")
+		)
+		(pin "B10"
+			(uuid "3af6240e-5fc5-47a0-ad62-f65b9c218695")
+		)
+		(pin "B15"
+			(uuid "215aecd9-afa9-403b-a053-ee6f71bbf55a")
+		)
+		(pin "A8"
+			(uuid "b5b641cd-4a8e-41ee-bfef-97ab2a2a98ab")
+		)
+		(pin "B20"
+			(uuid "1838f9d0-be85-49d3-8aee-1caae0de3b6b")
+		)
+		(pin "A12"
+			(uuid "38dc440c-b96e-4648-b49f-09682e2d3a77")
+		)
+		(pin "B16"
+			(uuid "8a183d59-af6a-46ec-9d6b-cfcd8c573146")
+		)
+		(pin "B6"
+			(uuid "d8e3e3fb-dfd9-4756-9859-94576005c6e2")
+		)
+		(pin "A18"
+			(uuid "7ca04d01-5cfd-494b-8431-8635e9ad41b0")
+		)
+		(pin "A19"
+			(uuid "dd2fc861-e546-4b40-8949-1a783f81257c")
+		)
+		(pin "B17"
+			(uuid "98656dd8-7d64-434d-86e2-58cd599d6e78")
+		)
+		(instances
+			(project ""
+				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/642de475-f425-453b-bd11-9d34133bc8d0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 139.7 186.69 0)
 		(mirror y)
@@ -4802,248 +5055,6 @@
 			(project "oculink-to-pcie-adapter"
 				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/642de475-f425-453b-bd11-9d34133bc8d0"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR_device_side")
-		(at 167.64 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fab2a24-5477-430e-b0c3-2915cb5881e7")
-		(property "Reference" "J1"
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OCuLink_x4_Amphenol_G14A421211112HR"
-			(at 128.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Amphenol_G14A421211112HR"
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g14a421x1bxxxhr.pdf"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "I/O Connectors OCulink, Receptacle, 0.5mm pitch, 4X, R/A SMT with shell leg SMT type, 30U\" gold plating, LCP, black, T&R packing"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "G14A421211112HR"
-			(at 154.94 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 128.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 128.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "c19499c8-e33d-47f3-b854-c703efc59506")
-		)
-		(pin "A2"
-			(uuid "14a0d1d3-fdd0-437a-83f1-3765ad05d3e1")
-		)
-		(pin "A6"
-			(uuid "57cf41d0-22a5-4291-b0ac-c97da107e159")
-		)
-		(pin "A18"
-			(uuid "c2dde69e-7a49-4f68-9b76-f76d4d5e1a20")
-		)
-		(pin "A1"
-			(uuid "7ec03741-23e7-48c7-82f6-8f16cbb836a8")
-		)
-		(pin "A12"
-			(uuid "8e9de9a2-9d8c-4745-b5dd-a39bb52398e4")
-		)
-		(pin "B20"
-			(uuid "d730eb47-f4ee-4fbb-aa64-aca4199365a1")
-		)
-		(pin "A14"
-			(uuid "e08bbe39-e1c1-4343-bffc-43f0c5737033")
-		)
-		(pin "B8"
-			(uuid "ecd8affb-df41-437a-921e-1a2c794985d7")
-		)
-		(pin "A9"
-			(uuid "449b8bd6-0bb2-4d84-b1c3-4c89e1942fca")
-		)
-		(pin "B10"
-			(uuid "cf9461f6-0c52-4d0f-a2bf-f9862af37ead")
-		)
-		(pin "A11"
-			(uuid "b0d85927-5c79-420a-a39a-fdf495c601b6")
-		)
-		(pin "B1"
-			(uuid "7f363e73-c5b4-4154-9b9d-a9bd92f560f1")
-		)
-		(pin "A19"
-			(uuid "5a86771a-2c6d-493c-941c-348cd5ff09b1")
-		)
-		(pin "A16"
-			(uuid "0155f3ba-e001-4a4d-aa4e-efef69a6159d")
-		)
-		(pin "B19"
-			(uuid "75f255b7-1c52-4ee7-995e-9191e4d9a2f0")
-		)
-		(pin "A13"
-			(uuid "c34a2fd3-73ed-4573-b93f-56a67901a5d2")
-		)
-		(pin "B5"
-			(uuid "39ca83da-3741-47f7-9491-c1ffe18d8319")
-		)
-		(pin "SH"
-			(uuid "16226922-d9e3-4553-90bf-9e45ce773d95")
-		)
-		(pin "B15"
-			(uuid "60ec1c91-8eee-4187-a2e4-38ed6e6d8296")
-		)
-		(pin "A15"
-			(uuid "e2ad1992-3b4b-434a-bc0f-7712a324262e")
-		)
-		(pin "B9"
-			(uuid "830a5c64-8c78-4af5-a88f-f70f2b2a6d20")
-		)
-		(pin "B2"
-			(uuid "f207a043-1ee8-467a-81b3-603b42c34e69")
-		)
-		(pin "B18"
-			(uuid "6b064093-fe9e-49ab-bac3-14c583e0de3a")
-		)
-		(pin "B13"
-			(uuid "505780e6-7fd6-41e4-b08e-ef854e71ed79")
-		)
-		(pin "B11"
-			(uuid "960dddc3-c8b8-4a01-9cd4-37ba51839632")
-		)
-		(pin "B21"
-			(uuid "ea273263-6a0f-46e8-b6f6-d3686e6b9557")
-		)
-		(pin "A21"
-			(uuid "d56a0793-e2ad-41c9-9a15-9f34ba2f04c1")
-		)
-		(pin "B6"
-			(uuid "0a23aee2-96cb-4188-8055-29448a7b4a17")
-		)
-		(pin "A10"
-			(uuid "24abaed7-31e5-497c-9367-7bc76eeb6267")
-		)
-		(pin "B12"
-			(uuid "2701ece4-5f8b-4df5-8a75-974d50d89409")
-		)
-		(pin "A8"
-			(uuid "7917c6b3-ca72-4afb-a8ae-f75c898215e5")
-		)
-		(pin "B16"
-			(uuid "6e1a5916-2317-47e1-b382-8a4d46ad7a32")
-		)
-		(pin "B7"
-			(uuid "f6bce273-3709-4798-ac8e-acf56b2565b9")
-		)
-		(pin "A7"
-			(uuid "168fa896-1f66-4418-a6df-cc2e25d01085")
-		)
-		(pin "B17"
-			(uuid "892b26ea-0de1-405e-a76f-6200e38d4b64")
-		)
-		(pin "B14"
-			(uuid "a7bb68c9-1df1-46f1-ae04-d414611a38e2")
-		)
-		(pin "A5"
-			(uuid "8aa2a3c2-db5e-4808-a4d4-ede2213ca55a")
-		)
-		(pin "A20"
-			(uuid "b7b2bfce-28a2-451e-98a4-58b12ba138ff")
-		)
-		(pin "A3"
-			(uuid "b345ebd0-e4bd-4542-a5c4-db90829099d6")
-		)
-		(pin "A4"
-			(uuid "7ba8f19b-e62c-4f17-b9f4-0221f4319b09")
-		)
-		(pin "B3"
-			(uuid "44419c6c-e02a-4377-9f96-b735b3d8ad6d")
-		)
-		(pin "A17"
-			(uuid "d0c62de1-47e5-473a-892d-bc75b437135d")
-		)
-		(instances
-			(project ""
-				(path "/44c3be85-0a18-4d93-a9a5-650ee09b6032/642de475-f425-453b-bd11-9d34133bc8d0"
-					(reference "J1")
 					(unit 1)
 				)
 			)
