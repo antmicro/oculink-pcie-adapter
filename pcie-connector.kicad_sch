@@ -4953,7 +4953,7 @@
 		(uuid "31c5b95a-b9cf-4a64-9c74-9466a791b01f")
 	)
 	(bus_entry
-		(at 222.25 135.89)
+		(at 231.14 135.89)
 		(size 1.27 -1.27)
 		(stroke
 			(width 0)
@@ -4998,7 +4998,7 @@
 		(uuid "9798977b-b749-4cd1-a702-efcb6b802beb")
 	)
 	(bus_entry
-		(at 222.25 133.35)
+		(at 231.14 133.35)
 		(size 1.27 -1.27)
 		(stroke
 			(width 0)
@@ -5100,7 +5100,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 132.08) (xy 223.52 129.54)
+			(xy 232.41 132.08) (xy 232.41 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +5450,7 @@
 	)
 	(bus
 		(pts
-			(xy 224.79 128.27) (xy 227.33 128.27)
+			(xy 233.68 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5980,7 +5980,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 129.54) (xy 224.79 128.27)
+			(xy 232.41 129.54) (xy 233.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6150,7 +6150,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 134.62) (xy 223.52 132.08)
+			(xy 232.41 134.62) (xy 232.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6620,6 +6620,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 133.35) (xy 231.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfa41ec-3d6c-4180-96e4-eeade133f32b")
+	)
+	(wire
+		(pts
 			(xy 120.65 93.98) (xy 127 93.98)
 		)
 		(stroke
@@ -6890,16 +6900,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 222.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd85def-54a5-4c4b-85c7-15fc738c6f74")
-	)
-	(wire
-		(pts
 			(xy 264.16 130.81) (xy 266.7 130.81)
 		)
 		(stroke
@@ -6930,13 +6930,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 133.35) (xy 222.25 133.35)
+			(xy 172.72 135.89) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7f43dc4-2c53-49be-8210-3b6775eedb3a")
+		(uuid "d71b702a-8263-438a-bf46-5cf0a6bee5ad")
 	)
 	(wire
 		(pts
@@ -7349,7 +7349,7 @@
 		(uuid "0200ebd5-1cf8-4f9d-945d-85cc65caa714")
 	)
 	(label "PCIe_{REF0}.CK+"
-		(at 220.98 133.35 180)
+		(at 229.87 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7369,7 +7369,7 @@
 		(uuid "05f23840-cfc9-4f6c-8e9e-7a833ef958c1")
 	)
 	(label "PCIe_{REF0}.CK-"
-		(at 220.98 135.89 180)
+		(at 229.87 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7572,7 +7572,7 @@
 	)
 	(hierarchical_label "PCIe_{REF0}{PCIe_{REF}}"
 		(shape input)
-		(at 227.33 128.27 0)
+		(at 236.22 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)

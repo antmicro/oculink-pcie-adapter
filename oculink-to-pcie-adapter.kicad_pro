@@ -80,7 +80,7 @@
           ""
         ],
         [
-          "hole_clearance|111174000|36302000|a510e700-0fc2-480f-bf0d-e913bef091d9|2cad01bc-74bf-4510-98a2-6f7f93c62b3b",
+          "hole_clearance|111174000|36302000|2cad01bc-74bf-4510-98a2-6f7f93c62b3b|a510e700-0fc2-480f-bf0d-e913bef091d9",
           ""
         ],
         [
@@ -686,6 +686,12 @@
         "85Ohm-diff_PCIe"
       ],
       "/PCIe-clock-generator/PCIe_{REF1}_R.CK-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/PCIe-clock-generator/PCIe_{REF1}_R2.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/PCIe-clock-generator/PCIe_{REF1}_R2.CK-": [
         "85Ohm-diff_PCIe"
       ],
       "/Power/3V3_CONV": [
